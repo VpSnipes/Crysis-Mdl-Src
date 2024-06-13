@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" >
+ <SubMaterials >
+  <Material Name="scout_head" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.33333334,0.33333334,0.33333334" Specular="0.67058825,0.72941178,0.78039217" Emissive="0,0,0" Shininess="40" Opacity="1" GlowAmount="5" >
+   <Textures >
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_head_far_distance.tif" Filter="7" />
+    <Texture Map="Specular" File="objects/characters/alien/scout/textures/scout_head_far_distance.tif" Filter="7" />
+    <Texture Map="Bumpmap" File="objects/characters/alien/scout/textures/scout_head_far_distance_ddn.tif" Filter="6" />
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="0.2" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+  <Material Name="scout_body" MtlFlags="524416" Shader="Illum" GenMask="2" StringGenMask="%ALPHAGLOW" SurfaceType="" MatTemplate="" Diffuse="0.72156864,0.72156864,0.72156864" Specular="0.73333335,0.73333335,0.73333335" Emissive="0,0,0" Shininess="15" Opacity="1" GlowAmount="5" >
+   <Textures >
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_body_far_distance.tif" Filter="7" />
+    <Texture Map="Bumpmap" File="objects/characters/alien/scout/textures/scout_body_far_distance_ddn.tif" Filter="6" />
+   </Textures>
+   <PublicParams FresnelPower="0.2" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" AmbientMultiplier="1" FresnelBias="0.5" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+  <Material Name="hunter_tentacles" MtlFlags="524416" Shader="Illum" GenMask="80002" StringGenMask="%ALPHAGLOW%GLOSS_MAP" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.36862746,0.36862746,0.36862746" Specular="0.3882353,0.42352942,0.52941179" Emissive="0,0,0" Shininess="61" Opacity="1" GlowAmount="15" >
+   <Textures >
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_leg.dds" Filter="7" />
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_leg_spec.dds" Filter="7" />
+    <Texture Map="Bumpmap" File="objects/characters/alien/hunter/hunter_leg_ddn.dds" Filter="6" />
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" >
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+</Material>

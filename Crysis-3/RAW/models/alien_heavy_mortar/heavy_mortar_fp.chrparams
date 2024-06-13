@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\weapons\alien\heavy_mortar"/>
+		<Animation name="$AnimEventDatabase" path="Animations\weapons\alien\heavy_mortar\heavy_mortar.animevents"/>
+		<Animation name="$TracksDatabase" path="animations\weapons\alien\heavy_mortar\heavy_mortar.dba"/>
+		<Animation name="*" path="*.caf"/>
+	</AnimationList>
+</Params>

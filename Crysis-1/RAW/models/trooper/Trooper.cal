@@ -1,0 +1,180 @@
+#filepath = animations\alien\trooper
+$TracksDatabase = animations\alien\trooper\trooper.dba
+$AnimEventDatabase = animations\alien\trooper\Trooper_EventDataBase.animevents
+
+//trooper_bounceHorizObjectFlyStart_01	=	trooper_bounceHorizObjectFlyStart_01.caf			
+//trooper_bounceHorizObjectLand_01		=	trooper_bounceHorizObjectLand_01.caf		
+//trooper_bounceHorizObjectMidAirLoop_01	=	trooper_bounceHorizObjectMidAirLoop_01.caf			
+//trooper_bounceHorizObjectMidAirLoop_02	=	trooper_bounceHorizObjectMidAirLoop_02.caf			
+//trooper_bounceHorizObjectStart_01		=	trooper_bounceHorizObjectStart_01.caf		
+//trooper_bounceHorizObjectToFly_01		=	trooper_bounceHorizObjectToFly_01.caf		
+//trooper_damageProneLarge_front_01	=	trooper_damageProneLarge_front_01.caf			
+//trooper_death_01				=	trooper_death_01.caf
+//trooper_fireLandEnd_01			=	trooper_fireLandEnd_01.caf	
+//trooper_fireLandLoop_01			=	trooper_fireLandLoop_01.caf	
+//trooper_fireLandStart_01			=	trooper_fireLandStart_01.caf	
+//trooper_fireToLandIdle_01		=	trooper_fireToLandIdle_01.caf		
+//trooper_fireWeaponSmallVert_01		=	trooper_fireWeaponSmallVert_01.caf		
+//trooper_flyJumpToLandOnHorzObject_01	=	trooper_flyJumpToLandOnHorzObject_01.caf			
+//trooper_flyProne_forward_slow_01		=	trooper_flyProne_forward_slow_01.caf		
+//trooper_flyProneAlert_forward_01		=	trooper_flyproneAlert_forward_01.caf		
+//trooper_flyProneToLand_01			=	trooper_flyProneToLand_01.caf	
+//trooper_flyProneToVertAlert_01		=	trooper_flyProneToVertAlert_01.caf		
+//trooper_flyReverseDirection_back_01	=	trooper_flyReverseDirection_back_01.caf			
+//trooper_flySprint_forward_01		=	trooper_flySprint_forward_01.caf		
+//trooper_flyVert_forward_slow_01		=	trooper_flyVert_forward_slow_01.caf		
+//trooper_flyVertAlert_forward_01		=	trooper_flyVertAlert_forward_01.caf		
+//trooper_flyVertToDeath_01		=	trooper_flyVertToDeath_01.caf		
+//trooper_flyVertToProneAlert_01		=	trooper_flyVertToProneAlert_01.caf		
+//trooper_flyVertToThreaten_01		=	trooper_flyVertToThreathen_01.caf		
+//trooper_fromFireWeaponSmallVert_01	=	trooper_fromFireWeaponSmallVert_01.caf			
+//trooper_fromLandHorzObjectToFly_01	=	trooper_fromLandHorzObjectToFly_01.caf			
+//trooper_fromMeleeAttack_01		=	trooper_fromMeleeAttack_01.caf		
+//trooper_fromStrafeVert_left_01		=	trooper_fromStrafeVert_left_01.caf		
+//trooper_fromStrafeVert_right_01		=	trooper_fromStrafeVert_right_01.caf		
+//trooper_idleBreakProne_01		=	trooper_idleBreakProne_01.caf		
+//trooper_idleLand_01			=	trooper_idleLand_01.caf	
+//trooper_idleLandToJump_01			=	trooper_idleLandToJump_01.caf	
+//trooper_idleProne_01			=	trooper_idleProne_01.caf	
+//trooper_idleVertAlert_01			=	trooper_idleVertAlert_01.caf	
+//trooper_jumpHorzObjectToHorzObject_01	=	trooper_jumpHorzObjectToHorzObject_01.caf			
+//trooper_jumpPose_01			=	trooper_jumpPose_01.caf	
+//trooper_jumpToIdleLand_01			=	trooper_jumpToIdleLand_01.caf	
+//trooper_landIdleToFire_01			=	trooper_landIdleToFire_01.caf	
+//trooper_listen_01			=	trooper_listen_01.caf	
+//trooper_meleeAttackAlert_01		=	trooper_meleeAttackAlert_01.caf		
+//trooper_meleeAttackAlert_02		=	trooper_meleeAttackAlert_02.caf		
+//trooper_meleeAttackAlert_03		=	trooper_meleeAttackAlert_03.caf		
+//trooper_proneToVertShort_slow_01		=	trooper_proneToVertShort_slow_01.caf		
+//trooper_raiseWeaponSearch_01		=	trooper_raiseWeaponSearch_01.caf		
+//trooper_rotate_left_01			=	trooper_rotate_left_01.caf	
+//trooper_rotate_right_01			=	trooper_rotate_right_01.caf	
+//trooper_strafeVertAlert_left_01		=	trooper_strafeVertAlert_left_01.caf		
+//trooper_strafeVertAlert_right_01		=	trooper_strafeVertAlert_right_01.caf		
+//trooper_threaten_01			=	trooper_threaten_01.caf	
+//trooper_threaten_02			=	trooper_threaten_02.caf	
+//trooper_threatenToVert_01			=	trooper_threathenToVert_01.caf	
+//trooper_toFireWeaponSmallVert_01		=	trooper_toFireWeaponSmallVert_01.caf		
+//trooper_toMeleeAttack_01		=	trooper_toMeleeAttack_01.caf		
+//trooper_toStrafeVert_left_01		=	trooper_toStrafeVert_left_01.caf		
+//trooper_toStrafeVert_right_01		=	trooper_toStrafeVert_right_01.caf		
+//trooper_vertToLand_01			=	trooper_vertToLand_01.caf	
+//trooper_vertToProneShort_slow_01		=	trooper_vertToProneShort_slow_01.caf
+		
+trooper_doubleJump_left_01		=	trooper_doubleJump_left_01.caf		
+trooper_doubleJump_left_02		=	trooper_doubleJump_left_02.caf
+trooper_doubleJump_right_01		=	trooper_doubleJump_right_01.caf		
+trooper_doubleJump_right_02		=	trooper_doubleJump_right_02.caf		
+trooper_flyProne_forward_fast_01		=	trooper_flyProne_forward_fast_01.caf		
+trooper_flyProneToVert_slow_01		=	trooper_flyProneToVert_slow_01.caf		
+trooper_flyVert_forward_fast_01		=	trooper_flyVert_forward_fast_01.caf		
+trooper_flyVertDodge_left_01		=	trooper_flyVertDodge_left_01.caf		
+trooper_flyVertDodge_right_01		=	trooper_flyVertDodge_right_01.caf
+trooper_flyVertDodge_left_02		=	trooper_flyVertDodge_left_02.caf		
+trooper_flyVertDodge_right_02		=	trooper_flyVertDodge_right_02.caf
+trooper_flyVertDoorway_5mforward_01	=	trooper_flyVertDoorway_5mforward_01.caf		
+trooper_flyVertDoorway_forward_slow_01	=	trooper_flyVertDoorway_forward_slow_01.caf	
+trooper_flyVertDoorway_forward_01		=	trooper_flyVertDoorway_forward_01.caf			
+trooper_flyVertToProne_slow_01		=	trooper_flyVertToProne_slow_01.caf		
+trooper_flyVertToReboot_01		=	trooper_flyVertToReboot_01.caf		
+trooper_flyVertUseHole_usCarrier_01	=	trooper_flyVertUseHole_usCarrier_01.caf
+		
+trooper_fromIdleFireWeapon_01		=	trooper_fromIdleFireWeapon_01.caf		
+trooper_grabbedIdle_01			=	trooper_grabbedIdle_01.caf	
+trooper_idleFireWeapon_01			=	trooper_idleFireWeapon_01.caf	
+trooper_idleVert_01			=	trooper_idleVert_01.caf	
+trooper_idleVert_02			=	trooper_idleVert_02.caf
+	
+trooper_meleeAttack_01			=	trooper_meleeAttack_01.caf	
+trooper_meleeAttack_02			=	trooper_meleeAttack_02.caf	
+trooper_meleeAttack_03			=	trooper_meleeAttack_03.caf	
+trooper_reboot_01				=	trooper_reboot_01.caf
+trooper_rebootToVert_01			=	trooper_rebootToVert_01.caf	
+trooper_replaceMe_01			=	trooper_replaceMe_01.caf	
+trooper_singleJump_left_01			=	trooper_singleJump_left_01.caf	
+trooper_singleJump_right_01		=	trooper_singleJump_right_01.caf
+trooper_strafeVert_left_01		=	trooper_strafeVert_left_01.caf		
+trooper_strafeVert_right_01		=	trooper_strafeVert_right_01.caf
+trooper_strafeVert_left_forward_01		=	trooper_strafeVert_left_forward_01.caf
+trooper_strafeVert_right_forward_01	=	trooper_strafeVert_right_forward_01.caf
+
+		
+trooper_toIdleFireWeapon_01		=	trooper_toIdleFireWeapon_01.caf		
+trooper_vertInjured_forward_01		=	trooper_vertInjured_forward_01.caf		
+trooper_vertInjuredIdle_01			=	trooper_vertInjuredIdle_01.caf	
+					
+trooper_jump1m_forward_01		=	trooper_jump1m_forward_01.caf
+trooper_jump3m_forward_01		=	trooper_jump3m_forward_01.caf
+trooper_jump4m_forward_01		=	trooper_jump4m_forward_01.caf
+trooper_jump12m_forward_01		=	trooper_jump12m_forward_01.caf
+trooper_jump6m_forward_01		=	trooper_jump6m_forward_01.caf
+
+trooper_fromJump3m_01			=	trooper_fromJump3m_01.caf
+trooper_jump5m_forward_01		=	trooper_jump5m_forward_01.caf						
+
+trooper_jumpMeleeAttack_01		=	trooper_jumpMeleeAttack_01.caf	
+trooper_jumpMeleeAttack_02		=	trooper_jumpMeleeAttack_02.caf
+trooper_jumpMeleeAttack_03		=	trooper_jumpMeleeAttack_03.caf
+			
+trooper_jumpStart_FwdLow_01		=	trooper_jumpStart_FwdLow_01.caf
+trooper_jumpStart_FwdHigh_01		=	trooper_jumpStart_FwdHigh_01.caf
+trooper_jumpStart_FwdHigh_right_01		=	trooper_jumpStart_FwdHigh_right_01.caf
+trooper_jumpStart_FwdHigh_left_01		=	trooper_jumpStart_FwdHigh_left_01.caf
+
+trooper_flyVertToCharge_01		=	trooper_flyVertToCharge_01.caf
+trooper_chargeToJumpMeleeAttack_01	=	trooper_chargeToJumpMeleeAttack_01.caf
+
+trooper_jumpStart_Vert_01			=	trooper_jumpStart_Vert_01.caf
+trooper_jumpFly_01			=	trooper_jumpFly_01.caf					
+trooper_landToVert_01			=	trooper_landToVert_01.caf	
+trooper_jumpStart_backward_01		=	trooper_jumpStart_backward_01.caf
+trooper_jumpFly_backward_01		=	trooper_jumpFly_backward_01.caf
+					
+trooper_vaultOverfenceHigh_01		=	trooper_vaultOverfenceHigh_01.caf
+trooper_vaultOverfenceHigh_02		=	trooper_vaultOverfenceHigh_02.caf
+trooper_vaultOverfenceLow_01		=	trooper_vaultOverfenceLow_01.caf
+trooper_vaultOverfenceLow_02		=	trooper_vaultOverfenceLow_02.caf
+trooper_vaultOverjeep_01			=	trooper_vaultOverjeep_01.caf
+
+trooper_heavyHit_01			=	trooper_heavyHit_01.caf
+trooper_heavyHitFly_01			=	trooper_heavyHitFly_01.caf
+
+trooper_flyVert_forward_indoor_01		=	trooper_flyVert_forward_indoor_01.caf
+trooper_idleVert_indoor_01			=	trooper_idleVert_indoor_01.caf			
+					
+trooper_fireOnwall_01			=	trooper_fireOnwall_01.caf
+					
+trooper_fromHangOnwall_01			=	trooper_fromHangOnwall_01.caf						
+trooper_hangOnwall_01			=	trooper_hangOnwall_01.caf					
+trooper_toHangOnwall_01			=	trooper_toHangOnwall_01.caf						
+					
+trooper_fromStayOnRock_01		=	trooper_fromStayOnRock_01.caf
+trooper_StayOnRock_01			=	trooper_StayOnRock_01.caf
+trooper_flyToStayOnRock_01		=	trooper_flyToStayOnRock_01.caf
+				
+					
+					
+trooper_grabbedByScout_01			=	trooper_grabbedByScout_01.caf
+trooper_fromGrabbedByScout_01		=	trooper_fromGrabbedByScout_01.caf					
+					
+
+trooper_fromStayOnWall_right_01		=	trooper_fromStayOnWall_right_01.caf
+trooper_stayOnWall_right_01		=	trooper_stayOnWall_right_01.caf
+trooper_flyToStayOnWall_right_01		=	trooper_flyToStayOnWall_right_01.caf
+
+trooper_fromStayOnWall_left_01		=	trooper_fromStayOnWall_left_01.caf
+trooper_stayOnWall_left_01		=	trooper_stayOnWall_left_01.caf
+trooper_flyToStayOnWall_left_01		=	trooper_flyToStayOnWall_left_01.caf
+
+trooper_jumpFire_right_01			=	trooper_jumpFire_right_01.caf
+trooper_jumpFire_left_01			=	trooper_jumpFire_left_01.caf
+
+trooper_fromStayOnCeiling_01		=	trooper_fromStayOnCeiling_01.caf
+trooper_stayOnCeiling_01			=	trooper_stayOnCeiling_01.caf
+trooper_flyToStayOnCeiling_01		=	trooper_flyToStayOnCeiling_01.caf
+
+trooper_fromStayOnCeiling_02		=	trooper_fromStayOnCeiling_02.caf
+trooper_stayOnCeiling_02			=	trooper_stayOnCeiling_02.caf
+trooper_flyToStayOnCeiling_02		=	trooper_flyToStayOnCeiling_02.caf
+
+trooper_cineIce_intro_01			=	trooper_cineIce_intro_01.caf

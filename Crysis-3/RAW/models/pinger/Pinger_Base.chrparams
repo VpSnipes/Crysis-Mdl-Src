@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<Params>
+	<IK_Definition>
+	
+		<LimbIK_Definition>
+			<IK Handle="RgtArm01" EndEffector="R Gun02"  Root="R Gun01" Solver="CCDX" fStepSize="0.5" fThreshold="0.031" nMaxInteration="50"/>
+			<IK Handle="LftArm01" EndEffector="L Gun02"  Root="L Gun01" Solver="CCDX" fStepSize="0.5" fThreshold="0.031" nMaxInteration="50"/>
+			<IK Handle="RgtLeg01" EndEffector="R_Foot" Root="R Leg01" Solver="3BIK"/>
+			<IK Handle="LftLeg01" EndEffector="L_Foot" Root="L Leg01" Solver="3BIK"/>
+			<IK Handle="CtrLeg01" EndEffector="Rear_Foot" Root="Rear Leg01" Solver="CCDX" fStepSize="0.5" fThreshold="0.031" nMaxInteration="50"/>
+		</LimbIK_Definition>
+		
+		
+		<Recoil_Definition>
+			<RIKHandle Handle="RgtArm01"/>
+			<LIKHandle Handle="LftArm01"/>
+			<RWeaponJoint JointName="weapon_bone"/>
+		</Recoil_Definition>
+		
+		<LookIK_Definition>
+		
+			<LEyeAttachment Name="eye_left" />
+			<REyeAttachment Name="eye_right" />
+
+			<DirectionalBlends>
+				<Joint AnimToken="LookPoses" ParameterJoint="BN LookIK" StartJoint="BN LookIK" ReferenceJoint="Pelvis"/>
+			</DirectionalBlends>
+			
+			<!--<DefaultLookPose name="stand_idle_com_lookposes_01" />-->
+
+			<RotationList>
+				<Rotation Additive="0" Primary="1" JointName="Spine1" />
+				<Rotation Additive="0" Primary="1" JointName="Head" />
+				<Rotation Additive="0" Primary="1" JointName="BN LookIK" />
+			</RotationList>
+
+			<PositionList>
+			</PositionList>
+
+		</LookIK_Definition>
+		
+		<AimIK_Definition>
+			<RotationList>
+				<Rotation Additive="1" JointName="Spine1" Primary="1"/>
+				<Rotation Additive="0" JointName="Head" Primary="1"/>
+				<Rotation Additive="0" JointName="weapon_bone" Primary="1"/>
+				<Rotation Additive="0" JointName="Back Bone" Primary="0"/>
+			</RotationList>
+			<RWeaponJoint JointName="weapon_bone"/>
+			<DirectionalBlends>
+				<Joint AnimToken="AimPoses" ParameterJoint="weapon_bone" StartJoint="Head" ReferenceJoint="Pinger_Root"/>
+			</DirectionalBlends>
+		</AimIK_Definition>
+	</IK_Definition>
+
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\pinger"/>
+		<Animation name="$AnimEventDatabase" path="animations\alien\pinger\events.animevents"/>
+		<Animation name="$TracksDatabase" path="animations\alien\pinger\*\*.dba"/>
+		<Animation name="*" path="*\*.caf"/>
+		<Animation name="*" path="*\*.bspace"/>
+		<Animation name="*" path="*\*.comb"/>
+	</AnimationList>
+</Params>

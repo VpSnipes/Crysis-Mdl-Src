@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Params>
+
+	<IK_Definition>
+	</IK_Definition>
+
+	<AnimationList>
+		<Animation name="$Include" path="Animations\Alien\tick\tick.chrparams"/>
+	</AnimationList>
+
+</Params>

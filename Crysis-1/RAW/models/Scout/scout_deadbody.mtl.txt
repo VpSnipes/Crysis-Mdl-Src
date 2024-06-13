@@ -1,0 +1,67 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="scout_head" MtlFlags="128" Shader="Illum" GenMask="268435600" SurfaceType="" Diffuse="0.38823533,0.38823533,0.48627454" Specular="0.59294122,0.59294122,0.59294122" Emissive="0,0,0" Shininess="8" Opacity="1" GlowAmount="100">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_head_deadbody.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/scout/textures/scout_head_deadbody_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout/textures/scout_head_deadbody_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/us/moar/textures/glow_anim6.tif">
+     <TexMod TexMod_UOscillatorType="3" TexMod_VOscillatorType="3" TexMod_UOscillatorRate="10" TexMod_VOscillatorRate="1" TexMod_UOscillatorAmplitude="0.24999999"/>
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.37" FresnelScale="1" FresnelBias="0.296" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="scout_body" MtlFlags="128" Shader="Illum" GenMask="268435600" SurfaceType="" Diffuse="0.38823533,0.38823533,0.48627454" Specular="0.59215689,0.59215689,0.59215689" Emissive="0,0,0" Shininess="8" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_body_deadbody.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/scout/textures/scout_body_deadbody_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout/textures/scout_body_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.30000001" FresnelScale="1" FresnelBias="0.245" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="hunter_tentacles" MtlFlags="128" Shader="Illum" GenMask="269484176" SurfaceType="" Diffuse="0.38823533,0.38823533,0.48627454" Specular="0.59215689,0.59215689,0.59215689" Emissive="0,0,0" Shininess="8" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/hunter_leg_deadbody.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/scout/textures/hunter_leg_deadbody_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_leg_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.30000001" FresnelScale="1" FresnelBias="0.245" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

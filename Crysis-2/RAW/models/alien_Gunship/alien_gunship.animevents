@@ -1,0 +1,20 @@
+<anim_event_list>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_into_rocket.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_tail_rocket_in" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_l_tail_sweep.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_wing" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_l_thruster_sweep.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_thruster" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_outof_rocket.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_tail_rocket_out" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_r_tail_sweep.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_wing" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="objects/vehicles/alien/gunship/alien_gunship_r_thruster_sweep.anm">
+  <event name="sound" time="0" parameter="Sounds/a_gunship:gunship_functionality:move_thruster" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

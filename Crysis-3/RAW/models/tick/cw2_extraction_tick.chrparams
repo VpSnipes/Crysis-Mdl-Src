@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\Alien\tick\extraction"/>
+		<Animation name="tick_extraction_idle_cycle" path="tick_extraction_idle_cycle.caf"/>
+	</AnimationList>
+</Params>

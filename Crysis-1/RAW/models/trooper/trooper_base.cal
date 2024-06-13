@@ -1,0 +1,6 @@
+#filepath = animations\alien\trooper
+$TracksDatabase = animations\alien\trooper\trooper.dba
+$Include = objects\characters\alien\trooper\trooper.cal
+
+
+

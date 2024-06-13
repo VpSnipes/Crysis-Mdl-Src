@@ -1,0 +1,100 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="head" MtlFlags="524416" Shader="Illum" GenMask="2080080101" StringGenMask="%ALLOW_POM%BLENDLAYER%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.014310519,0.014310519,0.014310519" Specular="0.59243804,0.59243804,0.59243804" Emissive="0,0,0" Shininess="64.900002" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/gunship/gunship_head.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/gunship/gunship_head_spec.tif" Filter="5">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/gunship/gunship_head_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/generic_city_cm.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="13.28" FresnelPower="1.7539999" FresnelBias="0.228" BlendFactor="2.51" BlendMaskTiling="1" BlendFalloff="5.8000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="2000080101" StringGenMask="%ALLOW_POM%BLENDLAYER%GLOSS_MAP%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.0090214908,0.0090214908,0.0090214908" Specular="0.51139784,0.51139784,0.51139784" Emissive="0,0,0" Shininess="26.799999" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/gunship/gunship_body.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/gunship/gunship_body_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/gunship/gunship_body_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/generic_city_cm.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="12.25" FresnelPower="1.901" FresnelBias="0.44999999" BlendFactor="2.1800001" BlendMaskTiling="1" BlendFalloff="3.4000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wing" MtlFlags="524416" Shader="Illum" GenMask="2000080101" StringGenMask="%ALLOW_POM%BLENDLAYER%GLOSS_MAP%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.013473397,0.013473397,0.013473397" Specular="0.61206561,0.61206561,0.61206561" Emissive="0,0,0" Shininess="45.200001" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/gunship/gunship_wing.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/gunship/gunship_wing_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/gunship/gunship_wing_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="textures/defaults/fliker_test.dds">
+     <TexMod RotateW="59.996338" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="1.2" TexMod_VOscillatorRate="0.80000001" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="11.78" FresnelPower="1.52" FresnelBias="0.64200002" BlendFactor="1.48" BlendMaskTiling="1" BlendFalloff="4.8000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_POM%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.08241421,0.08241421,0.08241421" Specular="1,1,1" Emissive="0,0,0" Shininess="55.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/gunship/crumpled_metal_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="13.11" FresnelPower="5" FresnelBias="0.87699997" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="0" FresnelPower="4" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

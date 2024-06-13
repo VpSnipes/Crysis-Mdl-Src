@@ -1,0 +1,75 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Base" MtlFlags="160" Shader="Metal" GenMask="268435728" SurfaceType="mat_metal" Diffuse="0.19607845,0.19607845,0.19607845" Specular="0.89411771,0.89411771,0.89411771" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/beach_blur.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.02" Glossiness="0.95999998" ReflectionAmount="1" FresnelBias="1" FresnelScale="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="Pattern" MtlFlags="160" Shader="Metal" GenMask="268435728" SurfaceType="mat_metal" Diffuse="0.19607845,0.19607845,0.19607845" Specular="0.89411771,0.89411771,0.89411771" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter_pattern.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_pattern_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_pattern_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/characters/alien/hunter/hunter_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.02" Glossiness="0.95999998" ReflectionAmount="1" FresnelBias="1" FresnelScale="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="Legs" MtlFlags="160" Shader="Metal" GenMask="268435728" SurfaceType="mat_metal" Diffuse="0.19607845,0.19607845,0.19607845" Specular="0.89411771,0.89411771,0.89411771" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter_leg.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_leg_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_leg_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/beach_blur.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.02" Glossiness="0.95999998" ReflectionAmount="1" FresnelBias="0.69999999" FresnelScale="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterLegs" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_leg" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterTorso" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_torso" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterCockpit" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_head" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams Displacement="0.025"/>
+ <MaterialLayers />
+</Material>

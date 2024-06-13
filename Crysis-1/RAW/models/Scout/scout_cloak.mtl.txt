@@ -1,0 +1,52 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="scout_head" MtlFlags="2176" Shader="Cloak" GenMask="3" SurfaceType="" Diffuse="0.137255,0.137255,0.137255" Specular="2,2,2" Emissive="0,0,0" Shininess="1.5" Opacity="1" GlowAmount="20">
+   <Textures>
+    <Texture Map="Specular" File="objects/characters/alien/scout_rework/textures/scout_head_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout_rework/textures/scout_head_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefrBumpScale="2" VertexDeformScale="0.614" InterferenceSpeedScale="0.04" InterferenceSizeScale="0.39" DifractionAmount="3.591" DifractionWrap="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="scout_body" MtlFlags="2176" Shader="Cloak" GenMask="3" SurfaceType="" Diffuse="0.219608,0.219608,0.219608" Specular="0.368627,0.368627,0.368627" Emissive="0,0,0" Shininess="2" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout_rework/textures/scout_body.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/scout_rework/textures/scout_body_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout_rework/textures/scout_body_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefrBumpScale="2" VertexDeformScale="0.614" InterferenceSpeedScale="0.08" InterferenceSizeScale="0.43" DifractionAmount="2.244" DifractionWrap="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="hunter_tentacles" MtlFlags="2176" Shader="Cloak" GenMask="3" SurfaceType="" Diffuse="0.152941,0.152941,0.152941" Specular="0.458824,0.458824,0.458824" Emissive="0,0,0" Opacity="1" GlowAmount="10">
+   <Textures>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_leg_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_leg_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefrBumpScale="2" VertexDeformScale="0.416" InterferenceSpeedScale="0.06" InterferenceSizeScale="0.34" DifractionAmount="1.426" DifractionWrap="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

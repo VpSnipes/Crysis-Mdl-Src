@@ -1,0 +1,13 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="grenade" MtlFlags="524416" Shader="Illum" GenMask="100000000" StringGenMask="%STAT_BRANCHING" SurfaceType="" MatTemplate="" Diffuse="0.0039215689,0.0078431377,0.011764707" Specular="0.2,0.2,0.2" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<Params>
+	<IK_Definition>
+
+		<LimbIK_Definition>
+			<IK Handle="RgtArm01" EndEffector="R Hand"  Root="R Arm01 Joint01" Solver="CCDX" fStepSize="0.5" fThreshold="0.031" nMaxInteration="50"/>
+			<IK Handle="LftArm01" EndEffector="L Hand"  Root="L Arm01 Joint01" Solver="CCDX" fStepSize="0.5" fThreshold="0.031" nMaxInteration="50"/>
+			<IK Handle="RgtLeg01" EndEffector="R Foot" Root="R Leg01" Solver="3BIK"/>
+			<IK Handle="LftLeg01" EndEffector="L Foot" Root="L Leg01" Solver="3BIK"/>
+		</LimbIK_Definition>
+
+
+		<FeetLock_Definition>
+			<RIKHandle Handle="RgtLeg01"/>
+			<LIKHandle Handle="LftLeg01"/>
+		</FeetLock_Definition>
+
+		<LookIK_Definition>
+		
+			<LEyeAttachment Name="eye_left" />
+			<REyeAttachment Name="eye_right" />
+
+			<DirectionalBlends>
+				<Joint AnimToken="LookPoses" ParameterJoint="BN LookIK" StartJoint="BN LookIK" ReferenceJoint="Pelvis"/>
+			</DirectionalBlends>
+			
+			<DefaultLookPose name="stand_com_idle_lookposes_less_01" />
+
+			<RotationList>
+				<Rotation Additive="1" Primary="1" JointName="Pelvis"/>
+				<Rotation Additive="1" Primary="1" JointName="Spine01"/>
+				<Rotation Additive="1" Primary="1" JointName="Spine02"/>
+				<Rotation Additive="1" Primary="1" JointName="Spine03" />
+				<Rotation Additive="1" Primary="1" JointName="Spine04" />
+				<Rotation Additive="0" Primary="1" JointName="Neck" />
+				<Rotation Additive="0" Primary="1" JointName="Head" />
+				<Rotation Additive="0" Primary="1" JointName="BN LookIK" />
+			</RotationList>
+
+			<PositionList>
+				<Position Additive="1" Primary="1" JointName="Pelvis"/>
+			</PositionList>
+
+		</LookIK_Definition>
+
+		<Recoil_Definition>
+			<RIKHandle Handle="RgtArm01"/>
+			<LIKHandle Handle="LftArm01"/>
+			<RWeaponJoint JointName="weapon_bone"/>
+			<ImpactJoints>
+				<ImpactJoint Arm="1" Delay="0.28" Weight="0.20" JointName="Pelvis" />
+				<ImpactJoint Arm="1" Delay="0.25" Weight="0.25" JointName="Spine01" />
+				<ImpactJoint Arm="1" Delay="0.20" Weight="0.30" JointName="Spine02"  />
+				<ImpactJoint Arm="1" Delay="0.12" Weight="0.50" JointName="Spine03" />
+				<ImpactJoint Arm="1" Delay="0.10" Weight="0.50" JointName="Spine04" />
+
+				<ImpactJoint Arm="1" Delay="0.10" Weight="0.45" JointName="R Shoulder" />
+			</ImpactJoints>
+		</Recoil_Definition>
+
+
+		<AimIK_Definition>
+			<RotationList>
+				<Rotation Additive="1" JointName="Pelvis" Primary="1"/>
+				<Rotation Additive="1" JointName="Spine01" Primary="1"/>
+				<Rotation Additive="1" JointName="Spine02" Primary="1"/>
+				<Rotation Additive="1" JointName="Spine03" Primary="1"/>
+				<Rotation Additive="1" JointName="Spine04" Primary="1"/>
+				<Rotation Additive="1" JointName="Neck" Primary="0"/>
+				<Rotation Additive="1" JointName="Head" Primary="0"/>
+
+				<Rotation Additive="1" JointName="R Clavicle" Primary="1"/>
+				<Rotation Additive="1" JointName="R Shoulder" Primary="1"/>
+				<Rotation Additive="0" JointName="R Arm01 Joint01" Primary="1"/>
+				<Rotation Additive="0" JointName="R Arm01 Joint02" Primary="1"/>
+				<Rotation Additive="0" JointName="R Arm01 Joint03" Primary="1"/>
+				<Rotation Additive="0" JointName="R Arm01 Joint04" Primary="1"/>
+				<Rotation Additive="0" JointName="R Hand" Primary="1"/>
+				<Rotation Additive="0" JointName="weapon_bone" Primary="1"/>
+
+				<Rotation Additive="1" JointName="L Clavicle" Primary="1"/>
+				<Rotation Additive="1" JointName="L Shoulder" Primary="1"/>
+				<Rotation Additive="0" JointName="L Arm01 Joint01" Primary="1"/>
+				<Rotation Additive="0" JointName="L Arm01 Joint02" Primary="1"/>
+				<Rotation Additive="0" JointName="L Arm01 Joint03" Primary="1"/>
+				<Rotation Additive="0" JointName="L Arm01 Joint04" Primary="1"/>
+				<Rotation Additive="0" JointName="L Hand" Primary="1"/>
+				<Rotation Additive="0" JointName="weapon_boneL" Primary="1"/>
+
+				<Rotation Additive="0" JointName="R Arm02 Joint01" Primary="0"/>
+				<Rotation Additive="0" JointName="R Arm02 Joint02" Primary="0"/>
+				<Rotation Additive="0" JointName="R Arm02 Joint03" Primary="0"/>
+				<Rotation Additive="0" JointName="R Arm02 Joint04" Primary="0"/>
+				<Rotation Additive="0" JointName="L Arm02 Joint01" Primary="0"/>
+				<Rotation Additive="0" JointName="L Arm02 Joint02" Primary="0"/>
+				<Rotation Additive="0" JointName="L Arm02 Joint03" Primary="0"/>
+				<Rotation Additive="0" JointName="L Arm02 Joint04" Primary="0"/>
+			</RotationList>
+			<PositionList>
+				<Position Additive="1" JointName="Pelvis"/>
+				<Position Additive="0" JointName="R Clavicle"/>
+				<Position Additive="0" JointName="R Shoulder"/>
+				<Position Additive="0" JointName="R Arm01 Joint01"/>
+				<Position Additive="0" JointName="R Arm01 Joint02"/>
+				<Position Additive="0" JointName="R Arm01 Joint03"/>
+				<Position Additive="0" JointName="R Arm01 Joint04"/>
+				<Position Additive="0" JointName="R Hand"/>
+				<Position Additive="0" JointName="weapon_bone"/>
+				<Position Additive="0" JointName="L Clavicle"/>
+				<Position Additive="0" JointName="L Shoulder"/>
+				<Position Additive="0" JointName="L Arm01 Joint01"/>
+				<Position Additive="0" JointName="L Arm01 Joint02"/>
+				<Position Additive="0" JointName="L Arm01 Joint03"/>
+				<Position Additive="0" JointName="L Arm01 Joint04"/>
+				<Position Additive="0" JointName="L Hand"/>
+				<Position Additive="0" JointName="weapon_boneL"/>
+				<Position Additive="0" JointName="R Arm02 Joint01"/>
+				<Position Additive="0" JointName="R Arm02 Joint02"/>
+				<Position Additive="0" JointName="R Arm02 Joint03"/>
+				<Position Additive="0" JointName="R Arm02 Joint04"/>
+				<Position Additive="0" JointName="L Arm01 Joint01"/>
+				<Position Additive="0" JointName="L Arm01 Joint02"/>
+				<Position Additive="0" JointName="L Arm01 Joint03"/>
+				<Position Additive="0" JointName="L Arm01 Joint04"/>
+			</PositionList>
+			<RWeaponJoint JointName="weapon_bone"/>
+			<DirectionalBlends>
+				<Joint AnimToken="AimPoses_com_gun" ParameterJoint="weapon_bone" StartJoint="R Shoulder" ReferenceJoint="Pelvis"/>
+				<Joint AnimToken="AimPoses_com_mortar" ParameterJoint="weapon_boneL" StartJoint="L Shoulder" ReferenceJoint="Pelvis"/>
+			</DirectionalBlends>
+
+		</AimIK_Definition>
+	</IK_Definition>
+
+
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\heavy"/>
+		<Animation name="$AnimEventDatabase" path="animations\alien\heavy\events.animevents"/>
+		<Animation name="$TracksDatabase" path="animations\alien\heavy\*\*.dba"/>
+		<Animation name="*" path="*\*.caf"/>
+		<Animation name="*" path="*\*.bspace"/>
+		<Animation name="*" path="*\*.comb"/>
+	</AnimationList>
+</Params>

@@ -1,0 +1,30 @@
+<Material MtlFlags="256" >
+ <SubMaterials >
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Metal" GenMask="268447760" SurfaceType="mat_ice" Diffuse="0.71764708,0.71764708,0.71764708" Specular="1,1,1" Emissive="0,0,0" Shininess="20" Opacity="1" GlowAmount="18" >
+   <Textures >
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/trooper.tif" Filter="7" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/trooper/trooper_spec.tif" Filter="7" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/alien/trooper/trooper_ddn.tif" Amount="50" Filter="6" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/beach_blur.dds" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.43000001" AnisotropicShape="0.85000002" ReflectionAmount="1" FresnelBias="0" FresnelScale="1" />
+   <MaterialLayers >
+    <Layer Name="Frozenlayer" NoDraw="0" />
+   </MaterialLayers>
+  </Material>
+  <Material Name="Proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_ice" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" >
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1" />
+ <MaterialLayers />
+</Material>

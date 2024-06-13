@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2021-11-03T17:58:36.8726512+00:00</created>
+    <modified>2021-11-03T17:58:36.874558+00:00</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+    <contributor>
+      <author>Heffay</author>
+      <author_email>markemp@gmail.com</author_email>
+      <author_website>https://github.com/Markemp/Cryengine-Converter</author_website>
+      <source_data>pinger_plate_mid_left</source_data>
+    </contributor>
+    <contributor>
+      <author>atri@FRWP1ATRI</author>
+      <source_data>J:\data\Games\Crysis3\dev\C3\Objects\characters\alien\pinger\pinger_setup.max</source_data>
+    </contributor>
+    <revision>1.3.1.0</revision>
+    <title>pinger_plate_mid_left</title>
+    <extra id="material_file_name" name="pinger.mtl" type="mtl_file" />
+  </asset>
+  <library_images>
+    <image id="body_map_1_Diffuse" name="body_map_1_Diffuse">
+      <init_from>textures/pinger_mi1_diff.dds</init_from>
+    </image>
+    <image id="body_map_1_Specular" name="body_map_1_Specular">
+      <init_from>textures/pinger_mi1_spec.dds</init_from>
+    </image>
+    <image id="body_map_1_Bumpmap" name="body_map_1_Bumpmap">
+      <init_from>textures/pinger_mi1_ddn.dds</init_from>
+    </image>
+    <image id="body_map_1_Decal" name="body_map_1_Decal">
+      <init_from>textures/mat_2_glow.dds</init_from>
+    </image>
+    <image id="body_map_2_Diffuse" name="body_map_2_Diffuse">
+      <init_from>textures/pinger_mi2_diff.dds</init_from>
+    </image>
+    <image id="body_map_2_Specular" name="body_map_2_Specular">
+      <init_from>textures/pinger_mi2_spec.dds</init_from>
+    </image>
+    <image id="body_map_2_Bumpmap" name="body_map_2_Bumpmap">
+      <init_from>textures/pinger_mi2_ddn.dds</init_from>
+    </image>
+    <image id="body_map_2_Decal" name="body_map_2_Decal">
+      <init_from>textures/mat_1_glow.dds</init_from>
+    </image>
+    <image id="hatch_Diffuse" name="hatch_Diffuse">
+      <init_from>textures/hatch_dif.dds</init_from>
+    </image>
+    <image id="hatch_Specular" name="hatch_Specular">
+      <init_from>textures/hatch_spec.dds</init_from>
+    </image>
+    <image id="hatch_Bumpmap" name="hatch_Bumpmap">
+      <init_from>textures/hatch_ddn.dds</init_from>
+    </image>
+    <image id="hatch_Decal" name="hatch_Decal">
+      <init_from>textures/hatch_glow_alpha.dds</init_from>
+    </image>
+    <image id="glow_Diffuse" name="glow_Diffuse">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="glow_Bumpmap" name="glow_Bumpmap">
+      <init_from>textures/pinger_glow_ddn.dds</init_from>
+    </image>
+    <image id="glow_effect_Diffuse" name="glow_effect_Diffuse">
+      <init_from>textures/pinger_glow_effect_diff.dds</init_from>
+    </image>
+    <image id="glow_effect_Bumpmap" name="glow_effect_Bumpmap">
+      <init_from>textures/water_droplets.dds</init_from>
+    </image>
+    <image id="glow_effect_Environment" name="glow_effect_Environment">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="glow_effect_Decal" name="glow_effect_Decal">
+      <init_from>textures/pinger_glow_effect_spec.dds</init_from>
+    </image>
+    <image id="gunGlow_Diffuse" name="gunGlow_Diffuse">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="gunGlow_Bumpmap" name="gunGlow_Bumpmap">
+      <init_from>textures/pinger_glow_ddn.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="body_map_1-effect" name="body_map_1">
+      <profile_COMMON>
+        <newparam sid="pinger_mi1_diff-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi1_spec-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi1_ddn-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mat_2_glow-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mat_2_glow-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mat_2_glow-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_mi1_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_mi1_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="pinger_mi1_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="body_map_2-effect" name="body_map_2">
+      <profile_COMMON>
+        <newparam sid="pinger_mi2_diff-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi2_spec-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi2_ddn-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mat_1_glow-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mat_1_glow-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mat_1_glow-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_mi2_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_mi2_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="pinger_mi2_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="hatch-effect" name="hatch">
+      <profile_COMMON>
+        <newparam sid="hatch_dif-surface">
+          <surface type="2D">
+            <init_from>hatch_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_spec-surface">
+          <surface type="2D">
+            <init_from>hatch_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_ddn-surface">
+          <surface type="2D">
+            <init_from>hatch_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_glow_alpha-surface">
+          <surface type="2D">
+            <init_from>hatch_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_glow_alpha-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_glow_alpha-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="hatch_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="hatch_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="hatch_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_metal-effect" name="proxy_metal">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="nodraw_nophys-effect" name="nodraw_nophys">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow-effect" name="glow">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>glow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-surface">
+          <surface type="2D">
+            <init_from>glow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_glow_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow_effect-effect" name="glow_effect">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_effect_diff-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_effect_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_effect_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="water_droplets-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="water_droplets-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>water_droplets-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Environment</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_effect_spec-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_effect_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_effect_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="water_droplets-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">1 1 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_effect_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0.01200002</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_weakspot-effect" name="proxy_weakspot">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="gunGlow-effect" name="gunGlow">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>gunGlow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-surface">
+          <surface type="2D">
+            <init_from>gunGlow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_glow_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="body_map_1-material" name="body_map_1">
+      <instance_effect url="#body_map_1-effect" />
+    </material>
+    <material id="body_map_2-material" name="body_map_2">
+      <instance_effect url="#body_map_2-effect" />
+    </material>
+    <material id="hatch-material" name="hatch">
+      <instance_effect url="#hatch-effect" />
+    </material>
+    <material id="proxy_metal-material" name="proxy_metal">
+      <instance_effect url="#proxy_metal-effect" />
+    </material>
+    <material id="nodraw_nophys-material" name="nodraw_nophys">
+      <instance_effect url="#nodraw_nophys-effect" />
+    </material>
+    <material id="glow-material" name="glow">
+      <instance_effect url="#glow-effect" />
+    </material>
+    <material id="glow_effect-material" name="glow_effect">
+      <instance_effect url="#glow_effect-effect" />
+    </material>
+    <material id="proxy_weakspot-material" name="proxy_weakspot">
+      <instance_effect url="#proxy_weakspot-effect" />
+    </material>
+    <material id="gunGlow-material" name="gunGlow">
+      <instance_effect url="#gunGlow-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="pinger_plate_mid_left-mesh" name="pinger_plate_mid_left">
+      <mesh>
+        <source id="pinger_plate_mid_left-mesh-pos" name="pinger_plate_mid_left-pos">
+          <float_array id="pinger_plate_mid_left-mesh-pos-array" count="195">-0.997559 -0.431396 6.390625 -1.001953 -0.113770 6.273438 -0.968262 -0.110291 6.324219 -0.961426 -0.408203 6.433594 -1.133789 -0.384277 6.460938 -1.169922 -0.407471 6.417969 -1.447266 -0.366943 6.660156 -0.841797 0.161255 6.167969 -0.808594 0.164795 6.218750 -0.597168 0.303467 6.156250 -1.481445 -0.390625 6.617188 -1.355469 0.083008 6.453125 -0.594727 0.324463 6.093750 -0.831543 0.367920 6.179688 -1.382812 0.076172 6.394531 -0.850098 0.380371 6.125000 -1.159180 0.442383 6.324219 -1.003906 0.256104 6.171875 -1.159180 -0.031128 6.277344 -1.191406 0.438232 6.273438 -1.159180 0.442383 6.324219 -1.558594 0.194092 6.574219 -1.591797 0.190674 6.523438 -1.716797 -0.383545 6.769531 -1.680664 -0.360596 6.816406 -1.512695 -0.392578 6.636719 -1.680664 -0.360596 6.816406 -1.478516 -0.368896 6.683594 -1.379883 0.097107 6.464844 -1.363281 0.583984 6.375000 -1.331055 0.585938 6.425781 -1.406250 0.090210 6.410156 -1.202148 0.479736 6.281250 -1.169922 0.484375 6.332031 -0.979980 0.903809 6.273438 -0.964844 0.887695 6.332031 -0.806152 0.399658 6.175781 -0.613281 0.530762 6.074219 -0.598145 0.516113 6.132812 -0.816895 0.410645 6.117188 -0.445801 0.366211 6.128906 -0.460938 0.380859 6.074219 -0.543945 0.349854 6.082031 -0.546875 0.328613 6.144531 -0.445801 0.366211 6.128906 -0.597168 0.303467 6.156250 -0.831543 0.367920 6.179688 -0.808594 0.164795 6.218750 -1.159180 0.442383 6.324219 -0.968262 -0.110291 6.324219 -1.355469 0.083008 6.453125 -1.133789 -0.384277 6.460938 -1.447266 -0.366943 6.660156 -0.961426 -0.408203 6.433594 -1.558594 0.194092 6.574219 -1.680664 -0.360596 6.816406 -1.478516 -0.368896 6.683594 -1.379883 0.097107 6.464844 -1.331055 0.585938 6.425781 -1.169922 0.484375 6.332031 -0.964844 0.887695 6.332031 -0.806152 0.399658 6.175781 -0.598145 0.516113 6.132812 -0.546875 0.328613 6.144531 -0.445801 0.366211 6.128906</float_array>
+          <technique_common>
+            <accessor count="65" offset="0" source="#pinger_plate_mid_left-mesh-pos-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_mid_left-mesh-norm" name="pinger_plate_mid_left-norm">
+          <float_array id="pinger_plate_mid_left-mesh-norm-array" count="195">0.249428 -0.542959 -0.801861 -0.048141 -0.335646 -0.940757 0.781056 -0.389723 -0.487921 0.744714 -0.596991 -0.298331 0.070236 -0.906953 0.415334 -0.426116 -0.422860 -0.799759 -0.384504 -0.672153 0.632745 0.100253 -0.437356 -0.893683 0.621202 -0.700781 -0.350734 0.817226 -0.557054 -0.147755 -0.763579 -0.246898 -0.596648 -0.807976 0.443962 0.387393 0.132808 0.046452 -0.990053 0.263145 0.946170 0.188457 -0.635422 -0.140709 -0.759236 -0.159293 0.307404 -0.938152 -0.184909 0.967473 0.172638 -0.311387 -0.118531 -0.942862 -0.428193 -0.174038 -0.886770 -0.588716 0.178883 -0.788298 -0.184909 0.967473 0.172638 -0.763316 0.463864 0.449643 -0.682937 -0.088333 -0.725116 -0.864143 -0.120549 -0.488594 -0.629337 -0.344658 0.696523 -0.344316 -0.416388 -0.841468 -0.629337 -0.344658 0.696523 0.732275 -0.646147 -0.215099 0.809239 -0.445128 -0.383396 -0.643157 0.226550 -0.731454 -0.605998 0.706468 0.365608 -0.403435 -0.180078 -0.897113 -0.317107 -0.066328 -0.946068 0.395691 -0.903951 -0.162176 -0.368885 0.345418 -0.862908 0.421253 0.897242 0.132300 -0.223186 -0.971005 -0.085653 0.043020 0.380513 -0.923774 0.706772 0.707424 -0.004849 -0.339122 0.034392 -0.940114 0.942035 -0.171272 -0.288508 0.620609 0.399082 -0.674966 -0.153986 -0.549536 -0.821157 -0.129010 -0.935005 -0.330335 0.942035 -0.171272 -0.288508 0.157350 0.211279 0.964677 0.332850 0.221232 0.916661 0.358318 0.169026 0.918171 0.383102 0.142633 0.912627 0.360968 0.170303 0.916896 0.432710 0.197956 0.879531 0.431943 0.256934 0.864528 0.530103 0.268139 0.804420 0.188347 0.344743 0.919607 0.556355 0.170251 0.813316 0.538899 0.233181 0.809453 0.564913 0.233427 0.791445 0.550971 0.097201 0.828844 0.483714 -0.053220 0.873606 0.408132 -0.133797 0.903065 0.349221 -0.189202 0.917740 0.312802 -0.148558 0.938129 0.253641 -0.094988 0.962623 0.135251 0.103167 0.985426 0.099393 0.093668 0.990630</float_array>
+          <technique_common>
+            <accessor count="65" offset="0" source="#pinger_plate_mid_left-mesh-norm-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_mid_left-mesh-UV" name="pinger_plate_mid_left-UV">
+          <float_array id="pinger_plate_mid_left-mesh-UV-array" count="130">0.089059 0.617284 0.080439 0.565196 0.090399 0.566665 0.096302 0.619720 0.067456 0.629267 0.062950 0.620941 0.006440 0.643034 0.091128 0.512454 0.101110 0.514039 0.123845 0.466477 0.009354 0.639529 0.002657 0.558483 0.109935 0.476535 0.075982 0.473799 0.012115 0.558395 0.076373 0.482111 0.015352 0.488943 0.061671 0.507522 0.052728 0.559283 0.020252 0.494492 0.015352 0.488943 0.254358 0.615650 0.244930 0.614874 0.251194 0.736035 0.257123 0.747562 0.208319 0.703625 0.257123 0.747562 0.202162 0.707067 0.200153 0.615656 0.242160 0.541918 0.251247 0.538697 0.209725 0.614015 0.207901 0.540420 0.199690 0.544467 0.244560 0.466318 0.249084 0.461263 0.167435 0.520309 0.161991 0.470492 0.160037 0.461397 0.172339 0.512638 0.128475 0.467168 0.134747 0.469942 0.140683 0.489347 0.134112 0.496196 0.128475 0.467168 -0.889953 0.476069 -0.923331 0.481973 -0.908813 0.511716 -0.979982 0.494537 -0.920129 0.565386 -0.987390 0.558663 -0.937354 0.621040 -0.990098 0.638819 -0.911876 0.616618 -0.755272 0.614242 -0.749200 0.736315 -0.791877 0.704062 -0.790236 0.613777 -0.757841 0.541800 -0.791980 0.540379 -0.755283 0.465961 -0.827661 0.512678 -0.837454 0.470489 -0.859039 0.489543 -0.865094 0.469980</float_array>
+          <technique_common>
+            <accessor count="65" offset="0" source="#pinger_plate_mid_left-mesh-UV-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_mid_left-mesh-color" name="pinger_plate_mid_left-color">
+          <float_array id="pinger_plate_mid_left-mesh-color-array" count="0" />
+        </source>
+        <vertices id="pinger_plate_mid_left-vertices">
+          <input semantic="POSITION" source="#pinger_plate_mid_left-mesh-pos" />
+        </vertices>
+        <triangles count="76" material="body_map_1-material">
+          <input semantic="VERTEX" source="#pinger_plate_mid_left-vertices" offset="0" set="0" />
+          <input semantic="NORMAL" source="#pinger_plate_mid_left-mesh-norm" offset="1" set="0" />
+          <input semantic="TEXCOORD" source="#pinger_plate_mid_left-mesh-UV" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0 0 0 0 3 3 3 4 4 4 4 4 4 5 5 5 0 0 0 1 1 1 0 0 0 5 5 5 5 5 5 4 4 4 6 6 6 2 2 2 1 1 1 7 7 7 7 7 7 8 8 8 2 2 2 9 9 9 8 8 8 7 7 7 6 6 6 10 10 10 5 5 5 10 10 10 6 6 6 11 11 11 7 7 7 12 12 12 9 9 9 13 13 13 9 9 9 12 12 12 11 11 11 14 14 14 10 10 10 5 5 5 10 10 10 14 14 14 12 12 12 15 15 15 13 13 13 15 15 15 12 12 12 7 7 7 16 16 16 13 13 13 15 15 15 17 17 17 7 7 7 1 1 1 7 7 7 17 17 17 15 15 15 5 5 5 18 18 18 1 1 1 14 14 14 18 18 18 5 5 5 1 1 1 18 18 18 17 17 17 19 19 19 14 14 14 11 11 11 18 18 18 14 14 14 19 19 19 19 19 19 17 17 17 18 18 18 17 17 17 19 19 19 15 15 15 11 11 11 20 20 20 19 19 19 15 15 15 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 24 24 24 21 21 21 25 25 25 23 23 23 22 22 22 26 26 26 23 23 23 25 25 25 25 25 25 27 27 27 26 26 26 28 28 28 27 27 27 25 25 25 29 29 29 22 22 22 21 21 21 21 21 21 30 30 30 29 29 29 22 22 22 31 31 31 25 25 25 25 25 25 31 31 31 28 28 28 31 31 31 22 22 22 29 29 29 28 28 28 31 31 31 32 32 32 29 29 29 32 32 32 31 31 31 32 32 32 33 33 33 28 28 28 34 34 34 29 29 29 30 30 30 34 34 34 32 32 32 29 29 29 30 30 30 35 35 35 34 34 34 36 36 36 33 33 33 32 32 32 37 37 37 34 34 34 35 35 35 35 35 35 38 38 38 37 37 37 39 39 39 32 32 32 34 34 34 32 32 32 39 39 39 36 36 36 34 34 34 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 41 41 41 37 37 37 38 38 38 36 36 36 39 39 39 42 42 42 42 42 42 39 39 39 37 37 37 37 37 37 41 41 41 42 42 42 42 42 42 43 43 43 36 36 36 42 42 42 41 41 41 44 44 44 44 44 44 43 43 43 42 42 42 45 45 45 46 46 46 47 47 47 48 48 48 47 47 47 46 46 46 49 49 49 47 47 47 48 48 48 48 48 48 50 50 50 49 49 49 51 51 51 49 49 49 50 50 50 50 50 50 52 52 52 51 51 51 53 53 53 49 49 49 51 51 51 54 54 54 55 55 55 56 56 56 56 56 56 57 57 57 54 54 54 58 58 58 54 54 54 57 57 57 57 57 57 59 59 59 58 58 58 59 59 59 60 60 60 58 58 58 60 60 60 59 59 59 61 61 61 61 61 61 62 62 62 60 60 60 62 62 62 61 61 61 63 63 63 63 63 63 64 64 64 62 62 62</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="pinger_plate_mid_left" name="pinger_plate_mid_left" type="NODE">
+        <matrix sid="transform">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000</matrix>
+        <instance_geometry name="pinger_plate_mid_left" url="#pinger_plate_mid_left-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material target="#body_map_1-material" symbol="body_map_1-material" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene name="Scene" url="#Scene" />
+  </scene>
+</COLLADA>

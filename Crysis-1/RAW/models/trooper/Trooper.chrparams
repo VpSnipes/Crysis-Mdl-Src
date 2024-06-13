@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\trooper"/>
+		<Animation name="$TracksDatabase" path="animations\alien\trooper\trooper.dba"/>
+		<Animation name="$AnimEventDatabase" path="animations\alien\trooper\Trooper_EventDataBase.animevents"/>
+		<Comment value="trooper_bounceHorizObjectFlyStart_01	=	trooper_bounceHorizObjectFlyStart_01.caf"/>
+		<Comment value="trooper_bounceHorizObjectLand_01		=	trooper_bounceHorizObjectLand_01.caf"/>
+		<Comment value="trooper_bounceHorizObjectMidAirLoop_01	=	trooper_bounceHorizObjectMidAirLoop_01.caf"/>
+		<Comment value="trooper_bounceHorizObjectMidAirLoop_02	=	trooper_bounceHorizObjectMidAirLoop_02.caf"/>
+		<Comment value="trooper_bounceHorizObjectStart_01		=	trooper_bounceHorizObjectStart_01.caf"/>
+		<Comment value="trooper_bounceHorizObjectToFly_01		=	trooper_bounceHorizObjectToFly_01.caf"/>
+		<Comment value="trooper_damageProneLarge_front_01	=	trooper_damageProneLarge_front_01.caf"/>
+		<Comment value="trooper_death_01				=	trooper_death_01.caf"/>
+		<Comment value="trooper_fireLandEnd_01			=	trooper_fireLandEnd_01.caf"/>
+		<Comment value="trooper_fireLandLoop_01			=	trooper_fireLandLoop_01.caf"/>
+		<Comment value="trooper_fireLandStart_01			=	trooper_fireLandStart_01.caf"/>
+		<Comment value="trooper_fireToLandIdle_01		=	trooper_fireToLandIdle_01.caf"/>
+		<Comment value="trooper_fireWeaponSmallVert_01		=	trooper_fireWeaponSmallVert_01.caf"/>
+		<Comment value="trooper_flyJumpToLandOnHorzObject_01	=	trooper_flyJumpToLandOnHorzObject_01.caf"/>
+		<Comment value="trooper_flyProne_forward_slow_01		=	trooper_flyProne_forward_slow_01.caf"/>
+		<Comment value="trooper_flyProneAlert_forward_01		=	trooper_flyproneAlert_forward_01.caf"/>
+		<Comment value="trooper_flyProneToLand_01			=	trooper_flyProneToLand_01.caf"/>
+		<Comment value="trooper_flyProneToVertAlert_01		=	trooper_flyProneToVertAlert_01.caf"/>
+		<Comment value="trooper_flyReverseDirection_back_01	=	trooper_flyReverseDirection_back_01.caf"/>
+		<Comment value="trooper_flySprint_forward_01		=	trooper_flySprint_forward_01.caf"/>
+		<Comment value="trooper_flyVert_forward_slow_01		=	trooper_flyVert_forward_slow_01.caf"/>
+		<Comment value="trooper_flyVertAlert_forward_01		=	trooper_flyVertAlert_forward_01.caf"/>
+		<Comment value="trooper_flyVertToDeath_01		=	trooper_flyVertToDeath_01.caf"/>
+		<Comment value="trooper_flyVertToProneAlert_01		=	trooper_flyVertToProneAlert_01.caf"/>
+		<Comment value="trooper_flyVertToThreaten_01		=	trooper_flyVertToThreathen_01.caf"/>
+		<Comment value="trooper_fromFireWeaponSmallVert_01	=	trooper_fromFireWeaponSmallVert_01.caf"/>
+		<Comment value="trooper_fromLandHorzObjectToFly_01	=	trooper_fromLandHorzObjectToFly_01.caf"/>
+		<Comment value="trooper_fromMeleeAttack_01		=	trooper_fromMeleeAttack_01.caf"/>
+		<Comment value="trooper_fromStrafeVert_left_01		=	trooper_fromStrafeVert_left_01.caf"/>
+		<Comment value="trooper_fromStrafeVert_right_01		=	trooper_fromStrafeVert_right_01.caf"/>
+		<Comment value="trooper_idleBreakProne_01		=	trooper_idleBreakProne_01.caf"/>
+		<Comment value="trooper_idleLand_01			=	trooper_idleLand_01.caf"/>
+		<Comment value="trooper_idleLandToJump_01			=	trooper_idleLandToJump_01.caf"/>
+		<Comment value="trooper_idleProne_01			=	trooper_idleProne_01.caf"/>
+		<Comment value="trooper_idleVertAlert_01			=	trooper_idleVertAlert_01.caf"/>
+		<Comment value="trooper_jumpHorzObjectToHorzObject_01	=	trooper_jumpHorzObjectToHorzObject_01.caf"/>
+		<Comment value="trooper_jumpPose_01			=	trooper_jumpPose_01.caf"/>
+		<Comment value="trooper_jumpToIdleLand_01			=	trooper_jumpToIdleLand_01.caf"/>
+		<Comment value="trooper_landIdleToFire_01			=	trooper_landIdleToFire_01.caf"/>
+		<Comment value="trooper_listen_01			=	trooper_listen_01.caf"/>
+		<Comment value="trooper_meleeAttackAlert_01		=	trooper_meleeAttackAlert_01.caf"/>
+		<Comment value="trooper_meleeAttackAlert_02		=	trooper_meleeAttackAlert_02.caf"/>
+		<Comment value="trooper_meleeAttackAlert_03		=	trooper_meleeAttackAlert_03.caf"/>
+		<Comment value="trooper_proneToVertShort_slow_01		=	trooper_proneToVertShort_slow_01.caf"/>
+		<Comment value="trooper_raiseWeaponSearch_01		=	trooper_raiseWeaponSearch_01.caf"/>
+		<Comment value="trooper_rotate_left_01			=	trooper_rotate_left_01.caf"/>
+		<Comment value="trooper_rotate_right_01			=	trooper_rotate_right_01.caf"/>
+		<Comment value="trooper_strafeVertAlert_left_01		=	trooper_strafeVertAlert_left_01.caf"/>
+		<Comment value="trooper_strafeVertAlert_right_01		=	trooper_strafeVertAlert_right_01.caf"/>
+		<Comment value="trooper_threaten_01			=	trooper_threaten_01.caf"/>
+		<Comment value="trooper_threaten_02			=	trooper_threaten_02.caf"/>
+		<Comment value="trooper_threatenToVert_01			=	trooper_threathenToVert_01.caf"/>
+		<Comment value="trooper_toFireWeaponSmallVert_01		=	trooper_toFireWeaponSmallVert_01.caf"/>
+		<Comment value="trooper_toMeleeAttack_01		=	trooper_toMeleeAttack_01.caf"/>
+		<Comment value="trooper_toStrafeVert_left_01		=	trooper_toStrafeVert_left_01.caf"/>
+		<Comment value="trooper_toStrafeVert_right_01		=	trooper_toStrafeVert_right_01.caf"/>
+		<Comment value="trooper_vertToLand_01			=	trooper_vertToLand_01.caf"/>
+		<Comment value="trooper_vertToProneShort_slow_01		=	trooper_vertToProneShort_slow_01.caf"/>
+		<Animation name="trooper_doubleJump_left_01" path="trooper_doubleJump_left_01.caf"/>
+		<Animation name="trooper_doubleJump_left_02" path="trooper_doubleJump_left_02.caf"/>
+		<Animation name="trooper_doubleJump_right_01" path="trooper_doubleJump_right_01.caf"/>
+		<Animation name="trooper_doubleJump_right_02" path="trooper_doubleJump_right_02.caf"/>
+		<Animation name="trooper_flyProne_forward_fast_01" path="trooper_flyProne_forward_fast_01.caf"/>
+		<Animation name="trooper_flyProneToVert_slow_01" path="trooper_flyProneToVert_slow_01.caf"/>
+		<Animation name="trooper_flyVert_forward_fast_01" path="trooper_flyVert_forward_fast_01.caf"/>
+		<Animation name="trooper_flyVertDodge_left_01" path="trooper_flyVertDodge_left_01.caf"/>
+		<Animation name="trooper_flyVertDodge_right_01" path="trooper_flyVertDodge_right_01.caf"/>
+		<Animation name="trooper_flyVertDodge_left_02" path="trooper_flyVertDodge_left_02.caf"/>
+		<Animation name="trooper_flyVertDodge_right_02" path="trooper_flyVertDodge_right_02.caf"/>
+		<Animation name="trooper_flyVertDoorway_5mforward_01" path="trooper_flyVertDoorway_5mforward_01.caf"/>
+		<Animation name="trooper_flyVertDoorway_forward_slow_01" path="trooper_flyVertDoorway_forward_slow_01.caf"/>
+		<Animation name="trooper_flyVertDoorway_forward_01" path="trooper_flyVertDoorway_forward_01.caf"/>
+		<Animation name="trooper_flyVertToProne_slow_01" path="trooper_flyVertToProne_slow_01.caf"/>
+		<Animation name="trooper_flyVertToReboot_01" path="trooper_flyVertToReboot_01.caf"/>
+		<Animation name="trooper_flyVertUseHole_usCarrier_01" path="trooper_flyVertUseHole_usCarrier_01.caf"/>
+		<Animation name="trooper_fromIdleFireWeapon_01" path="trooper_fromIdleFireWeapon_01.caf"/>
+		<Animation name="trooper_grabbedIdle_01" path="trooper_grabbedIdle_01.caf"/>
+		<Animation name="trooper_idleFireWeapon_01" path="trooper_idleFireWeapon_01.caf"/>
+		<Animation name="trooper_idleVert_01" path="trooper_idleVert_01.caf"/>
+		<Animation name="trooper_idleVert_02" path="trooper_idleVert_02.caf"/>
+		<Animation name="trooper_meleeAttack_01" path="trooper_meleeAttack_01.caf"/>
+		<Animation name="trooper_meleeAttack_02" path="trooper_meleeAttack_02.caf"/>
+		<Animation name="trooper_meleeAttack_03" path="trooper_meleeAttack_03.caf"/>
+		<Animation name="trooper_reboot_01" path="trooper_reboot_01.caf"/>
+		<Animation name="trooper_rebootToVert_01" path="trooper_rebootToVert_01.caf"/>
+		<Animation name="trooper_replaceMe_01" path="trooper_replaceMe_01.caf"/>
+		<Animation name="trooper_singleJump_left_01" path="trooper_singleJump_left_01.caf"/>
+		<Animation name="trooper_singleJump_right_01" path="trooper_singleJump_right_01.caf"/>
+		<Animation name="trooper_strafeVert_left_01" path="trooper_strafeVert_left_01.caf"/>
+		<Animation name="trooper_strafeVert_right_01" path="trooper_strafeVert_right_01.caf"/>
+		<Animation name="trooper_strafeVert_left_forward_01" path="trooper_strafeVert_left_forward_01.caf"/>
+		<Animation name="trooper_strafeVert_right_forward_01" path="trooper_strafeVert_right_forward_01.caf"/>
+		<Animation name="trooper_toIdleFireWeapon_01" path="trooper_toIdleFireWeapon_01.caf"/>
+		<Animation name="trooper_vertInjured_forward_01" path="trooper_vertInjured_forward_01.caf"/>
+		<Animation name="trooper_vertInjuredIdle_01" path="trooper_vertInjuredIdle_01.caf"/>
+		<Animation name="trooper_jump1m_forward_01" path="trooper_jump1m_forward_01.caf"/>
+		<Animation name="trooper_jump3m_forward_01" path="trooper_jump3m_forward_01.caf"/>
+		<Animation name="trooper_jump4m_forward_01" path="trooper_jump4m_forward_01.caf"/>
+		<Animation name="trooper_jump12m_forward_01" path="trooper_jump12m_forward_01.caf"/>
+		<Animation name="trooper_jump6m_forward_01" path="trooper_jump6m_forward_01.caf"/>
+		<Animation name="trooper_fromJump3m_01" path="trooper_fromJump3m_01.caf"/>
+		<Animation name="trooper_jump5m_forward_01" path="trooper_jump5m_forward_01.caf"/>
+		<Animation name="trooper_jumpMeleeAttack_01" path="trooper_jumpMeleeAttack_01.caf"/>
+		<Animation name="trooper_jumpMeleeAttack_02" path="trooper_jumpMeleeAttack_02.caf"/>
+		<Animation name="trooper_jumpMeleeAttack_03" path="trooper_jumpMeleeAttack_03.caf"/>
+		<Animation name="trooper_jumpStart_FwdLow_01" path="trooper_jumpStart_FwdLow_01.caf"/>
+		<Animation name="trooper_jumpStart_FwdHigh_01" path="trooper_jumpStart_FwdHigh_01.caf"/>
+		<Animation name="trooper_jumpStart_FwdHigh_right_01" path="trooper_jumpStart_FwdHigh_right_01.caf"/>
+		<Animation name="trooper_jumpStart_FwdHigh_left_01" path="trooper_jumpStart_FwdHigh_left_01.caf"/>
+		<Animation name="trooper_flyVertToCharge_01" path="trooper_flyVertToCharge_01.caf"/>
+		<Animation name="trooper_chargeToJumpMeleeAttack_01" path="trooper_chargeToJumpMeleeAttack_01.caf"/>
+		<Animation name="trooper_jumpStart_Vert_01" path="trooper_jumpStart_Vert_01.caf"/>
+		<Animation name="trooper_jumpFly_01" path="trooper_jumpFly_01.caf"/>
+		<Animation name="trooper_landToVert_01" path="trooper_landToVert_01.caf"/>
+		<Animation name="trooper_jumpStart_backward_01" path="trooper_jumpStart_backward_01.caf"/>
+		<Animation name="trooper_jumpFly_backward_01" path="trooper_jumpFly_backward_01.caf"/>
+		<Animation name="trooper_vaultOverfenceHigh_01" path="trooper_vaultOverfenceHigh_01.caf"/>
+		<Animation name="trooper_vaultOverfenceHigh_02" path="trooper_vaultOverfenceHigh_02.caf"/>
+		<Animation name="trooper_vaultOverfenceLow_01" path="trooper_vaultOverfenceLow_01.caf"/>
+		<Animation name="trooper_vaultOverfenceLow_02" path="trooper_vaultOverfenceLow_02.caf"/>
+		<Animation name="trooper_vaultOverjeep_01" path="trooper_vaultOverjeep_01.caf"/>
+		<Animation name="trooper_heavyHit_01" path="trooper_heavyHit_01.caf"/>
+		<Animation name="trooper_heavyHitFly_01" path="trooper_heavyHitFly_01.caf"/>
+		<Animation name="trooper_flyVert_forward_indoor_01" path="trooper_flyVert_forward_indoor_01.caf"/>
+		<Animation name="trooper_idleVert_indoor_01" path="trooper_idleVert_indoor_01.caf"/>
+		<Animation name="trooper_fireOnwall_01" path="trooper_fireOnwall_01.caf"/>
+		<Animation name="trooper_fromHangOnwall_01" path="trooper_fromHangOnwall_01.caf"/>
+		<Animation name="trooper_hangOnwall_01" path="trooper_hangOnwall_01.caf"/>
+		<Animation name="trooper_toHangOnwall_01" path="trooper_toHangOnwall_01.caf"/>
+		<Animation name="trooper_fromStayOnRock_01" path="trooper_fromStayOnRock_01.caf"/>
+		<Animation name="trooper_StayOnRock_01" path="trooper_StayOnRock_01.caf"/>
+		<Animation name="trooper_flyToStayOnRock_01" path="trooper_flyToStayOnRock_01.caf"/>
+		<Animation name="trooper_grabbedByScout_01" path="trooper_grabbedByScout_01.caf"/>
+		<Animation name="trooper_fromGrabbedByScout_01" path="trooper_fromGrabbedByScout_01.caf"/>
+		<Animation name="trooper_fromStayOnWall_right_01" path="trooper_fromStayOnWall_right_01.caf"/>
+		<Animation name="trooper_stayOnWall_right_01" path="trooper_stayOnWall_right_01.caf"/>
+		<Animation name="trooper_flyToStayOnWall_right_01" path="trooper_flyToStayOnWall_right_01.caf"/>
+		<Animation name="trooper_fromStayOnWall_left_01" path="trooper_fromStayOnWall_left_01.caf"/>
+		<Animation name="trooper_stayOnWall_left_01" path="trooper_stayOnWall_left_01.caf"/>
+		<Animation name="trooper_flyToStayOnWall_left_01" path="trooper_flyToStayOnWall_left_01.caf"/>
+		<Animation name="trooper_jumpFire_right_01" path="trooper_jumpFire_right_01.caf"/>
+		<Animation name="trooper_jumpFire_left_01" path="trooper_jumpFire_left_01.caf"/>
+		<Animation name="trooper_fromStayOnCeiling_01" path="trooper_fromStayOnCeiling_01.caf"/>
+		<Animation name="trooper_stayOnCeiling_01" path="trooper_stayOnCeiling_01.caf"/>
+		<Animation name="trooper_flyToStayOnCeiling_01" path="trooper_flyToStayOnCeiling_01.caf"/>
+		<Animation name="trooper_fromStayOnCeiling_02" path="trooper_fromStayOnCeiling_02.caf"/>
+		<Animation name="trooper_stayOnCeiling_02" path="trooper_stayOnCeiling_02.caf"/>
+		<Animation name="trooper_flyToStayOnCeiling_02" path="trooper_flyToStayOnCeiling_02.caf"/>
+		<Animation name="trooper_cineIce_intro_01" path="trooper_cineIce_intro_01.caf"/>
+	</AnimationList>
+</Params>

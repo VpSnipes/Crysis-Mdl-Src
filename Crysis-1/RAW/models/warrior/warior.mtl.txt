@@ -1,0 +1,86 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="01" MtlFlags="128" Shader="Metal" GenMask="268472368" SurfaceType="mat_alien_hunter_torso" Diffuse="0.42352945,0.42352945,0.42352945" Specular="1,1,1" Emissive="0,0,0" Shininess="5" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_03.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_03_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_03_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/fleet_test_refl3.dds" TexType="3">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_ice_003_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.40000001" Glossiness="0.95999998" ReflectionAmount="2" FresnelBias="0.69999999" FresnelScale="3" AmbientMultiplier="1" DetailBumpTillingU="15" DetailBumpTillingV="4" DetailBumpScale="2" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="02" MtlFlags="128" Shader="Metal" GenMask="268472368" SurfaceType="mat_alien_hunter_torso" Diffuse="0.090196081,0.15294118,0.15686275" Specular="0.8705883,0.90980399,0.92156869" Emissive="0,0,0" Shininess="5" Opacity="1" GlowAmount="20">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_04.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_04_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_04_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_ice_003_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.40000001" Glossiness="0.95999998" ReflectionAmount="2" FresnelBias="0.69999999" FresnelScale="3" AmbientMultiplier="1" DetailBumpTillingU="15" DetailBumpTillingV="4" DetailBumpScale="2" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="03" MtlFlags="160" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass" Diffuse="0,0.14901961,0.42352945" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/perlinnoise2d.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_hunter_leg" Diffuse="0.47058827,0.47058827,0.47058827" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/ship_exterior/ship_hull/ship_hull_04.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/warrior/brush_metal_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/frozen_land_blur.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="shield_1" MtlFlags="130" Shader="Specialeffects" GenMask="256" SurfaceType="mat_alien_forcefield_warrior" Diffuse="0.015686275,0.52156866,0.79215693" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams PlasmaScale="1.23" PlasmaSpeed="2.3399999" ElectricitySparksScale="8.1800003" ElectricitySparksNoise="0.52999997" ElectricitySparksSpeed="7.8800001" ElectricityVariation="60.799999" ElectricityLifetime="27.5" OverallPlasmaStrenght="0.114" PlasmaThickness="9.8100004" MainPlasmaStrenght="2.1099999" BoltPlasmaStrenght="0.28999999" MainPlasmaColor="0.41176474,0.60000002,0.71372551" ElectricitySparksStrenght="0" BoltPlasmaColor="0.21568629,0.38823533,0.7843138" ElectricitySparksColor="0,0.5,1"/>
+  </Material>
+  <Material Name="shield_2" MtlFlags="130" Shader="Specialeffects" GenMask="256" SurfaceType="mat_alien_forcefield_warrior" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="28.1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams PlasmaScale="0.22" PlasmaSpeed="0.99000001" ElectricitySparksScale="1" ElectricitySparksNoise="0.5" ElectricitySparksSpeed="1" ElectricityVariation="2" ElectricityLifetime="8" OverallPlasmaStrenght="1.027" PlasmaThickness="0.94" MainPlasmaStrenght="0.12" BoltPlasmaStrenght="1.52" MainPlasmaColor="0,0.49803925,1" ElectricitySparksStrenght="1" BoltPlasmaColor="0,0.5,1" ElectricitySparksColor="0,0.5,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,53 @@
+#filepath = animations\alien\hunter
+$AnimEventDatabase = animations\alien\hunter\Hunter_EventDataBase.animevents
+$TracksDatabase = animations\alien\hunter\hunter.dba
+
+_HUNTER_ROTATE_01				=	hunter_rotate_01.lmg
+_HUNTER_ROTATEHIGH_01			=	hunter_rotateHigh_01.lmg
+_HUNTER_WALK_01				=	hunter_walk_01.lmg
+_HUNTER_WALKHIGH_01				=	hunter_walkHigh_01.lmg
+
+hunter_idle_01					=	hunter_idle_01.caf
+hunter_weaponAttack_MOAC_01			=	hunter_weaponAttack_MOAC_01.caf
+hunter_walk_forward_01				=	hunter_walk_forward_01.caf
+hunter_walkRotate_left_01				=	hunter_walkRotate_left_01.caf
+hunter_walkRotate_right_01			=	hunter_walkRotate_right_01.caf
+hunter_rotate_left_01				=	hunter_rotate_left_01.caf
+hunter_rotate_right_01				=	hunter_rotate_right_01.caf
+hunter_throwVTOL_01				=	hunter_throwVTOL_01.caf
+hunter_death_01					=	hunter_death_03.caf
+hunter_death_03					=	hunter_death_03.caf
+hunter_strafe_left_01				=	hunter_strafe_left_01.caf
+hunter_strafe_right_01				=	hunter_strafe_right_01.caf
+hunter_injuredScream_01				=	hunter_injuredScream_01.caf
+hunter_threaten_01				=	hunter_threaten_01.caf
+hunter_strafingFire_MOAC_01			=	hunter_strafingFire_01.caf
+
+hunter_look_left_01				=	hunter_look_left_01.caf
+hunter_look_right_01				=	hunter_look_right_01.caf
+
+Hunter_DeckIntroductionScene_01_A		=	Hunter_DeckIntroductionScene_01_A.caf
+Hunter_DeckIntroductionScene_01_B		=	Hunter_DeckIntroductionScene_01_B.caf
+
+hunter_throw_01					=	hunter_throw_01.caf
+hunter_throwHuman_01				=	hunter_throwHuman_01.caf
+
+hunter_walkHigh_forward_01			=	hunter_walkHigh_forward_01.caf
+hunter_walkHigh_forward_pose_01		=	hunter_walkHigh_forward_pose_01.caf
+hunter_idleHigh_01				=	hunter_idleHigh_01.caf
+hunter_walkRotateHigh_left_01			=	hunter_walkRotateHigh_left_01.caf
+hunter_walkRotateHigh_right_01		=	hunter_walkRotateHigh_right_01.caf
+hunter_rotateHigh_left_01			=	hunter_rotateHigh_left_01.caf
+hunter_rotateHigh_right_01			=	hunter_rotateHigh_right_01.caf
+hunter_injuredScreamHigh_01			=	hunter_injuredScreamHigh_01.caf
+
+hunter_deathHigh_01				=	hunter_deathHigh_01.caf
+hunter_highIdleToIdle_01			=	hunter_highIdleToIdle_01.caf
+hunter_idleToHighIdle_01			=	hunter_idleToHighIdle_01.caf
+hunter_weaponAttack_MOACHigh_01		=	hunter_weaponAttack_MOACHigh_01.caf
+hunter_throwHigh_01				=	hunter_throwHigh_01.caf
+hunter_throwHumanHigh_01			=	hunter_throwHumanHigh_01.caf
+hunter_idleAir_01				=	hunter_idleAir_01.caf
+hunter_melee_01				=	hunter_melee_01.caf
+cineSphere_hunterVTOLAttack_01		=	cineSphere_hunterVTOLAttack_01.caf
+hunter_regenerate_01			=	hunter_regenerate_01.caf

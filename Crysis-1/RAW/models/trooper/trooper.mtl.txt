@@ -1,0 +1,58 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="mat_alien_shell" Diffuse="0.58431375,0.58431375,0.58431375" Specular="0.70588237,0.70588237,0.70588237" Emissive="0,0,0" Shininess="5" Opacity="1" GlowAmount="10">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/textures/tropper.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/trooper/textures/tropper_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/trooper/textures/tropper_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/us/moar/textures/glow_anim8.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.38999999" TexMod_UOscillatorAmplitude="0.28"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.219" AnisotropicShape="0.574" ReflectionAmount="1.29" FresnelBias="0.426" FresnelScale="1" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="submtl2" MtlFlags="128" Shader="Illum" GenMask="268443792" SurfaceType="mat_alien_shell" Diffuse="0.28235295,0.35294119,0.56862748" Specular="0.37647063,0.43529415,0.50980395" Emissive="0,0,0" Shininess="4" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/textures/tropper.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/trooper/textures/tropper_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/trooper/textures/tropper_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/trooper/textures/trooper_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.61000001" FresnelScale="1" FresnelBias="0.19499999" ObmDisplacement="0.0040000002" PomDisplacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="glow" MtlFlags="130" Shader="Illum" GenMask="268435456" SurfaceType="mat_alien_shell" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="0.38" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/textures/tropper.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_shell" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

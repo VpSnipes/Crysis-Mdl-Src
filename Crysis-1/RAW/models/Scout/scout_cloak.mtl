@@ -1,0 +1,55 @@
+<Material MtlFlags="256" >
+ <SubMaterials >
+  <Material Diffuse="0.137255,0.137255,0.137255" Emissive="0,0,0" GenMask="3" GlowAmount="20" MtlFlags="2176" Name="scout_head" Opacity="1" Shader="Cloak" Shininess="1.5" Specular="2,2,2" SurfaceType="" >
+   <Textures >
+    <Texture File="objects/characters/alien/scout_rework/textures/scout_head_spec.tif" Filter="7" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/scout_rework/textures/scout_head_ddn.tif" Filter="7" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DifractionAmount="3.591" DifractionWrap="0" InterferenceSizeScale="0.39" InterferenceSpeedScale="0.04" RefrBumpScale="2" VertexDeformScale="0.614" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="0.219608,0.219608,0.219608" Emissive="0,0,0" GenMask="3" GlowAmount="5" MtlFlags="2176" Name="scout_body" Opacity="1" Shader="Cloak" Shininess="2" Specular="0.368627,0.368627,0.368627" SurfaceType="" >
+   <Textures >
+    <Texture File="objects/characters/alien/scout_rework/textures/scout_body.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/scout_rework/textures/scout_body_spec.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/scout_rework/textures/scout_body_ddn.tif" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/trooper/textures/trooper_env.tif" Map="Environment" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/hunter/hunter_leg_spec.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DifractionAmount="2.244" DifractionWrap="0" InterferenceSizeScale="0.43" InterferenceSpeedScale="0.08" RefrBumpScale="2" VertexDeformScale="0.614" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="0.152941,0.152941,0.152941" Emissive="0,0,0" GenMask="3" GlowAmount="10" MtlFlags="2176" Name="hunter_tentacles" Opacity="1" Shader="Cloak" Specular="0.458824,0.458824,0.458824" SurfaceType="" >
+   <Textures >
+    <Texture File="objects/characters/alien/hunter/hunter_leg_spec.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/characters/alien/hunter/hunter_leg_ddn.tif" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DifractionAmount="1.426" DifractionWrap="0" InterferenceSizeScale="0.34" InterferenceSpeedScale="0.06" RefrBumpScale="2" VertexDeformScale="0.416" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="0" MtlFlags="1152" Name="proxy" Opacity="1" Shader="Nodraw" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

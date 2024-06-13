@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\scout"/>
+		<Animation name="$TracksDatabase" path="animations\alien\scout\scout.dba"/>
+		<Animation name="fly_idle" path="movement/fly_idle.caf"/>
+		<Animation name="fly_idle_break_01" path="movement/fly_idle.caf"/>
+		<Animation name="fly_slow" path="movement/fly_slow.caf"/>
+		<Animation name="fly_fromFire_01" path="movement/fly_fromFire_01.caf"/>
+		<Animation name="fly_toFire_01" path="movement/fly_toFire_01.caf"/>
+		<Animation name="fly_fire_01" path="movement/fly_fire_01.caf"/>
+		<Animation name="fly_fire_02" path="movement/fly_fire_02.caf"/>
+		<Animation name="fly_fire_03" path="movement/fly_fire_03.caf"/>
+		<Animation name="fly_carrytrooper_01" path="movement/fly_carrytrooper_01.caf"/>
+		<Animation name="fly_droptrooper_01" path="movement/fly_droptrooper_01.caf"/>
+		<Animation name="fly_slow_ground_01" path="movement/fly_slow_ground_01.caf"/>
+		<Animation name="fly_lightHit_01" path="movement/fly_lightHit_01.caf"/>
+		<Animation name="fly_heavyHit_01" path="movement/fly_heavyHit_01.caf"/>
+		<Animation name="fly_heavyHit_left_01" path="movement/fly_heavyHit_left_01.caf"/>
+		<Animation name="fly_heavyHit_right_01" path="movement/fly_heavyHit_right_01.caf"/>
+		<Animation name="fly_rotate_left_01" path="movement/fly_rotate_left_01.caf"/>
+		<Animation name="fly_rotate_right_01" path="movement/fly_rotate_right_01.caf"/>
+		<Animation name="fly_dodge_left_01" path="movement/fly_dodge_left_01.caf"/>
+		<Animation name="fly_dodge_right_01" path="movement/fly_dodge_right_01.caf"/>
+		<Animation name="fly_grabLightobject_01" path="movement/fly_grabLightobject_01.caf"/>
+		<Animation name="fly_throwLightobject_01" path="movement/fly_throwLightobject_01.caf"/>
+		<Animation name="fly_readyTofly_01" path="movement/fly_readyTofly_01.caf"/>
+		<Animation name="fly_foundPlayer_01" path="movement/fly_foundPlayer_01.caf"/>
+		<Animation name="death_pose_back_01" path="movement/fly_idle.caf"/>
+		<Animation name="death_pose_front_01" path="movement/fly_idle.caf"/>
+		<Animation name="death_pose_left_01" path="movement/fly_idle.caf"/>
+		<Animation name="death_pose_right_01" path="movement/fly_idle.caf"/>
+		<Animation name="melee_attack_01" path="movement/fly_idle.caf"/>
+		<Animation name="melee_attack_02" path="movement/fly_idle.caf"/>
+		<Animation name="melee_attack_stab" path="movement/fly_idle.caf"/>
+		<Animation name="primary_weapon_fire_01" path="movement/fly_idle.caf"/>
+		<Animation name="primary_weapon_fire_02" path="movement/fly_idle.caf"/>
+		<Animation name="receive_damage_small_front" path="movement/fly_idle.caf"/>
+		<Animation name="receive_damage_large_front" path="movement/fly_idle.caf"/>
+		<Animation name="mask_close_01" path="movement/fly_idle.caf"/>
+		<Animation name="mask_open_full_01" path="movement/fly_idle.caf"/>
+		<Animation name="mask_open_half_01" path="movement/fly_idle.caf"/>
+		<Animation name="mask_open_idle" path="movement/fly_idle.caf"/>
+		<Animation name="scout_injuredFlyStorage_01" path="movement/fly_idle.caf"/>
+		<Comment value="scout_injuredFlyStorage_02			=	movement/fly_idle.caf"/>
+		<Comment value="scout_injuredFlyStorage_03			=	movement/fly_idle.caf"/>
+	</AnimationList>
+</Params>

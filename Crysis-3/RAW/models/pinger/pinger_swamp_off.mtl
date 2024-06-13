@@ -1,0 +1,66 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="body_map_1" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="60" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/pinger/textures/pinger_mi1_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/pinger/textures/pinger_mi1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/pinger/textures/pinger_mi1_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="0.2" SpecMapChannelG="1" FresnelScale="0.5" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="body_map_2" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="60" Opacity="1" HeatAmountScaled="64" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/pinger/textures/pinger_mi2_diff.dds"/>
+    <Texture Map="Specular" File="objects/characters/alien/pinger/textures/pinger_mi2_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/pinger/textures/pinger_mi2_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="0.2" SpecMapChannelG="1" FresnelScale="0.5" FresnelBias="1" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="shield" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="60" Opacity="1" HeatAmountScaled="50" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/pinger/textures/pinger_shields_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/pinger/textures/pinger_shields_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/pinger/textures/pinger_shields_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="nodraw_nophys" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="400000000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="30" Opacity="1" HeatAmountScaled="255" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/pinger/textures/pinger_glow_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/pinger/textures/pinger_glow_ddn.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow_effect" MtlFlags="524454" Shader="Illum" GenMask="400000000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.5,0.00010718736,2.6921754e-005" Specular="0,0,0" Emissive="1,1,1" Shininess="30" Opacity="0.98799998" GlowAmount="9.1999998" HeatAmountScaled="255" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/pinger/textures/pinger_glow_effect_diff.tif">
+     <TexMod OffsetU="0.0099999998" TexMod_UOscillatorType="4" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="10" TexMod_VOscillatorPhase="10" TexMod_UOscillatorAmplitude="0.001" TexMod_VOscillatorAmplitude="0.039999999"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/defaults/water_droplets.dds">
+     <TexMod TexMod_UOscillatorRate="20.700001" TexMod_VOscillatorRate="22.6"/>
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/alien/pinger/textures/pinger_glow_diff.tif"/>
+    <Texture Map="Decal" File="objects/characters/alien/pinger/textures/pinger_glow_effect_spec.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-10" TexMod_UOscillatorAmplitude="0.02" TexMod_VOscillatorAmplitude="0.1"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" DividerW="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="8" Amp="0" Level="0" Phase="2.5" Freq="5"/>
+    <WaveY Type="8" Amp="0" Level="0" Phase="0" Freq="0"/>
+    <WaveZ Type="8" Amp="0" Level="0" Phase="0" Freq="0"/>
+    <WaveW Type="8" Amp="13.2" Level="22" Phase="14.5" Freq="0"/>
+   </VertexDeform>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_weakspot" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_pinger_weakspot" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

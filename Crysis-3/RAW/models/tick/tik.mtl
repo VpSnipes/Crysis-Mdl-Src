@@ -1,0 +1,49 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="8000A" StringGenMask="%ALPHAGLOW%ANISO_SPECULAR%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="95" Opacity="1" GlowAmount="12" HeatAmountScaled="48">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_body_spec.tif">
+     <TexMod TexMod_RotateType="51" TexMod_TexGenType="70"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_body_ddn.tif">
+     <TexMod TexMod_RotateType="51" TexMod_TexGenType="70"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="1" GlossMapChannelB="0" AnisotropicShape="0.60100001" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="7.4000001" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shell" MtlFlags="524416" Shader="Illum" GenMask="82000" StringGenMask="%DETAIL_BUMP_MAPPING%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="60" Opacity="1" HeatAmountScaled="48">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_shell_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_shell_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_shell_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/screencondensation.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="1" DetailBumpTillingU="1" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="0.69999999" DetailBumpTillingV="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chrome" MtlFlags="524416" Shader="Illum" GenMask="8000A" StringGenMask="%ALPHAGLOW%ANISO_SPECULAR%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="95" Opacity="1" HeatAmountScaled="48">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_body_diff.dds"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_body_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="1" GlossMapChannelB="0" AnisotropicShape="0.60100001" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="11.23" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sack" MtlFlags="524416" Shader="Humanskin" GenMask="80000000000" StringGenMask="%MULTILAYER" SurfaceType="" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.34886485,0.48195225,0.49950528" Emissive="0.027755279,0.027755279,0.027755279" Shininess="100" Opacity="1" AlphaTest="0.1" HeatAmountScaled="58">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/sack_inf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/sack_inf_ddn.tif"/>
+    <Texture Map="SubSurface" File="objects/characters/alien/tick/textures/sack_inf_sss.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/infected/slime/slime_inf_ramp.tif"/>
+   </Textures>
+   <PublicParams SpecularStrenght="0.80900002" InnerLayerAnimFreq="1.66" FresnelPower="1" InnerLayerDiffuse="0.40454084,0.13035227,0.19397216" DiffusionAmount="0.59100002" SubsurfaceStrenght="1" Melanin="0" RimStrenght="0" FresnelScale="2" FresnelBias="0.1" OutterLayerOpacity="0.37900001" InnerLayerAnimPhase="1" InnerLayerDepth="11.84" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="phys_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="phys_biomass" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_biomass" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

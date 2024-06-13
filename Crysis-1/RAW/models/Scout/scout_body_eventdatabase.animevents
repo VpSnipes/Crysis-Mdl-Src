@@ -1,0 +1,27 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="4.0046549e-026" parameter="" bone="" offset="4.0046549e-026,1.4321506e-038,1.43215e-038" dir="4.0046549e-026,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.242471e-038" parameter="" bone="" offset="2.242471e-038,1.7400427e-039,1.7400371e-039" dir="2.242471e-038,1.7400427e-039,1.7400371e-039"/>
+  <event name="" time="2.866871e-020" parameter="" bone="" offset="2.866871e-020,1.7400427e-039,1.7400371e-039" dir="2.866871e-020,1.7400427e-039,1.7400371e-039"/>
+  <event name="" time="3.3037036e-028" parameter="" bone="" offset="3.3037036e-028,1.7400427e-039,1.7400371e-039" dir="3.3037036e-028,1.7400427e-039,1.7400371e-039"/>
+  <event name="" time="1.7398914e-039" parameter="" bone="" offset="9.2224048e-039,9.0926334e-039,1.4012985e-045" dir="9.2224048e-039,9.0926334e-039,1.4012985e-045"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_dodge_left_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:scout:acceleration_tentacle" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_dodge_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:scout:acceleration_tentacle" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_droptrooper_02.caf">
+  <event name="ObjectThrown" time="0.97799999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_heavyhit_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:scout:acceleration_tentacle" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_readytofly_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:scout:acceleration_tentacle" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/scout/movement/fly_throwlightobject_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:scout:acceleration_tentacle" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

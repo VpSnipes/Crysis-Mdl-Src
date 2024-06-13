@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\AlienBase"/>
+		<Animation name="$TracksDatabase" path="animations\alien\alienbase\alienbase.dba"/>
+		<Animation name="$AnimEventDatabase" path="objects\Characters\Alien\AlienBase\alienbase_EventDataBase.animevents"/>
+		<Comment value="-------VertAlerted----------"/>
+		<Animation name="alien_idleVert_alerted_01" path="alien_idleVert_fast_01.caf"/>
+		<Animation name="alien_vertThreaten_01" path="alien_vertThreaten_01.caf"/>
+		<Comment value="------VertRelaxed"/>
+		<Animation name="alien_idleVert_relaxed_01" path="alien_idleVert_slow_01.caf"/>
+		<Comment value="-----Combats"/>
+		<Animation name="alien_meleeRollOutFinishBender_01" path="alien_meleeRollOutFinishBender_01.caf"/>
+		<Animation name="alien_meleeAttackBender_01" path="alien_meleeAttackBender_01.caf"/>
+		<Comment value="------Prones"/>
+		<Animation name="alien_flyProneIdle_slow_01" path="alien_flyProneIdle_slow_01.caf"/>
+		<Animation name="alien_flyProneIdle_fast_01" path="alien_flyProneIdle_fast_01.caf"/>
+		<Animation name="alien_flyProne_forward_slow_01" path="alien_flyProne_forward_slow_01.caf"/>
+		<Animation name="alien_flyProne_forward_fast_01" path="alien_flyProne_forward_fast_01.caf"/>
+		<Animation name="alien_flyProne_forward_fast_02" path="alien_flyProne_forward_fast_02.caf"/>
+		<Animation name="alien_flyProneAttack_forward_fast_01" path="alien_flyProneAttack_forward_fast_01.caf"/>
+		<Animation name="alien_idleAim_01" path="alien_idleAim_01.caf"/>
+		<Animation name="alien_flyProneAim_forward_fast_01" path="alien_flyProneAim_forward_fast_01.caf"/>
+		<Animation name="alien_flyProneAim_forward_slow_01" path="alien_flyProneAim_forward_slow_01.caf"/>
+		<Animation name="alien_proneThreaten_01" path="alien_proneThreaten_01.caf"/>
+		<Animation name="alien_flyProne_forward_slow_02" path="alien_flyProne_forward_slow_02.caf"/>
+		<Comment value="-------TransitionsFrom VertToProne and ProneToVert"/>
+		<Comment value="------Misc and Jobs"/>
+		<Animation name="alien_replaceMe_01" path="alien_replaceMe_01.caf"/>
+		<Animation name="alien_subservientBow_01" path="alien_subservientBow_01.caf"/>
+		<Animation name="alien_hologramUsageDanceStart_01" path="alien_hologramUsageDanceStart_01.caf"/>
+		<Animation name="alien_hologramUsageDanceLoop_01" path="alien_hologramUsageDanceLoop_01.caf"/>
+		<Animation name="alien_hologramUsageDanceEnd_01" path="alien_hologramUsageDanceEnd_01.caf"/>
+		<Animation name="alien_inspectingObjectStart_01" path="alien_inspectingObjectStart_01.caf"/>
+		<Animation name="alien_inspectingObjectLoop_01" path="alien_inspectingObjectLoop_01.caf"/>
+		<Animation name="alien_inspectingObjectEnd_01" path="alien_inspectingObjectEnd_01.caf"/>
+		<Animation name="alien_carryObjectWithBracerDrop_01" path="alien_carryObjectWithBracerDrop_01.caf"/>
+		<Animation name="alien_carryObjectWithBracerPickUp_01" path="alien_carryObjectWithBracerPickUp_01.caf"/>
+		<Animation name="alien_grabbed_struggle_01" path="alien_grabbed_struggle_01.caf"/>
+		<Animation name="Alien_cineCore_AlienReveal_01" path="Alien_cineCore_AlienReveal_01.caf"/>
+		<Comment value="-----OLD ANIMATIONS TO BE DELETED"/>
+		<Comment value="alien_cower_01						=	alien_cower_01.caf"/>
+		<Comment value="alien_flyProneCarryObject_forward_fast_01		=	alien_flyProneCarryObject_forward_fast_01.caf"/>
+		<Comment value="alien_flyProneCarryObject_forward_slow_01  	=	alien_flyProneCarryObject_forward_slow_01.caf"/>
+		<Comment value="alien_flyProneIdleCarryObject_slow_01		=	alien_flyProneIdleCarryObject_slow_01.caf"/>
+		<Comment value="alien_enemyLocated_01					=	alien_enemyLocated_01.caf"/>
+		<Comment value="alien_fireWeaponVert01_01				=	alien_fireWeaponVert01_01.caf"/>
+		<Comment value="alien_hitProne_front_01					=	alien_hitProne_front_01.caf"/>
+		<Comment value="alien_hitVert_right_01					=	alien_hitVert_right_01.caf"/>
+		<Comment value="alien_idleFlyProne_01					=	alien_idleFlyProne_01.caf"/>
+		<Comment value="alien_idleVert_01						=	alien_idleVert_01.caf"/>
+		<Comment value="alien_bracerActivateObject_01			=	alien_bracerActivateObject_01.caf"/>
+		<Comment value="alien_carryObjectWithBracerLoop_01			=	alien_carryObjectWithBracerLoop_01.caf"/>
+		<Comment value="alien_vertToProne_slow_01				=	alien_vertToProne_slow_01.caf"/>
+		<Comment value="alien_vertToProne_fast_01				=	alien_vertToProne_fast_01.caf"/>
+		<Comment value="alien_proneToVert_relaxed_01				=	alien_proneToVert_slow_01.caf"/>
+		<Comment value="alien_proneToVert_alerted_01				=	alien_proneToVert_fast_01.caf"/>
+		<Comment value="alien_proneToVertFollowThrough_fast_01		=	alien_proneToVertFollowThrough_fast_01.caf"/>
+		<Comment value="alien_proneToVertFollowThrough_slow_01		=	alien_proneToVertFollowThrough_slow_01.caf"/>
+		<Comment value="alien_proneToMelee_01					=	alien_proneToMelee_01.caf"/>
+		<Comment value="alien_melee_01						=	alien_melee_01.caf"/>
+		<Comment value="alien_melee_02						=	alien_melee_02.caf"/>
+		<Comment value="alien_melee_03						=	alien_melee_03.caf"/>
+		<Comment value="alien_proneToThreatenLoop_01				=	alien_proneToThreatenLoop_01.caf"/>
+		<Comment value="alien_meleeThreatenLoop_01				=	alien_meleeThreatenLoop_01.caf"/>
+		<Comment value="alien_meleeAttack_01					=	alien_meleeAttack_01.caf"/>
+		<Comment value="alien_meleeRollOutFinish_01				=	alien_meleeRollOutFinish_01.caf"/>
+		<Comment value="alien_meleeRollOutFinish_02				=	alien_meleeRollOutFinish_02.caf"/>
+		<Comment value="alien_flyProne_forward_slowSmall_01			=	alien_flyProne_forward_slowSmall_01.caf"/>
+		<Comment value="alien_flyProne_forward_slow_03			=	alien_flyProne_forward_slow_03.caf"/>
+		<Comment value="alien_flyProneEnemyLost_01				=	alien_proneEnemyLost_01.caf"/>
+		<Comment value="alien_vertListen_01					=	alien_vertListen_01.caf"/>
+		<Comment value="alien_idleVertAim_alerted_01			=	alien_idleVertAim_alerted_01.caf"/>
+		<Comment value="alien_vertEnemyLost_01					=	alien_vertEnemyLost_01.caf"/>
+		<Comment value="alien_fireWeaponVert_01					=	alien_fireWeaponVert_01.caf"/>
+		<Comment value="alien_toFireWeaponVert_01				=	alien_toFireWeaponVert_01.caf"/>
+		<Comment value="alien_fromFireWeaponVert_01				=	alien_fromFireWeaponVert_01.caf"/>
+		<Comment value="alien_idleVert_slow_02					=	alien_idleVert_slow_02.caf"/>
+		<Comment value="alien_meleeToProne_01					=	alien_meleeToProne_01.caf"/>
+	</AnimationList>
+</Params>

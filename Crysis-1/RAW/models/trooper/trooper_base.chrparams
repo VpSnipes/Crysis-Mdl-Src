@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\trooper"/>
+		<Animation name="$TracksDatabase" path="animations\alien\trooper\trooper.dba"/>
+		<Animation name="$Include" path="objects\characters\alien\trooper\trooper.chrparams"/>
+	</AnimationList>
+</Params>

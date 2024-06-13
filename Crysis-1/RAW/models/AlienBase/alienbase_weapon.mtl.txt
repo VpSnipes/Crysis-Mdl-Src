@@ -1,0 +1,16 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" GenMask="1" MtlFlags="128" Name="alienbase_weapon" Opacity="1" Shader="Illum" Shininess="9.999999" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="objects/characters/alien/alienbase/alienbase_weapon.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+  </Material>
+  <Material Diffuse="0.59607846,0,0" Emissive="0,0,0" GenMask="0" MtlFlags="1152" Name="alienproxy" Opacity="0.50999999" Shader="Nodraw" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+</Material>

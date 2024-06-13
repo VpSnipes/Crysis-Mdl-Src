@@ -1,0 +1,57 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.4967294e-027" parameter="" bone="" offset="2.4967294e-027,1.4321506e-038,1.43215e-038" dir="2.4967294e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.7233543e-027" parameter="" bone="" offset="2.7233543e-027,1.4321506e-038,1.43215e-038" dir="2.7233543e-027,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_fast_01.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:naked_alien:move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_fast_02.caf">
+  <event name="sound" time="0" parameter="Sounds/alien:naked_alien:move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_slow_01.caf">
+  <event name="sound" time="0.22348" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.71586001" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_slow_02.caf">
+  <event name="sound" time="0.26010001" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.72324002" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_slow_03.caf">
+  <event name="sound" time="0.28781" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.78320003" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyprone_forward_slowsmall_01.caf">
+  <event name="sound" time="0.36414999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.85492003" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyproneaim_forward_slow_01.caf">
+  <event name="sound" time="0.27447999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.76524001" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_flyproneattack_forward_fast_01.caf">
+  <event name="sound" time="0.4799" parameter="Sounds/alien:naked_alien:move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_grabbed_struggle_01.caf">
+  <event name="sound" time="0.0074900002" parameter="Sounds/alien:naked_alien:choke" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_meleerolloutfinish_01.caf">
+  <event name="sound" time="0.10547" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_meleerolloutfinish_02.caf">
+  <event name="sound" time="0.13937999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_meleerolloutfinishbender_01.caf">
+  <event name="sound" time="0.12915" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_vertenemylost_01.caf">
+  <event name="sound" time="0.02503" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.33039999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_verttoprone_fast_01.caf">
+  <event name="sound" time="0.056219999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/alienbase/alien_verttoprone_slow_01.caf">
+  <event name="sound" time="0.30994999" parameter="Sounds/alien:naked_alien:move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

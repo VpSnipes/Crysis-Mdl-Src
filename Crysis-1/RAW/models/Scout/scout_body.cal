@@ -1,0 +1,45 @@
+#filepath = animations\alien\scout
+$TracksDatabase = animations\alien\scout\scout.dba
+$AnimEventDatabase = Objects\Characters\Alien\Scout\scout_body_EventDataBase.animevents
+
+fly_idle							=	movement/fly_idle.caf
+fly_slow							=	movement/fly_slow.caf
+fly_fromFire_01						=	movement/fly_fromFire_01.caf
+fly_toFire_01						=	movement/fly_toFire_01.caf
+fly_fire_01							=	movement/fly_fire_01.caf
+fly_carrytrooper_01					=	movement/fly_carrytrooper_01.caf
+fly_droptrooper_01					=	movement/fly_droptrooper_01.caf
+fly_carrytrooper_02					=	movement/fly_carrytrooper_02.caf
+fly_droptrooper_02					=	movement/fly_droptrooper_02.caf
+fly_slow_ground_01					=	movement/fly_slow_ground_01.caf
+fly_lightHit_01						=	movement/fly_lightHit_01.caf
+fly_heavyHit_01						=	movement/fly_heavyHit_01.caf
+fly_heavyHit_left_01					=	movement/fly_heavyHit_left_01.caf
+fly_heavyHit_right_01					=	movement/fly_heavyHit_right_01.caf
+fly_rotate_left_01					=	movement/fly_rotate_left_01.caf
+fly_rotate_right_01					=	movement/fly_rotate_right_01.caf
+fly_dodge_left_01						=	movement/fly_dodge_left_01.caf
+fly_dodge_right_01					=	movement/fly_dodge_right_01.caf
+fly_grabLightobject_01					=	movement/fly_grabLightobject_01.caf
+fly_throwLightobject_01					=	movement/fly_throwLightobject_01.caf
+fly_readyTofly_01						=	movement/fly_readyTofly_01.caf
+fly_foundPlayer_01					=	movement/fly_foundPlayer_01.caf
+//fly_idle_injured_01					=	movement/fly_idle_injured_01.caf
+
+primary_weapon_fire_01					=	movement/fly_idle.caf
+primary_weapon_fire_02					=	movement/fly_idle.caf
+
+receive_damage_small_front				=	movement/fly_idle.caf
+receive_damage_large_front				=	movement/fly_idle.caf
+
+mask_close_01						=	movement/fly_idle.caf
+mask_open_full_01						=	movement/fly_idle.caf
+mask_open_half_01						=	movement/fly_idle.caf
+mask_open_idle						=	movement/fly_idle.caf
+
+scout_injuredFlyStorage_01				=	movement/scout_injuredFlyStorage_01.caf
+
+cineIsland_ab6_ScoutBoatAttack			=	movement/cineIsland_ab6_ScoutBoatAttack.caf
+cineFleet_ab1_scoutHitByElectricity			=	movement/cineFleet_ab1_scoutHitByElectricity.caf
+cineFleet_ab1_scoutHitByElectricity_pose		=	movement/cineFleet_ab1_scoutHitByElectricity_pose.caf
+cineFleet_ab1_scoutHitByElectricity_endPose	=	movement/cineFleet_ab1_scoutHitByElectricity_endPose.caf

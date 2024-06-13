@@ -1,0 +1,21 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="0.67450982,0.65098041,0.50196081" Emissive="0,0,0" GenMask="1" GlowAmount="1.12" MtlFlags="8320" Name="Body" Opacity="1" Shader="Illum" Shininess="9.999999" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="objects/characters/alien/alienbase/basealien.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" DebugUVScale="64" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+  </Material>
+  <Material Diffuse="0.588,0.588,0.588" Emissive="0,0,0" GenMask="1" MtlFlags="128" Name="Eyes" Opacity="0.5" Shader="Illum" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="objects/characters/alien/alienbase/basealien.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" DebugUVScale="64" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+</Material>

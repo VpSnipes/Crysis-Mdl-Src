@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Params>
+	<IK_Definition>
+	</IK_Definition>
+
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\Alien\pinger_MP\hatch"/>
+		<Animation name="*" path="*.caf"/>
+	</AnimationList>
+</Params>

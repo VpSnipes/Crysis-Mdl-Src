@@ -1,0 +1,16 @@
+<Material MtlFlags="4718848">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="524416" Shader="Illum" GenMask="400000010200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.23099814,0.23099814,0.23099814" Specular="0.288816,0.32038158,0.35865393" Emissive="0,0,0" Shininess="134" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_tp.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_tp_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1.0599999" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.65600002" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.80000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.0025858255,0.44787085,1" Specular="0.32972905,0.32972905,0.32972905" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

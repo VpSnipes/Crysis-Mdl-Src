@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/alien/heavy_jelly_destroyed_mike"/>
+		<Animation name="*" path="*.caf"/>
+	</AnimationList>
+</Params>

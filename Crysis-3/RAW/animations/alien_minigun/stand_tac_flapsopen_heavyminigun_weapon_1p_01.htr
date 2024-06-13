@@ -1,0 +1,78 @@
+#Comment line ignore any data following # character 
+#Hierarchical Translation and Rotation (.htr) file 
+[Header]	
+#Header keywords are followed by a single value 
+FileType HTR		#Single word string
+DataType HTRS		#Translation followed by rotation and scale data
+FileVersion 1		#integer
+NumSegments 14		#integer
+NumFrames 1		#integer
+DataFrameRate 30		#integer, data frame rate in this file
+EulerRotationOrder ZYX
+CalibrationUnits mm
+RotationUnits Degrees
+GlobalAxisofGravity Y
+BoneLengthAxis Y
+ScaleFactor 1.00
+[SegmentNames&Hierarchy]
+#CHILD	PARENT
+MASTER GLOBAL
+weapon MASTER
+barrel_root weapon
+middle_left_energyLow_part1 weapon
+middle_left_energyLow_part2 weapon
+middle_left_root weapon
+middle_right_energyLow_part1 weapon
+middle_top weapon
+barrel1_top_root barrel_root
+barrel2_top_root barrel_root
+barrel3_top_root barrel_root
+barrel1_top_back barrel1_top_root
+barrel2_top_back barrel2_top_root
+barrel3_top_back barrel3_top_root
+[BasePosition]
+#SegmentName Tx, Ty, Tz, Rx, Ry, Rz, BoneLength
+MASTER 0.000000 0.000000 0.000000 -90.000000 0.000000 0.000000 10.000000 
+weapon 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel_root 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+middle_left_energyLow_part1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+middle_left_energyLow_part2 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+middle_left_root 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+middle_right_energyLow_part1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+middle_top 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel1_top_root 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel2_top_root 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel3_top_root 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel1_top_back 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel2_top_back 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+barrel3_top_back 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 10.000000 
+#Beginning of Data. Separated by tabs
+#Fr	Tx	Ty	Tz	Rx	Ry	Rz	SF
+[MASTER]
+1 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+[weapon]
+1 0.000000 -104.980476 30.104597 0.000000 -0.000000 0.000000 109.211662
+[barrel_root]
+1 0.000038 -0.000089 0.000075 0.000000 -0.000000 0.000000 0.000122
+[middle_left_energyLow_part1]
+1 -0.000015 -0.000076 0.000075 0.000000 -0.000000 0.000000 0.000108
+[middle_left_energyLow_part2]
+1 0.000015 -0.000076 0.000224 0.000000 -0.000000 0.000000 0.000237
+[middle_left_root]
+1 0.000000 -0.000076 0.000156 0.000002 -49.999958 180.000000 0.000174
+[middle_right_energyLow_part1]
+1 0.000000 0.000076 0.000000 -0.000025 -0.000014 -180.000000 0.000076
+[middle_top]
+1 -0.000038 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000038
+[barrel1_top_root]
+1 0.000000 0.000000 -0.000076 0.000000 -0.000000 0.000000 0.000076
+[barrel2_top_root]
+1 0.000019 0.000000 0.000076 -180.000000 -54.999870 179.999969 0.000079
+[barrel3_top_root]
+1 -0.000038 -0.000075 0.000000 -179.999939 54.999973 -179.999847 0.000084
+[barrel1_top_back]
+1 -0.000076 -0.000305 -0.000149 -34.999977 -0.000006 -0.000020 0.000348
+[barrel2_top_back]
+1 -0.000153 -0.000149 -0.000164 -50.000050 -0.000009 -0.000019 0.000269
+[barrel3_top_back]
+1 -0.000076 -0.000075 0.000298 -39.999943 -0.000007 -0.000019 0.000317

@@ -1,0 +1,20 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="trooper" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_rough" Diffuse="0.50588238,0.50588238,0.50588238" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1" AlphaTest="0.228">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/textures/trooper_shell.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

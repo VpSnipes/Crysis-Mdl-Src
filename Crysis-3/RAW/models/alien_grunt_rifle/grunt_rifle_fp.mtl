@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="main_a" MtlFlags="524416" Shader="Illum" GenMask="400000090202" StringGenMask="%ALPHAGLOW%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.04614884,0.04614884,0.04614884" Specular="0.19046287,0.24680044,0.31576276" Emissive="0,0,0" Shininess="233" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/grunt_rifle/textures/main_a.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/alien/grunt_rifle/textures/main_a_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/grunt_rifle/textures/main_a_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/grunt_rifle/textures/main_a_glow.tif">
+     <TexMod TexMod_UOscillatorRate="3" TexMod_VOscillatorRate="3" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="3" TexMod_VOscillatorAmplitude="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="1" FresnelBias="0.461" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="main_b" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.04614884,0.04614884,0.04614884" Specular="0.19046287,0.24680044,0.31576276" Emissive="0,0,0" Shininess="233" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/grunt_rifle/textures/main_b.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/alien/grunt_rifle/textures/main_b_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/grunt_rifle/textures/main_b_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Detail" File="d"/>
+    <Texture Map="Decal" File="objects/weapons/alien/grunt_rifle/textures/main_b_glow.tif">
+     <TexMod TexMod_UOscillatorRate="0.5" TexMod_VOscillatorRate="0.5" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.43599999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="main_c" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.04614884,0.04614884,0.04614884" Specular="0.19046287,0.24680044,0.31576276" Emissive="0,0,0" Shininess="233" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/grunt_rifle/textures/main_c.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/alien/grunt_rifle/textures/main_c_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/grunt_rifle/textures/main_c_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/grunt_rifle/textures/main_c_glow.tif">
+     <TexMod TexMod_UOscillatorRate="22" TexMod_VOscillatorRate="22" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="22" TexMod_VOscillatorAmplitude="22"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.433" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

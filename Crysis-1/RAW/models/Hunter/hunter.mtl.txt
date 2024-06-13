@@ -1,0 +1,113 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Base" MtlFlags="128" Shader="Metal" GenMask="268443952" SurfaceType="mat_metal" Diffuse="0.26274511,0.28235295,0.32941177" Specular="0.35294119,0.3921569,0.47058827" Emissive="0,0,0" Shininess="5" Opacity="1" GlowAmount="8">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.189" AnisotropicShape="0.64399999" ReflectionAmount="0.25" FresnelBias="0.20200001" FresnelScale="1" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="Pattern" MtlFlags="128" Shader="Metal" GenMask="268443920" SurfaceType="mat_metal" Diffuse="0.30980393,0.32941177,0.38431376" Specular="0.35294119,0.3921569,0.47058827" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter_pattern.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_pattern_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_pattern_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="textures/alien_level_texture/glow_stencils/glow_gradient_soft.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="10.1" TexMod_VOscillatorRate="11.9" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.189" AnisotropicShape="0.64399999" ReflectionAmount="0.25" FresnelBias="0.20200001" FresnelScale="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="Legs" MtlFlags="128" Shader="Metal" GenMask="268443952" SurfaceType="mat_metal" Diffuse="0.21960786,0.2392157,0.27058825" Specular="0.35294119,0.3921569,0.47058827" Emissive="0,0,0" Shininess="4.5500002" Opacity="1" GlowAmount="8">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/hunter_leg.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/hunter/hunter_leg_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/hunter/hunter_leg_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.27500001" AnisotropicShape="0.61400002" ReflectionAmount="0.25" FresnelBias="0.20200001" FresnelScale="1" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterLegs" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_hunter_leg" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterTorso" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_hunter_torso" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+  <Material Name="HunterCockpit" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_hunter_head" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+  <Material Name="glow1" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_nodraw" Diffuse="0.96862751,0.96862751,0.96862751" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="44.400002">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/weak_spot_b.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/us/moar/textures/glow_anim5.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.41" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="glow_2" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_nodraw" Diffuse="0.18431373,0.15686275,0.13333334" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="8">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/hunter/weak_spot.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/us/moar/textures/glow_anim5.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_VOscillatorRate="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="weak_point" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_alien_hunter_vulnerable" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="SubMtl10" MtlFlags="130" Shader="Specialeffects" GenMask="256" SurfaceType="" Diffuse="0.015686275,0.52156866,0.79215693" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams PlasmaScale="2" PlasmaSpeed="0.80000001" ElectricitySparksScale="1" ElectricitySparksNoise="0.5" ElectricitySparksSpeed="1" ElectricityVariation="2" ElectricityLifetime="8" OverallPlasmaStrenght="1" PlasmaThickness="2" MainPlasmaStrenght="0.2" BoltPlasmaStrenght="1" MainPlasmaColor="0,0.5,1" ElectricitySparksStrenght="1" BoltPlasmaColor="0,0.5,1" ElectricitySparksColor="0,0.5,1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

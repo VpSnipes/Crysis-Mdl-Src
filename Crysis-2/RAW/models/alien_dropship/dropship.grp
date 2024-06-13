@@ -1,0 +1,134 @@
+<Objects>
+ <Object Type="Brush" Layer="Main" Id="{04FC3F06-4534-4BF6-AD8F-314F019EE86E}" Name="pod29" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="5.5126953,-1.0747681,-0.96089554" FloorNumber="-1" Rotate="0.99452192,9.9993203e-010,0.10452845,-4.8674915e-011" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="Brush" Layer="Main" Id="{2B9E5D8E-58F4-4BC3-A4D8-9635A8A28EB2}" Name="pod30" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="3.0311279,-0.96594238,-0.63985062" FloorNumber="-1" Rotate="0.99965733,5.3311877e-010,0.026176937,9.313081e-009" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="Brush" Layer="Main" Id="{5FA6B2FF-B80F-4D06-996F-B0FA379CCF7A}" Name="pod31" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="0.44177246,-0.88641357,-0.70890045" FloorNumber="-1" Rotate="0.99965733,4.8758352e-011,-0.026176941,1.8620068e-009" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="Brush" Layer="Main" Id="{197DCDF6-4F79-416E-B91F-8BE0160CB64D}" Name="pod26" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="5.5129395,1.0362549,-0.96089554" FloorNumber="-1" Rotate="0.99452192,-8.5250917e-010,0.10452845,-4.8674908e-011" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="Brush" Layer="Main" Id="{EA7FB960-39D0-46A2-A94B-8633CD0785FE}" Name="pod27" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="3.0313721,1.1450806,-0.63985062" FloorNumber="-1" Rotate="0.99965733,5.3311877e-010,0.026176937,9.313081e-009" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="Brush" Layer="Main" Id="{674644B2-DBDA-4BBE-9E13-EB9B324E0494}" Name="pod28" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="0.44189453,1.2245483,-0.70890045" FloorNumber="-1" Rotate="0.99965733,4.8758352e-011,-0.026176941,1.8620068e-009" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\vehicles\alien\dropship\pod.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+ <Object Type="GeomEntity" Layer="Main" Id="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Name="dropship_final_newUVs16" Pos="1480.9476,820.6073,49.261898" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Material="Objects/vehicles/alien/dropship/dropship" MatLayersMask="0" Geometry="objects/vehicles/alien/dropship/dropship.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity">
+  <Properties eiSpecies="-1">
+   <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{3B275A9C-17CC-4ECB-979E-CD1549BBC20C}" Name="Light67" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-2.84729,3.7974854,-5.7167454" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="1.6">
+   <Color clrDiffuse="0.804559,0.133209,0.00552174" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{DCC61976-6D8D-46EA-9EBE-EF62C67E4C80}" Name="Light59" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-4.9875488,-1.5540771,-4.2848797" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.8">
+   <Color clrDiffuse="0.804559,0.133209,0.00552174" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{56AEE8DD-FD87-47C1-AEC8-E47270CE9E9A}" Name="Light68" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-4.923584,1.5717163,-4.324543" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.8">
+   <Color clrDiffuse="0.804559,0.133209,0.00552174" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{E0E5EB75-036D-4165-8FCA-1C1A4FE1D0D3}" Name="Light58" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-2.9698486,-3.7479858,-5.7167454" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="1.6">
+   <Color clrDiffuse="0.804559,0.133209,0.00552174" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{4B32F460-1707-426A-A7C8-E3D47926A7B8}" Name="Light66" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-0.41552734,3.9071045,0.35773468" FloorNumber="-1" Rotate="0.99619472,0,0,0.087155744" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="1.6">
+   <Color clrDiffuse="0.835528,0.259027,0.00369724" fDiffuseMultiplier="546.3" fHDRDynamic="0" fSpecularMultiplier="115.8"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{0F1415C8-620F-49DA-9C19-1168BFAB90A3}" Name="Light64" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="0.064941406,-3.800415,0.22111893" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="1.6">
+   <Color clrDiffuse="0.835528,0.259027,0.00369724" fDiffuseMultiplier="546" fHDRDynamic="0" fSpecularMultiplier="200"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{7EEC2DC6-D577-4941-BAC8-5FC8ACE2D69A}" Name="Light65" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="10.504883,-0.085876465,-0.32802582" FloorNumber="-1" Rotate="2.9802322e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="1.3">
+   <Color clrDiffuse="0.835528,0.259027,0.00369724" fDiffuseMultiplier="467.4" fHDRDynamic="0" fSpecularMultiplier="520.7"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{BACFA27B-8F7E-4707-98B3-2F6E2D035415}" Name="Light62" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-5.8317871,0.58880615,-1.4459152" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.9">
+   <Color clrDiffuse="1,0,0" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{FC1151FD-220C-4862-A35E-A13183AB9079}" Name="Light63" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-5.7963867,1.1629639,-2.1649151" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.9">
+   <Color clrDiffuse="1,0,0" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{0BAECCBD-15B3-47FE-BF27-CF433DCB70C1}" Name="Light60" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-5.7736816,-0.60333252,-1.5114822" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.9">
+   <Color clrDiffuse="1,0,0" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{53652B54-4239-4033-B516-89F19F14D14C}" Name="Light61" Parent="{194BB1D6-C62C-4618-A517-45BDFE253FED}" Pos="-5.7525635,-1.2175293,-2.159462" FloorNumber="-1" Rotate="0.99904823,0,0,0.043619387" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light">
+  <Properties bActive="1" Radius="0.9">
+   <Color clrDiffuse="1,0,0" fDiffuseMultiplier="28.3" fHDRDynamic="0" fSpecularMultiplier="30"/>
+   <Options bAffectsThisAreaOnly="1" bCastShadow="0" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" bIrradianceVolumes="0" nPostEffect="0" bUsedInRealTime="1"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+    <Rotation x="0" y="0" z="0"/>
+   </Style>
+   <Test bFillLight="0" bNegativeLight="0"/>
+  </Properties>
+ </Object>
+</Objects>

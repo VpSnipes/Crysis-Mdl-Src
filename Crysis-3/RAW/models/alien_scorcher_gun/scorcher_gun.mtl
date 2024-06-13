@@ -1,0 +1,38 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="mat1" MtlFlags="524416" Shader="Illum" GenMask="400000090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.13320851,0.13320851,0.13320851" Specular="0.09387587,0.11129942,0.13609855" Emissive="0,0,0" Shininess="220" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/scorcher_gun/textures/scor_a.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/scorcher_gun/textures/scor_a_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/scorcher_gun/textures/scor_a_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/scorcher_gun/textures/scor_a_glow.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.47600001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat2" MtlFlags="524416" Shader="Illum" GenMask="400000090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.13320851,0.13320851,0.13320851" Specular="0.09387587,0.11129942,0.13609855" Emissive="0,0,0" Shininess="220" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/scorcher_gun/textures/scor_b.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/scorcher_gun/textures/scor_b_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/scorcher_gun/textures/scor_b_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/scorcher_gun/textures/scor_b_glow.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.47600001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat3" MtlFlags="524416" Shader="Illum" GenMask="400000092200" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%ENVIRONMENT_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.034230206,0.034230206,0.034230206" Specular="0.14497213,0.19397216,0.24680044" Emissive="0,0,0" Shininess="160" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/scorcher_gun/textures/scor_c.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/scorcher_gun/textures/scor_c_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/scorcher_gun/textures/scor_c_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Detail" File="objects/weapons/alien/scorcher_gun/textures/detail.tif">
+     <TexMod TileU="11" TileV="11"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/alien/scorcher_gun/textures/scor_c_glow.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.40900001" DetailBumpScale="0.63999999" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

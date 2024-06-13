@@ -1,0 +1,29 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="jelly" MtlFlags="524416" Shader="Humanskin" GenMask="180044180020" StringGenMask="%BAKED_TRANSLUCENCY%GLOSS_MAP%INNER_LAYER_DIFFUSE_SSS%MULTILAYER%RIM_GLOSS%TEMP_SKIN%WAX_LAYER_ANIM" SurfaceType="mat_alien_jelly" MatTemplate="" Diffuse="0.25902736,0.30663478,0.45907992" Specular="0.17343903,0.24279638,0.43134022" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="51" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/heavy_jelly_outer_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/heavy_jelly_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/heavy_jelly_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/white.dds" Filter="2"/>
+    <Texture Map="Opacity" File="objects/characters/alien/heavy/textures/heavy_jelly_inner_dif.tif"/>
+    <Texture Map="SubSurface" File="objects/characters/alien/stalker/textures/grey.tif"/>
+    <Texture Map="Custom" File="objects/characters/alien/heavy/textures/heavy_jelly_transl.tif"/>
+   </Textures>
+   <PublicParams TranslucencyStrength="4.9099998" RimFresnelPow="1.2" InnerLayerAnimFreq="1.99" FresnelPower="4.5289998" TranslucencyEmissive="3.0699999" InnerLayerDiffuse="0.44787085,0.44787085,0.44787085" ScatterRadius="5.026" Melanin="0" FresnelScale="0.99000001" RimStrength="0.38" WaxLayerAnimSpeed="-0.0099999998" FresnelBias="0.16" WaxLayerAnimFeatureScale="0" OutterLayerOpacity="0.551" InnerLayerAnimPhase="1.4400001" SecondarySpecGloss="255" TranslucencyColor="1,1,1" RimGloss="0.23" InnerLayerDepth="7.0599999" InnerLayerDiffuseSSS="0.39199999" TranslucencyBaseReflex="1.5700001" SecondarySpecStrength="1" IndirectColor="0.38891026,0.38891026,0.38891026"/>
+  </Material>
+  <Material Name="guts" MtlFlags="541856" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Shininess="100" Opacity="1" HeatAmountScaled="64" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/grunt/textures/jelly_guts_destroyed_mike.tif"/>
+   </Textures>
+  </Material>
+  <Material Name="jelly_backside" MtlFlags="524448" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="0.12752977,0.12752977,0.12752977" Specular="0.12752977,0.10114516,0.078056589" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/jelly_destroyed_mike_heavy_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/jelly_destroyed_mike_heavy_ddn.dds"/>
+   </Textures>
+   <PublicParams FresnelPower="2" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.5" GlossFromDiffuseAmount="0.75" GlossFromDiffuseBrightness="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

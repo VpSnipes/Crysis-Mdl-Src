@@ -1,0 +1,41 @@
+<Material MtlFlags="256" >
+ <SubMaterials >
+  <MaterialRef Name="Materials/presets/materialtypes/clean/mat_cloak" />
+  <Material Name="submtl2" MtlFlags="2176" Shader="Cloak" GenMask="1" SurfaceType="mat_glass" Diffuse="1,1,1" Specular="0.627451,0.627451,0.627451" Emissive="0,0,0" Shininess="64" Opacity="1" >
+   <Textures >
+    <Texture Map="Diffuse" File="textures/defaults/white.dds" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="materials/presets/materialtypes/textures/organic_ddn.dds" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/defaults/white.dds" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefrBumpScale="0.40000001" VertexDeformScale="0.30000001" InterferenceSpeedScale="1" DifractionAmount="1" DifractionWrap="1" InterferenceSizeScale="0.89999998" />
+   <MaterialLayers />
+  </Material>
+  <Material Name="glow" MtlFlags="2176" Shader="Cloak" GenMask="1" SurfaceType="mat_glass" Diffuse="1,1,1" Specular="0.627451,0.627451,0.627451" Emissive="0,0,0" Shininess="64" Opacity="1" >
+   <Textures >
+    <Texture Map="Diffuse" File="textures/defaults/white.dds" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="materials/presets/materialtypes/textures/organic_ddn.dds" >
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/defaults/white.dds" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefrBumpScale="0.40000001" VertexDeformScale="0.30000001" InterferenceSpeedScale="1" DifractionAmount="1" DifractionWrap="1" InterferenceSizeScale="0.89999998" />
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" >
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1" />
+ <MaterialLayers />
+</Material>

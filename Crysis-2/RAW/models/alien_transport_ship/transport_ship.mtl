@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="80080000" StringGenMask="%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="" MatTemplate="" Diffuse="0.049433462,0.049433462,0.049433462" Specular="1,1,1" Emissive="0,0,0" Shininess="161" Opacity="1" GlowAmount="9">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/transport_ship_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/transport_ship_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/transport_ship_ddn.tif"/>
+    <Texture Map="Environment" File="objects/vehicles/alien/transport_ship/transport_ship_diff.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4.5" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.685" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="80080000" StringGenMask="%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="" MatTemplate="" Diffuse="0.037028514,0.037028514,0.037028514" Specular="1,1,1" Emissive="0,0,0" Shininess="188" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/capsule_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/capsule_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/capsule_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="3.098" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1.51" FresnelBias="0.36399999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524448" Shader="Illum" GenMask="2000040000" StringGenMask="%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.0160677,0.0160677,0.0160677" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="48" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/cable_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/cable_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4.5" FresnelScale="0.5" FresnelBias="0.27399999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.078056589,0.078056589,0.078056589" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="2623616" Shader="Glass" GenMask="20010010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%REFRACTION_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,0.44232297,0.080219261" Specular="3,0.81871015,0.15272787" Emissive="0.21951973,0.21951973,0.21951973" Shininess="255" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/broken_glass_ddn.tif"/>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="7"/>
+   </Textures>
+   <PublicParams FilterColor="1,1,1" FresnelPower="3.523" TintAmount="0" RefrDepthScale="0" FresnelScale="19.51" RefrBumpScale="2" FresnelBias="0.259" BackLightScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

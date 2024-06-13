@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="524416" Shader="Illum" GenMask="400000010200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.098689198,0.098689198,0.098689198" Specular="0.078056589,0.084641509,0.10871115" Emissive="0,0,0" Shininess="145" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/grunt_rifle/textures/grunt_tp.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/grunt_rifle/textures/grunt_tp_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/grunt_rifle/textures/grunt_tp_glow.tif">
+     <TexMod TexMod_UOscillatorRate="0.30000001" TexMod_VOscillatorRate="0.30000001" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.30000001" TexMod_VOscillatorAmplitude="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="4.8699999" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.34599999" GlossFromDiffuseAmount="0.72500002" GlossFromDiffuseBrightness="0.81999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.0055217445,0.0055217445,0.0055217445" Specular="0.23099814,0.57954663,0.70829779" Emissive="0,0,0" Shininess="90" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

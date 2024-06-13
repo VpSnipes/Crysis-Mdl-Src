@@ -1,0 +1,48 @@
+<Material MtlFlags="524544">
+  <SubMaterials>
+    <Material Name="head" MtlFlags="524416" Shader="Illum" GenMask="80080000" StringGenMask="%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="" MatTemplate="" Diffuse="0.15415226,0.15415226,0.15415226" Specular="0.70116949,0.70116949,0.70116949" Emissive="0,0,0" Shininess="168" Opacity="1" GlowAmount="2.5">
+      <Textures>
+        <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_head.tif" />
+        <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_head_spec.tif" />
+        <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_head_ddn.tif" />
+        <Texture Map="Decal" File="textures/defaults/gradient_black60.dds">
+          <TexMod RotateW="49.0979" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-0.5" TexMod_UOscillatorAmplitude="1" />
+        </Texture>
+      </Textures>
+      <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="5" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25" />
+    </Material>
+    <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="80080000" StringGenMask="%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="" MatTemplate="" Diffuse="0.13320851,0.13320851,0.13320851" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="198" Opacity="1" GlowAmount="3">
+      <Textures>
+        <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_body.tif" />
+        <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_body_spec.tif" />
+        <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_body_ddn.tif" />
+        <Texture Map="Decal" File="textures/defaults/gradient_black60.dds">
+          <TexMod TileU="0.30000001" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="100" TexMod_UOscillatorAmplitude="17.299999" />
+        </Texture>
+      </Textures>
+      <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="5" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25" />
+    </Material>
+    <Material Name="pod" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.13609855,0.13609855,0.13609855" Specular="0.7299189,0.7299189,0.7299189" Emissive="0,0,0" Shininess="213" Opacity="1" GlowAmount="1" HeatAmountScaled="10">
+      <Textures>
+        <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_pod.tif" />
+        <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_pod_spec.tif" />
+        <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_pod_ddn.tif" />
+        <Texture Map="Decal" File="textures/defaults/gradient_black60.dds">
+          <TexMod OffsetU="1" RotateW="66.599121" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-2.5" TexMod_UOscillatorAmplitude="1" />
+        </Texture>
+      </Textures>
+      <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="5" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25" />
+    </Material>
+    <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+      <Textures />
+    </Material>
+    <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="800" StringGenMask="%DECAL" SurfaceType="" MatTemplate="" Diffuse="0.16044351,0.16044351,0.16044351" Specular="0.8591736,0.8591736,0.8591736" Emissive="0,0,0" Shininess="3.7" Opacity="0.99">
+      <Textures>
+        <Texture Map="Diffuse" File="objects/vehicles/alien/alien_decal_01.tif" />
+        <Texture Map="Bumpmap" File="objects/vehicles/alien/alien_decal_01_ddn.tif" />
+      </Textures>
+      <PublicParams FresnelPower="1.697" GlossFromDiffuseContrast="8.1599998" FresnelScale="1.3099999" GlossFromDiffuseOffset="0.014" FresnelBias="1" GlossFromDiffuseAmount="0.94099998" GlossFromDiffuseBrightness="0.22" IndirectColor="0.25,0.25,0.25" />
+    </Material>
+  </SubMaterials>
+  <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+</Material>

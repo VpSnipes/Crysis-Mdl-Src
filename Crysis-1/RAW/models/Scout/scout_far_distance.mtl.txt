@@ -1,0 +1,47 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="scout_head" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.25097999,0.25097999,0.25097999" Specular="0.67450982,0.77254909,1" Emissive="0,0,0" Shininess="20" Opacity="1" GlowAmount="100">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_head_far_distance.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout/textures/scout_head_far_distance_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="scout_body" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="" Diffuse="0.21960799,0.21960799,0.21960799" Specular="0.36862701,0.36862701,0.36862701" Emissive="0,0,0" Shininess="7" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/scout_body_far_distance.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout/textures/scout_body_far_distance_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="hunter_tentacles" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="" Diffuse="0.15294118,0.15294118,0.15294118" Specular="0.45882401,0.45882401,0.45882401" Emissive="0,0,0" Shininess="14" Opacity="1" GlowAmount="15">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/scout/textures/hunter_leg_far_distance.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/scout/textures/hunter_leg_far_distance_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

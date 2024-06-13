@@ -1,0 +1,71 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="head" MtlFlags="524416" Shader="Illum" GenMask="2080080101" StringGenMask="%ALLOW_POM%BLENDLAYER%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.12752977,0.12752977,0.12752977" Specular="0.7445302,0.7445302,0.7445302" Emissive="0,0,0" Shininess="88.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_head.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_head_spec.tif" Filter="5">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_head_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="9.8000002" FresnelPower="2.9690001" FresnelBias="0.32800001" BlendFactor="4.6100001" BlendMaskTiling="1" BlendFalloff="3.4000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="2080080101" StringGenMask="%ALLOW_POM%BLENDLAYER%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="1.2532916,1.2532916,1.2532916" Emissive="0,0,0" Shininess="105.4" Opacity="1" GlowAmount="12.3">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_body.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_body_spec.tif" Filter="5">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_body_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="4.25" FresnelPower="2.454" FresnelBias="0.107" BlendFactor="4.5999999" BlendMaskTiling="1" BlendFalloff="3.4000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pod" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_POM%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.091518357,0.091518357,0.091518357" Specular="0.64701033,0.64701033,0.64701033" Emissive="0,0,0" Shininess="30.1" Opacity="1" GlowAmount="5.1999998">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/dropship/dropship_pod.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/vehicles/alien/dropship/dropship_pod_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/dropship/dropship_pod_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="textures/defaults/gradient_black60.dds">
+     <TexMod OffsetU="1" RotateW="66.599121" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-2.5" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="6.2600002" FresnelPower="2.085" FresnelBias="0.28400001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" FresnelPower="4" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

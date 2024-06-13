@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<Params>
+
+	<IK_Definition>
+
+		<LimbIK_Definition>
+			<IK Handle="RgtArm01" EndEffector="frontLegRight12"  Root="R_Humerus"    Solver="CCDH" fStepSize="0.1" fThreshold="0.031" nMaxInteration="10"/>
+			<IK Handle="LftArm01" EndEffector="frontLegLeft12"  Root="L_Humerus"    Solver="CCDH" fStepSize="0.1" fThreshold="0.031" nMaxInteration="10"/>
+			<IK Handle="RgtLeg01" EndEffector="backLegRight13"  Root="backLegRight01"    Solver="CCDH" fStepSize="0.1" fThreshold="0.031" nMaxInteration="10"/>
+			<IK Handle="LftLeg01" EndEffector="backLegLeft13"  Root="backLegLeft01"    Solver="CCDH" fStepSize="0.1" fThreshold="0.031" nMaxInteration="10"/>
+			<IK Handle="MouthTen" EndEffector="frontTentRight16" Root="frontTentRight01"    Solver="CCDH" fStepSize="0.1" fThreshold="0.031" nMaxInteration="10"/>
+		</LimbIK_Definition>
+
+
+		
+		<FeetLock_Definition>
+			<IKHandle Handle="RgtLeg01"/>
+			<IKHandle Handle="LftLeg01"/>
+			<IKHandle Handle="RgtArm01"/>
+			<IKHandle Handle="LftArm01"/>
+		</FeetLock_Definition>
+		
+
+		
+		<LookIK_Definition>
+		
+			<LEyeAttachment Name="eye_left" />
+			<REyeAttachment Name="eye_right" />
+			<FOV Para="90"/>
+
+			<DirectionalBlends>
+				<Joint AnimToken="LookPoses" ParameterJoint="root_look" StartJoint="root" ReferenceJoint="MASTER"/>
+			</DirectionalBlends>
+
+			<DefaultLookPose name="gen_LookPoses_head_01" />
+
+			<RotationList>
+				<Rotation Additive="1" Primary="1" JointName="root"/>
+				<Rotation Additive="0" Primary="1" JointName="root_look"/>
+				
+				<Rotation Additive="0" Primary="0" JointName="R_humerus"/>
+				<Rotation Additive="0" Primary="0" JointName="frontLegRight01"/>
+				<Rotation Additive="0" Primary="0" JointName="L_humerus"/>
+				<Rotation Additive="0" Primary="0" JointName="frontLegLeft01"/>
+				<Rotation Additive="0" Primary="0" JointName="R_femur"/>
+				<Rotation Additive="0" Primary="0" JointName="L_femur"/>
+			</RotationList>
+			<PositionList>
+				<Position Additive="1" JointName="root"/>
+			</PositionList>
+
+		</LookIK_Definition>
+		
+
+	</IK_Definition>
+
+
+
+	<AnimationList>
+		<Animation name="#filepath" path="animations\alien\hunter"/>
+		<Animation name="$AnimEventDatabase" path="animations\alien\hunter\Hunter_EventDataBase.animevents"/>
+		<Animation name="$TracksDatabase" path="animations\alien\hunter\hunter.dba"/>
+		<Animation name="_HUNTER_ROTATE_01" path="hunter_rotate_01.lmg"/>
+		<Animation name="_HUNTER_ROTATEHIGH_01" path="hunter_rotateHigh_01.lmg"/>
+		<Animation name="_HUNTER_WALK_01" path="hunter_walk_01.lmg"/>
+		<Animation name="_HUNTER_WALKHIGH_01" path="hunter_walkHigh_01.lmg"/>
+		<Animation name="hunter_idle_01" path="hunter_idle_01.caf"/>
+		<Animation name="hunter_weaponAttack_MOAC_01" path="hunter_weaponAttack_MOAC_01.caf"/>
+		<Animation name="hunter_walk_forward_01" path="hunter_walk_forward_01.caf"/>
+		<Animation name="hunter_walkRotate_left_01" path="hunter_walkRotate_left_01.caf"/>
+		<Animation name="hunter_walkRotate_right_01" path="hunter_walkRotate_right_01.caf"/>
+		<Animation name="hunter_rotate_left_01" path="hunter_rotate_left_01.caf"/>
+		<Animation name="hunter_rotate_right_01" path="hunter_rotate_right_01.caf"/>
+		<Animation name="hunter_throwVTOL_01" path="hunter_throwVTOL_01.caf"/>
+		<Animation name="hunter_death_01" path="hunter_death_03.caf"/>
+		<Animation name="hunter_death_03" path="hunter_death_03.caf"/>
+		<Animation name="hunter_strafe_left_01" path="hunter_strafe_left_01.caf"/>
+		<Animation name="hunter_strafe_right_01" path="hunter_strafe_right_01.caf"/>
+		<Animation name="hunter_injuredScream_01" path="hunter_injuredScream_01.caf"/>
+		<Animation name="hunter_threaten_01" path="hunter_threaten_01.caf"/>
+		<Animation name="hunter_strafingFire_MOAC_01" path="hunter_strafingFire_01.caf"/>
+		<Animation name="hunter_look_left_01" path="hunter_look_left_01.caf"/>
+		<Animation name="hunter_look_right_01" path="hunter_look_right_01.caf"/>
+		<Animation name="Hunter_DeckIntroductionScene_01_A" path="Hunter_DeckIntroductionScene_01_A.caf"/>
+		<Animation name="Hunter_DeckIntroductionScene_01_B" path="Hunter_DeckIntroductionScene_01_B.caf"/>
+		<Animation name="hunter_throw_01" path="hunter_throw_01.caf"/>
+		<Animation name="hunter_throwHuman_01" path="hunter_throwHuman_01.caf"/>
+		<Animation name="hunter_walkHigh_forward_01" path="hunter_walkHigh_forward_01.caf"/>
+		<Animation name="hunter_walkHigh_forward_pose_01" path="hunter_walkHigh_forward_pose_01.caf"/>
+		<Animation name="hunter_idleHigh_01" path="hunter_idleHigh_01.caf"/>
+		<Animation name="hunter_walkRotateHigh_left_01" path="hunter_walkRotateHigh_left_01.caf"/>
+		<Animation name="hunter_walkRotateHigh_right_01" path="hunter_walkRotateHigh_right_01.caf"/>
+		<Animation name="hunter_rotateHigh_left_01" path="hunter_rotateHigh_left_01.caf"/>
+		<Animation name="hunter_rotateHigh_right_01" path="hunter_rotateHigh_right_01.caf"/>
+		<Animation name="hunter_injuredScreamHigh_01" path="hunter_injuredScreamHigh_01.caf"/>
+		<Animation name="hunter_deathHigh_01" path="hunter_deathHigh_01.caf"/>
+		<Animation name="hunter_highIdleToIdle_01" path="hunter_highIdleToIdle_01.caf"/>
+		<Animation name="hunter_idleToHighIdle_01" path="hunter_idleToHighIdle_01.caf"/>
+		<Animation name="hunter_weaponAttack_MOACHigh_01" path="hunter_weaponAttack_MOACHigh_01.caf"/>
+		<Animation name="hunter_throwHigh_01" path="hunter_throwHigh_01.caf"/>
+		<Animation name="hunter_throwHumanHigh_01" path="hunter_throwHumanHigh_01.caf"/>
+		<Animation name="hunter_idleAir_01" path="hunter_idleAir_01.caf"/>
+		<Animation name="hunter_melee_01" path="hunter_melee_01.caf"/>
+		<Animation name="cineSphere_hunterVTOLAttack_01" path="cineSphere_hunterVTOLAttack_01.caf"/>
+		<Animation name="hunter_regenerate_01" path="hunter_regenerate_01.caf"/>
+		<Animation name="gen_LookPoses_head_01" path="gen_LookPoses_head_01.caf"/>
+	</AnimationList>
+</Params>

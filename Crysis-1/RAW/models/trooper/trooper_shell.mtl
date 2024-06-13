@@ -1,0 +1,15 @@
+<Material MtlFlags="524544" >
+ <SubMaterials >
+  <Material Name="trooper" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_metal_rough" MatTemplate="" Diffuse="0.73333335,0.73333335,0.73333335" Specular="0.72156864,0.72156864,0.72156864" Emissive="0,0,0" Shininess="15" Opacity="1" AlphaTest="0.228" >
+   <Textures >
+    <Texture Map="Diffuse" File="objects/characters/alien/trooper/textures/trooper_shell.tif" Filter="7" />
+   </Textures>
+   <PublicParams FresnelPower="0.2" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.5" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" >
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25" />
+</Material>

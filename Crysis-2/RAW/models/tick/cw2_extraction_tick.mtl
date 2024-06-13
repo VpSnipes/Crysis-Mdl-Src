@@ -1,0 +1,68 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="9000B" StringGenMask="%ALLOW_POM%ALPHAGLOW%ANISO_SPECULAR%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.15105805,0.15105805,0.15105805" Specular="0.52344316,0.52344316,0.52344316" Emissive="0.027755279,0.027755279,0.027755279" Shininess="47.700001" Opacity="1" GlowAmount="5.8000002" HeatAmount="128">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_body_spec.tif">
+     <TexMod TexMod_RotateType="51" TexMod_TexGenType="70"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_body_ddn.tif">
+     <TexMod TexMod_RotateType="51" TexMod_TexGenType="70"/>
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/highlights_bottomgreen_cm.tif">
+     <TexMod TexMod_RotateType="51" TexMod_TexGenType="70"/>
+    </Texture>
+   </Textures>
+   <PublicParams AnisotropicShape="0.60100001" FresnelScale="1" FresnelPower="4" FresnelBias="1" AmbientMultiplier="0" SpecMapChannelR="0" SpecMapChannelG="0" SpecMapChannelB="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shell" MtlFlags="524416" Shader="Illum" GenMask="9000B" StringGenMask="%ALLOW_POM%ALPHAGLOW%ANISO_SPECULAR%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.15105805,0.15105805,0.15105805" Specular="0.52344316,0.52344316,0.52344316" Emissive="0.027755279,0.027755279,0.027755279" Shininess="47.700001" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_shell_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_shell_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_shell_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/highlights_bottomgreen_cm.tif"/>
+   </Textures>
+   <PublicParams AnisotropicShape="0.60100001" FresnelScale="1" FresnelPower="4" FresnelBias="1" AmbientMultiplier="0" SpecMapChannelR="0" SpecMapChannelG="0" SpecMapChannelB="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chrome" MtlFlags="524416" Shader="Illum" GenMask="9000B" StringGenMask="%ALLOW_POM%ALPHAGLOW%ANISO_SPECULAR%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.15105805,0.15105805,0.15105805" Specular="0.25902736,0.25902736,0.25902736" Emissive="0.027755279,0.027755279,0.027755279" Shininess="8.8999996" Opacity="1" GlowAmount="18.700001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/tick/textures/tik_body_diff.dds"/>
+    <Texture Map="Specular" File="objects/characters/alien/tick/textures/tik_body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/tick/textures/tik_body_ddn.dds"/>
+    <Texture Map="Environment" File="textures/cubemaps/highlights_bottomgreen_cm.tif"/>
+   </Textures>
+   <PublicParams AnisotropicShape="0.60100001" FresnelScale="1" FresnelPower="4" FresnelBias="1" AmbientMultiplier="11.23" SpecMapChannelR="0" SpecMapChannelG="0" SpecMapChannelB="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sack" MtlFlags="524416" Shader="Humanskin" GenMask="100000000" StringGenMask="%MULTILAYER" SurfaceType="" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="1,1,1" Emissive="0.027755279,0.027755279,0.027755279" Shininess="100" Opacity="1" AlphaTest="0.1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/infected/slime/slime_inf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/infected/slime/slime_inf_ddn.tif"/>
+    <Texture Map="SubSurface" File="objects/characters/human/infected/slime/slime_inf_sss.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/infected/slime/slime_inf_ramp.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceStrenght="0.40000001" RimStrenght="0.69999999" SpecularStrenght="4" DiffusionAmount="0.634" RimPow="8.8120003" Melanin="0" InnerLayerDepth="10" OutterLayerOpacity="0.5" InnerLayerAnimFreq="1" InnerLayerAnimPhase="1" InnerLayerDiffuse="0.26735809,0.26735809,0.26735809" FresnelBias="0.1" FresnelPower="2.5" FresnelScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="phys_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="phys_biomass" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_biomass" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="cage" MtlFlags="524416" Shader="Illum" GenMask="90001" StringGenMask="%ALLOW_POM%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.68703085,0.68703085,0.68703085" Emissive="0.027755279,0.027755279,0.027755279" Shininess="78.400002" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/cw2_extraction_tick/textures/cw2_extraction_tick_diff.tif"/>
+    <Texture Map="Specular" File="objects/library/props/cw2_extraction_tick/textures/cw2_extraction_tick_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/library/props/cw2_extraction_tick/textures/cw2_extraction_tick_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/dropship_clearsky_cm.dds"/>
+   </Textures>
+   <PublicParams FresnelScale="1.17" FresnelPower="1.589" FresnelBias="0.12" SpecMapChannelR="0" SpecMapChannelG="0" SpecMapChannelB="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_POM" SurfaceType="" MatTemplate="" Diffuse="0.70829779,0.71546543,0.7667436" Specular="0.67304909,0.67304909,0.67304909" Emissive="0.027755279,0.027755279,0.027755279" Shininess="45" Opacity="0.182">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/cw2_extraction_tick/textures/light_glow.tif"/>
+   </Textures>
+   <PublicParams FresnelScale="0" FresnelPower="4" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseContrast="1" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="0" FresnelPower="4" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseContrast="1" GlossFromDiffuseBrightness="0.333" GlossFromDiffuseOffset="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

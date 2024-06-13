@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2021-11-03T17:57:49.3936494+00:00</created>
+    <modified>2021-11-03T17:57:49.3955353+00:00</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+    <contributor>
+      <author>Heffay</author>
+      <author_email>markemp@gmail.com</author_email>
+      <author_website>https://github.com/Markemp/Cryengine-Converter</author_website>
+      <source_data>armor_back_low_left</source_data>
+    </contributor>
+    <contributor>
+      <author>dimitry@</author>
+      <source_data>J:\data\Games\Crysis2\GameCrysis2\Objects\characters\alien\heavy\Heavy_Setup.max</source_data>
+    </contributor>
+    <revision>1.3.1.0</revision>
+    <title>armor_back_low_left</title>
+    <extra id="material_file_name" name="heavy.mtl" type="mtl_file" />
+  </asset>
+  <library_images>
+    <image id="metal_Diffuse" name="metal_Diffuse">
+      <init_from>textures/metal_dif.dds</init_from>
+    </image>
+    <image id="metal_Specular" name="metal_Specular">
+      <init_from>textures/metal_spec.dds</init_from>
+    </image>
+    <image id="metal_Bumpmap" name="metal_Bumpmap">
+      <init_from>textures/metal_ddn.dds</init_from>
+    </image>
+    <image id="plate_1_Diffuse" name="plate_1_Diffuse">
+      <init_from>textures/plate_1_dif.dds</init_from>
+    </image>
+    <image id="plate_1_Specular" name="plate_1_Specular">
+      <init_from>textures/plate_1_spec.dds</init_from>
+    </image>
+    <image id="plate_1_Bumpmap" name="plate_1_Bumpmap">
+      <init_from>textures/plate_1_ddn.dds</init_from>
+    </image>
+    <image id="plate_1_Detail" name="plate_1_Detail">
+      <init_from>textures/screencondensation.dds</init_from>
+    </image>
+    <image id="plate_2_Diffuse" name="plate_2_Diffuse">
+      <init_from>textures/plate_2_dif.dds</init_from>
+    </image>
+    <image id="plate_2_Specular" name="plate_2_Specular">
+      <init_from>textures/plate_1_spec.dds</init_from>
+    </image>
+    <image id="plate_2_Bumpmap" name="plate_2_Bumpmap">
+      <init_from>textures/plate_2_ddn.dds</init_from>
+    </image>
+    <image id="plate_2_Detail" name="plate_2_Detail">
+      <init_from>textures/screencondensation.dds</init_from>
+    </image>
+    <image id="eyes_Diffuse" name="eyes_Diffuse">
+      <init_from>textures/heavy_eyes.dds</init_from>
+    </image>
+    <image id="jelly_Diffuse" name="jelly_Diffuse">
+      <init_from>textures/heavy_jelly_outer_dif.dds</init_from>
+    </image>
+    <image id="jelly_Specular" name="jelly_Specular">
+      <init_from>textures/heavy_jelly_spec.dds</init_from>
+    </image>
+    <image id="jelly_Bumpmap" name="jelly_Bumpmap">
+      <init_from>textures/heavy_jelly_ddn.dds</init_from>
+    </image>
+    <image id="jelly_Detail" name="jelly_Detail">
+      <init_from>textures/white.dds</init_from>
+    </image>
+    <image id="jelly_Opacity" name="jelly_Opacity">
+      <init_from>textures/heavy_jelly_inner_dif.dds</init_from>
+    </image>
+    <image id="jelly_SubSurface" name="jelly_SubSurface">
+      <init_from>textures/grey.dds</init_from>
+    </image>
+    <image id="jelly_Custom" name="jelly_Custom">
+      <init_from>textures/heavy_jelly_transl.dds</init_from>
+    </image>
+    <image id="guts_Diffuse" name="guts_Diffuse">
+      <init_from>textures/elite_jelly_guts.dds</init_from>
+    </image>
+    <image id="plate_glow_Diffuse" name="plate_glow_Diffuse">
+      <init_from>textures/white.dds</init_from>
+    </image>
+    <image id="metal_noshadow_Diffuse" name="metal_noshadow_Diffuse">
+      <init_from>textures/metal_dif.dds</init_from>
+    </image>
+    <image id="metal_noshadow_Specular" name="metal_noshadow_Specular">
+      <init_from>textures/metal_spec.dds</init_from>
+    </image>
+    <image id="metal_noshadow_Bumpmap" name="metal_noshadow_Bumpmap">
+      <init_from>textures/metal_ddn.dds</init_from>
+    </image>
+    <image id="plate_1_noshadow_Diffuse" name="plate_1_noshadow_Diffuse">
+      <init_from>textures/plate_1_dif.dds</init_from>
+    </image>
+    <image id="plate_1_noshadow_Specular" name="plate_1_noshadow_Specular">
+      <init_from>textures/plate_1_spec.dds</init_from>
+    </image>
+    <image id="plate_1_noshadow_Bumpmap" name="plate_1_noshadow_Bumpmap">
+      <init_from>textures/plate_1_ddn.dds</init_from>
+    </image>
+    <image id="plate_1_noshadow_Detail" name="plate_1_noshadow_Detail">
+      <init_from>textures/screencondensation.dds</init_from>
+    </image>
+    <image id="plate_2_noshadow_Diffuse" name="plate_2_noshadow_Diffuse">
+      <init_from>textures/plate_2_dif.dds</init_from>
+    </image>
+    <image id="plate_2_noshadow_Specular" name="plate_2_noshadow_Specular">
+      <init_from>textures/plate_2_spec.dds</init_from>
+    </image>
+    <image id="plate_2_noshadow_Bumpmap" name="plate_2_noshadow_Bumpmap">
+      <init_from>textures/plate_2_ddn.dds</init_from>
+    </image>
+    <image id="plate_2_noshadow_Detail" name="plate_2_noshadow_Detail">
+      <init_from>textures/screencondensation.dds</init_from>
+    </image>
+    <image id="eyes_jelly_Diffuse" name="eyes_jelly_Diffuse">
+      <init_from>textures/heavy_jelly_outer_dif.dds</init_from>
+    </image>
+    <image id="eyes_jelly_Bumpmap" name="eyes_jelly_Bumpmap">
+      <init_from>textures/heavy_gelly_ddn.dds</init_from>
+    </image>
+    <image id="weapons_alive_Diffuse" name="weapons_alive_Diffuse">
+      <init_from>textures/mortar_tp.dds</init_from>
+    </image>
+    <image id="weapons_alive_Specular" name="weapons_alive_Specular">
+      <init_from>textures/mortar_tp_spec.dds</init_from>
+    </image>
+    <image id="weapons_alive_Bumpmap" name="weapons_alive_Bumpmap">
+      <init_from>textures/mortar_tp_ddn.dds</init_from>
+    </image>
+    <image id="weapons_alive_Environment" name="weapons_alive_Environment">
+      <init_from>textures/fp_weapon.dds</init_from>
+    </image>
+    <image id="weapons_alive_Decal" name="weapons_alive_Decal">
+      <init_from>textures/particle_flow.dds</init_from>
+    </image>
+    <image id="weapons_dead_Diffuse" name="weapons_dead_Diffuse">
+      <init_from>textures/weapons_dmg_diff.dds</init_from>
+    </image>
+    <image id="weapons_dead_Specular" name="weapons_dead_Specular">
+      <init_from>textures/weapons_dmg_spec.dds</init_from>
+    </image>
+    <image id="weapons_dead_Bumpmap" name="weapons_dead_Bumpmap">
+      <init_from>textures/weapons_ddn.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="metal-effect" name="metal">
+      <profile_COMMON>
+        <newparam sid="metal_dif-surface">
+          <surface type="2D">
+            <init_from>metal_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="metal_spec-surface">
+          <surface type="2D">
+            <init_from>metal_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="metal_ddn-surface">
+          <surface type="2D">
+            <init_from>metal_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="metal_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="metal_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="metal_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">255</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plate_1-effect" name="plate_1">
+      <profile_COMMON>
+        <newparam sid="plate_1_dif-surface">
+          <surface type="2D">
+            <init_from>plate_1_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_1_spec-surface">
+          <surface type="2D">
+            <init_from>plate_1_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_1_ddn-surface">
+          <surface type="2D">
+            <init_from>plate_1_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="screencondensation-surface">
+          <surface type="2D">
+            <init_from>plate_1_Detail</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="screencondensation-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>screencondensation-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="plate_1_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="plate_1_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="plate_1_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plate_2-effect" name="plate_2">
+      <profile_COMMON>
+        <newparam sid="plate_2_dif-surface">
+          <surface type="2D">
+            <init_from>plate_2_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_2_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_2_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_1_spec-surface">
+          <surface type="2D">
+            <init_from>plate_2_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_2_ddn-surface">
+          <surface type="2D">
+            <init_from>plate_2_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_2_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_2_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="screencondensation-surface">
+          <surface type="2D">
+            <init_from>plate_2_Detail</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="screencondensation-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>screencondensation-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="plate_2_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="plate_2_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="plate_1_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="eyes-effect" name="eyes">
+      <profile_COMMON>
+        <newparam sid="heavy_eyes-surface">
+          <surface type="2D">
+            <init_from>eyes_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_eyes-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_eyes-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="heavy_eyes-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="jelly-effect" name="jelly">
+      <profile_COMMON>
+        <newparam sid="heavy_jelly_outer_dif-surface">
+          <surface type="2D">
+            <init_from>jelly_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_outer_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_outer_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="heavy_jelly_spec-surface">
+          <surface type="2D">
+            <init_from>jelly_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="heavy_jelly_ddn-surface">
+          <surface type="2D">
+            <init_from>jelly_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="white-surface">
+          <surface type="2D">
+            <init_from>jelly_Detail</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="white-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>white-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="heavy_jelly_inner_dif-surface">
+          <surface type="2D">
+            <init_from>jelly_Opacity</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_inner_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_inner_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="grey-surface">
+          <surface type="2D">
+            <init_from>jelly_SubSurface</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="grey-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>grey-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="heavy_jelly_transl-surface">
+          <surface type="2D">
+            <init_from>jelly_Custom</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_transl-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_transl-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="heavy_jelly_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="heavy_jelly_outer_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="heavy_jelly_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">255</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="phys_armor-effect" name="phys_armor">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.5 0.5 0.5</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.72941202 1 0</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.89999998 0.89999998 0.89999998</color>
+            </specular>
+            <transparent>
+              <color>1</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="phys_jelly-effect" name="phys_jelly">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.5 0.5 0.5</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0 0.72941202 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.89999998 0.89999998 0.89999998</color>
+            </specular>
+            <transparent>
+              <color>1</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="nodraw_nophys-effect" name="nodraw_nophys">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.027755279 0.027755279 0.027755279</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0 1 0</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.89999998 0.89999998 0.89999998</color>
+            </specular>
+            <transparent>
+              <color>1</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="guts-effect" name="guts">
+      <profile_COMMON>
+        <newparam sid="elite_jelly_guts-surface">
+          <surface type="2D">
+            <init_from>guts_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="elite_jelly_guts-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>elite_jelly_guts-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">1 1 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="elite_jelly_guts-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">100</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plate_glow-effect" name="plate_glow">
+      <profile_COMMON>
+        <newparam sid="white-surface">
+          <surface type="2D">
+            <init_from>plate_glow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="white-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>white-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.027755279 0.027755279 0.027755279</color>
+            </emission>
+            <diffuse>
+              <texture texture="white-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="metal_noshadow-effect" name="metal_noshadow">
+      <profile_COMMON>
+        <newparam sid="metal_dif-surface">
+          <surface type="2D">
+            <init_from>metal_noshadow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="metal_spec-surface">
+          <surface type="2D">
+            <init_from>metal_noshadow_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="metal_ddn-surface">
+          <surface type="2D">
+            <init_from>metal_noshadow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="metal_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>metal_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="metal_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0.027755279 0.027755279 0.027755279</color>
+            </emission>
+            <diffuse>
+              <texture texture="metal_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="metal_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">144</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plate_1_noshadow-effect" name="plate_1_noshadow">
+      <profile_COMMON>
+        <newparam sid="plate_1_dif-surface">
+          <surface type="2D">
+            <init_from>plate_1_noshadow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_1_spec-surface">
+          <surface type="2D">
+            <init_from>plate_1_noshadow_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_1_ddn-surface">
+          <surface type="2D">
+            <init_from>plate_1_noshadow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_1_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_1_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="screencondensation-surface">
+          <surface type="2D">
+            <init_from>plate_1_noshadow_Detail</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="screencondensation-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>screencondensation-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="plate_1_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="plate_1_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="plate_1_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">144</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plate_2_noshadow-effect" name="plate_2_noshadow">
+      <profile_COMMON>
+        <newparam sid="plate_2_dif-surface">
+          <surface type="2D">
+            <init_from>plate_2_noshadow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_2_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_2_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_2_spec-surface">
+          <surface type="2D">
+            <init_from>plate_2_noshadow_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_2_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_2_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="plate_2_ddn-surface">
+          <surface type="2D">
+            <init_from>plate_2_noshadow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="plate_2_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>plate_2_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="screencondensation-surface">
+          <surface type="2D">
+            <init_from>plate_2_noshadow_Detail</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="screencondensation-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>screencondensation-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="plate_2_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0.027755279 0.027755279 0.027755279</color>
+            </emission>
+            <diffuse>
+              <texture texture="plate_2_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="plate_2_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">144</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="eyes_jelly-effect" name="eyes_jelly">
+      <profile_COMMON>
+        <newparam sid="heavy_jelly_outer_dif-surface">
+          <surface type="2D">
+            <init_from>eyes_jelly_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_jelly_outer_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_jelly_outer_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="heavy_gelly_ddn-surface">
+          <surface type="2D">
+            <init_from>eyes_jelly_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="heavy_gelly_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>heavy_gelly_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="heavy_gelly_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="heavy_jelly_outer_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.04145189 0.17013837 0.18014428</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">144</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="weapons_alive-effect" name="weapons_alive">
+      <profile_COMMON>
+        <newparam sid="mortar_tp-surface">
+          <surface type="2D">
+            <init_from>weapons_alive_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mortar_tp-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mortar_tp-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mortar_tp_spec-surface">
+          <surface type="2D">
+            <init_from>weapons_alive_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mortar_tp_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mortar_tp_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mortar_tp_ddn-surface">
+          <surface type="2D">
+            <init_from>weapons_alive_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mortar_tp_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mortar_tp_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="fp_weapon-surface">
+          <surface type="2D">
+            <init_from>weapons_alive_Environment</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="fp_weapon-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>fp_weapon-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="particle_flow-surface">
+          <surface type="2D">
+            <init_from>weapons_alive_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="particle_flow-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>particle_flow-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="mortar_tp_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="mortar_tp-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="mortar_tp_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">221</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="weapons_dead-effect" name="weapons_dead">
+      <profile_COMMON>
+        <newparam sid="weapons_dmg_diff-surface">
+          <surface type="2D">
+            <init_from>weapons_dead_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="weapons_dmg_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>weapons_dmg_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="weapons_dmg_spec-surface">
+          <surface type="2D">
+            <init_from>weapons_dead_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="weapons_dmg_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>weapons_dmg_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="weapons_ddn-surface">
+          <surface type="2D">
+            <init_from>weapons_dead_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="weapons_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>weapons_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="weapons_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0.027755279 0.027755279 0.027755279</color>
+            </emission>
+            <diffuse>
+              <texture texture="weapons_dmg_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="weapons_dmg_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">144</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy-effect" name="proxy">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="metal-material" name="metal">
+      <instance_effect url="#metal-effect" />
+    </material>
+    <material id="plate_1-material" name="plate_1">
+      <instance_effect url="#plate_1-effect" />
+    </material>
+    <material id="plate_2-material" name="plate_2">
+      <instance_effect url="#plate_2-effect" />
+    </material>
+    <material id="eyes-material" name="eyes">
+      <instance_effect url="#eyes-effect" />
+    </material>
+    <material id="jelly-material" name="jelly">
+      <instance_effect url="#jelly-effect" />
+    </material>
+    <material id="phys_armor-material" name="phys_armor">
+      <instance_effect url="#phys_armor-effect" />
+    </material>
+    <material id="phys_jelly-material" name="phys_jelly">
+      <instance_effect url="#phys_jelly-effect" />
+    </material>
+    <material id="nodraw_nophys-material" name="nodraw_nophys">
+      <instance_effect url="#nodraw_nophys-effect" />
+    </material>
+    <material id="guts-material" name="guts">
+      <instance_effect url="#guts-effect" />
+    </material>
+    <material id="plate_glow-material" name="plate_glow">
+      <instance_effect url="#plate_glow-effect" />
+    </material>
+    <material id="metal_noshadow-material" name="metal_noshadow">
+      <instance_effect url="#metal_noshadow-effect" />
+    </material>
+    <material id="plate_1_noshadow-material" name="plate_1_noshadow">
+      <instance_effect url="#plate_1_noshadow-effect" />
+    </material>
+    <material id="plate_2_noshadow-material" name="plate_2_noshadow">
+      <instance_effect url="#plate_2_noshadow-effect" />
+    </material>
+    <material id="eyes_jelly-material" name="eyes_jelly">
+      <instance_effect url="#eyes_jelly-effect" />
+    </material>
+    <material id="weapons_alive-material" name="weapons_alive">
+      <instance_effect url="#weapons_alive-effect" />
+    </material>
+    <material id="weapons_dead-material" name="weapons_dead">
+      <instance_effect url="#weapons_dead-effect" />
+    </material>
+    <material id="proxy-material" name="proxy">
+      <instance_effect url="#proxy-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="armor_back_low_left-mesh" name="armor_back_low_left">
+      <mesh>
+        <source id="armor_back_low_left-mesh-pos" name="armor_back_low_left-pos">
+          <float_array id="armor_back_low_left-mesh-pos-array" count="180">0.077942 -0.452393 0.259277 0.053406 -0.437012 0.283691 0.017548 -0.449951 0.207520 0.054382 -0.456055 0.217041 0.077942 -0.452393 0.259277 0.211670 -0.468262 0.427246 0.316406 -0.472168 0.430908 0.342529 -0.500977 0.377197 -0.117004 -0.309570 0.031799 0.003948 -0.414062 0.071167 0.005066 -0.417236 0.062073 0.054626 -0.452148 0.090210 0.054382 -0.456055 0.217041 0.098389 -0.484619 0.076050 0.163452 -0.520508 0.096130 0.132568 -0.507812 0.262695 0.231812 -0.544922 0.145142 0.152222 -0.497559 0.301758 0.243774 -0.501465 0.360840 0.178223 -0.460205 0.358887 0.054718 -0.386230 0.281982 0.077942 -0.452393 0.259277 -0.011940 -0.395996 0.147461 -0.125854 -0.302246 0.073792 -0.090088 -0.366699 0.099792 -0.084106 -0.372803 0.076904 -0.005692 -0.440918 0.083435 -0.026672 -0.429199 0.155640 0.033569 -0.476562 0.120911 0.018097 -0.469482 0.182983 0.017548 -0.449951 0.207520 0.125244 -0.540527 0.254639 0.053406 -0.437012 0.283691 0.118347 -0.524902 0.271240 0.162720 -0.509277 0.342529 0.152222 -0.497559 0.301758 0.045380 -0.413818 0.291016 0.054718 -0.386230 0.281982 -0.011940 -0.395996 0.147461 -0.125854 -0.302246 0.073792 -0.117004 -0.309570 0.031799 0.005066 -0.417236 0.062073 0.054626 -0.452148 0.090210 0.081116 -0.504395 0.098328 0.142700 -0.541016 0.120300 0.178223 -0.460205 0.358887 0.132568 -0.507812 0.262695 0.077942 -0.452393 0.259277 0.201294 -0.569824 0.169556 0.215332 -0.510254 0.391602 0.299072 -0.526855 0.366943 0.279785 -0.514648 0.397705 0.342529 -0.500977 0.377197 0.316406 -0.472168 0.430908 0.211670 -0.468262 0.427246 0.181030 -0.498047 0.364746 0.054382 -0.456055 0.217041 0.098389 -0.484619 0.076050 0.163452 -0.520508 0.096130 0.231812 -0.544922 0.145142</float_array>
+          <technique_common>
+            <accessor count="60" offset="0" source="#armor_back_low_left-mesh-pos-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="armor_back_low_left-mesh-norm" name="armor_back_low_left-norm">
+          <float_array id="armor_back_low_left-mesh-norm-array" count="180">0.519719 0.436838 0.734210 -0.289035 -0.955223 -0.063308 -0.260904 -0.964663 -0.036808 0.017023 0.916450 0.399787 0.519719 0.436838 0.734210 0.372889 0.927518 -0.025774 0.452120 0.877496 -0.159964 0.263750 0.954419 -0.139716 0.027560 0.885470 0.463878 0.024876 0.890744 0.453825 0.183641 0.859998 0.476108 -0.017414 0.917686 0.396924 0.017023 0.916450 0.399787 0.005718 0.947566 0.319508 -0.005048 0.970136 0.242509 0.034188 0.986107 0.162555 0.187521 0.979671 -0.071278 0.369920 0.927395 0.055654 0.336186 0.940799 0.043304 0.518433 0.743118 0.423087 0.544907 0.600411 0.585305 0.519719 0.436838 0.734210 0.205852 0.789125 0.578712 0.026132 0.889557 0.456077 -0.415337 -0.623618 -0.662266 0.430024 -0.778413 -0.457333 0.317479 -0.883607 -0.344160 -0.313181 -0.550154 -0.774111 0.262564 -0.895202 -0.360100 -0.029664 -0.929741 -0.367017 -0.656711 -0.476812 -0.584279 -0.155963 -0.971618 -0.177856 -0.279305 -0.816828 -0.504759 -0.690704 -0.143241 -0.708809 -0.477826 -0.719935 -0.503365 -0.048639 -0.783997 -0.618856 -0.756953 -0.161460 -0.633208 -0.565550 0.264410 -0.781179 -0.701876 0.165703 -0.692758 -0.430066 -0.490577 -0.757877 0.459886 -0.770922 -0.440663 0.687633 -0.697667 -0.201049 0.746559 -0.645187 -0.162429 0.396335 -0.877418 -0.270290 0.141597 -0.965522 -0.218445 -0.826909 -0.052583 -0.559871 -0.765887 0.519207 -0.379263 -0.010105 -0.950834 -0.309536 -0.049151 -0.952206 0.301476 -0.365608 -0.930730 0.008476 -0.202834 -0.925382 0.320198 -0.676051 -0.698205 0.235508 -0.044090 -0.701617 0.711188 -0.733361 -0.625399 0.266566 -0.730693 -0.659300 -0.177230 -0.830388 -0.226228 -0.509192 -0.831778 0.495647 -0.249960 0.751720 -0.635163 -0.177443 0.657718 -0.730668 0.183113 0.248442 -0.703948 0.665382</float_array>
+          <technique_common>
+            <accessor count="60" offset="0" source="#armor_back_low_left-mesh-norm-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="armor_back_low_left-mesh-UV" name="armor_back_low_left-UV">
+          <float_array id="armor_back_low_left-mesh-UV-array" count="120">0.927490 0.740347 0.956433 0.737185 0.900305 0.673874 0.904150 0.705410 0.927490 0.740347 4.810154 0.425749 4.817448 0.504272 4.773340 0.527457 4.534576 0.123228 4.549862 0.245602 4.542755 0.247412 4.557907 0.296748 4.651672 0.307775 4.543808 0.338002 4.555050 0.395882 4.680542 0.376253 4.590888 0.453794 4.709954 0.388377 4.757028 0.453914 4.763452 0.393244 4.716061 0.277637 4.683870 0.322617 4.609722 0.234227 4.566863 0.118247 0.912484 0.536106 0.895209 0.529499 0.845326 0.593896 0.901091 0.618412 0.834549 0.644050 0.879571 0.666051 0.900305 0.673874 0.859097 0.778649 0.956433 0.737185 0.877358 0.781172 0.922243 0.847492 0.913489 0.807523 0.974892 0.732898 0.997526 0.727504 0.944327 0.614657 0.958122 0.457783 0.901306 0.463490 0.828694 0.574154 0.805593 0.623281 0.793205 0.668372 0.769891 0.722021 0.962977 0.858907 0.888724 0.774227 0.927490 0.740347 0.766927 0.783588 0.917334 0.905192 0.860654 0.942906 0.888992 0.946173 0.848957 0.980623 0.903497 0.994927 0.954899 0.925321 0.935092 0.868443 0.904150 0.705410 0.770319 0.654924 0.741327 0.713526 0.732522 0.789754</float_array>
+          <technique_common>
+            <accessor count="60" offset="0" source="#armor_back_low_left-mesh-UV-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="armor_back_low_left-mesh-color" name="armor_back_low_left-color">
+          <float_array id="armor_back_low_left-mesh-color-array" count="0" />
+        </source>
+        <vertices id="armor_back_low_left-vertices">
+          <input semantic="POSITION" source="#armor_back_low_left-mesh-pos" />
+        </vertices>
+        <triangles count="76" material="plate_1-material">
+          <input semantic="VERTEX" source="#armor_back_low_left-vertices" offset="0" set="0" />
+          <input semantic="NORMAL" source="#armor_back_low_left-mesh-norm" offset="1" set="0" />
+          <input semantic="TEXCOORD" source="#armor_back_low_left-mesh-UV" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 10 10 10 9 9 9 9 9 9 12 12 12 11 11 11 13 13 13 11 11 11 12 12 12 12 12 12 14 14 14 13 13 13 14 14 14 12 12 12 15 15 15 15 15 15 16 16 16 14 14 14 17 17 17 16 16 16 15 15 15 17 17 17 7 7 7 16 16 16 17 17 17 18 18 18 7 7 7 7 7 7 18 18 18 5 5 5 19 19 19 5 5 5 18 18 18 18 18 18 17 17 17 19 19 19 20 20 20 19 19 19 17 17 17 17 17 17 21 21 21 20 20 20 22 22 22 20 20 20 21 21 21 21 21 21 12 12 12 22 22 22 12 12 12 9 9 9 22 22 22 23 23 23 22 22 22 9 9 9 8 8 8 23 23 23 9 9 9 24 24 24 25 25 25 26 26 26 26 26 26 27 27 27 24 24 24 27 27 27 26 26 26 28 28 28 28 28 28 29 29 29 27 27 27 27 27 27 29 29 29 30 30 30 30 30 30 29 29 29 31 31 31 27 27 27 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 35 35 35 34 34 34 32 32 32 36 36 36 32 32 32 34 34 34 32 32 32 36 36 36 27 27 27 27 27 27 36 36 36 37 37 37 37 37 37 38 38 38 27 27 27 24 24 24 27 27 27 38 38 38 38 38 38 39 39 39 24 24 24 25 25 25 24 24 24 39 39 39 39 39 39 40 40 40 25 25 25 25 25 25 40 40 40 41 41 41 41 41 41 26 26 26 25 25 25 26 26 26 41 41 41 42 42 42 42 42 42 28 28 28 26 26 26 43 43 43 28 28 28 42 42 42 29 29 29 28 28 28 43 43 43 43 43 43 44 44 44 29 29 29 31 31 31 29 29 29 44 44 44 45 45 45 37 37 37 36 36 36 35 35 35 46 46 46 33 33 33 32 32 32 47 47 47 35 35 35 44 44 44 48 48 48 31 31 31 49 49 49 31 31 31 48 48 48 48 48 48 50 50 50 49 49 49 51 51 51 49 49 49 50 50 50 51 51 51 50 50 50 52 52 52 52 52 52 53 53 53 51 51 51 51 51 51 53 53 53 54 54 54 54 54 54 49 49 49 51 51 51 49 49 49 54 54 54 45 45 45 45 45 45 55 55 55 49 49 49 36 36 36 55 55 55 45 45 45 34 34 34 55 55 55 36 36 36 55 55 55 34 34 34 49 49 49 31 31 31 49 49 49 34 34 34 34 34 34 33 33 33 31 31 31 31 31 31 33 33 33 30 30 30 30 30 30 33 33 33 46 46 46 46 46 46 56 56 56 30 30 30 42 42 42 57 57 57 43 43 43 43 43 43 57 57 57 58 58 58 58 58 58 44 44 44 43 43 43 48 48 48 44 44 44 58 58 58 58 58 58 59 59 59 48 48 48 48 48 48 59 59 59 52 52 52 52 52 52 50 50 50 48 48 48</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="armor_back_low_left" name="armor_back_low_left" type="NODE">
+        <matrix sid="transform">-0.000001 0.000000 -1.000000 0.000000 0.233934 0.972253 -0.000000 0.000000 0.972253 -0.233934 -0.000001 0.000000 0.000000 0.000000 0.000000 0.000000</matrix>
+        <instance_geometry name="armor_back_low_left" url="#armor_back_low_left-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material target="#plate_1-material" symbol="plate_1-material" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene name="Scene" url="#Scene" />
+  </scene>
+</COLLADA>

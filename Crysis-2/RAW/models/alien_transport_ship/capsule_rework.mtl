@@ -1,0 +1,59 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="frame" MtlFlags="524416" Shader="Illum" GenMask="80082004" StringGenMask="%ALPHAMASK_DETAILMAP%DETAIL_BUMP_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.04614884,0.04614884,0.04614884" Specular="0.57954663,0.57954663,0.57954663" Emissive="0,0,0" Shininess="138" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail/detail_metal_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="2.4260001" DetailBumpTillingU="16.200001" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="2.53" FresnelBias="0.58899999" DetailBumpScale="0.74000001" DetailBumpTillingV="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass_back" MtlFlags="524416" Shader="Illum" GenMask="2080080000" StringGenMask="%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.069727086,0.069727086,0.069727086" Specular="0.65922403,0.65922403,0.65922403" Emissive="0,0,0" Shininess="255" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="2.3210001" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="5.2800002" FresnelBias="0.57099998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="hologram_emitter_glow" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.075926125,0.075926125,0.075926125" Specular="0.75189507,0.028991185,0.017936433" Emissive="0,0,0" Shininess="55" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/capsule_rework_map01_ddn.tif"/>
+    <Texture Map="Decal" File="objects/library/alien/new_spear/glow_gradient.tif">
+     <TexMod TileU="0.2" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="91.699997" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="glass_transparent" MtlFlags="2621568" Shader="Illum" GenMask="90000" StringGenMask="%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.058187179,0.04145189,0.026548682" Specular="0.44787085,0.44787085,0.44787085" Emissive="0,0,0" Shininess="255" Opacity="0.60000002">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/capsule_rework_map02_ddn.tif"/>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="7"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="2.3210001" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="5.2800002" FresnelBias="0.57099998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="biomass" MtlFlags="524416" Shader="Humanskin" GenMask="80000080000" StringGenMask="%GLOSS_MAP%MULTILAYER" SurfaceType="mat_biomass" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" AlphaTest="0.1" vertModifType="2">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/biomass/biomass_ceiling_diff.tif"/>
+    <Texture Map="Specular" File="objects/biomass/biomass_ceiling_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/biomass/biomass_ceiling_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail/biomass_detail_ddn.tif"/>
+    <Texture Map="SubSurface" File="objects/biomass/biomass_ceiling_sss.tif"/>
+    <Texture Map="Custom" File="objects/biomass/biomass_ceiling_multi.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" DividerW="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.015" Level="0" Phase="0.001" Freq="0.5"/>
+   </VertexDeform>
+   <PublicParams SpecularStrenght="1" InnerLayerAnimFreq="0" FresnelPower="4" InnerLayerDiffuse="1,1,1" DiffusionAmount="0.5" SubsurfaceStrenght="0.60000002" Melanin="0" RimStrenght="0" FresnelScale="1" FresnelBias="1" OutterLayerOpacity="0.5" InnerLayerAnimPhase="1" InnerLayerDepth="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

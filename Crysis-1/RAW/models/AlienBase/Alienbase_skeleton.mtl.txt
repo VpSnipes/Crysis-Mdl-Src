@@ -1,0 +1,14 @@
+<Material MtlFlags="16384" Shader="Metal" GenMask="268435488" SurfaceType="" Diffuse="0.18823531,0.18823531,0.18823531" Specular="0.19215688,0.19215688,0.19215688" Emissive="0,0,0" Shininess="5.6799998" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/characters/alien/alienbase/alienbase_skeleton.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="objects/characters/alien/alienbase/alienbase_skeleton.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/characters/alien/alienbase/alienbase_skeleton_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecularMultiplier="1" Glossiness="0.5" AmbientMultiplier="1"/>
+</Material>

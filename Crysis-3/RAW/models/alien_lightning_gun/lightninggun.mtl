@@ -1,0 +1,31 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.078056589,0.078056589,0.078056589" Specular="0.25491586,0.25491586,0.25491586" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_fp.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_fp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_fp_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_fp_decal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.405" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat_2" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.0025858255,0.44787085,1" Specular="0.32972905,0.32972905,0.32972905" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="mat_3" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.078056589,0.078056589,0.078056589" Specular="0.25491586,0.25491586,0.25491586" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_scope_fp.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_scope_fp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_scope_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/lightning_gun/textures/lighning_gun_scope_fp_glow.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.405" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat_4" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.0025858255,0.44787085,1" Specular="0.32972905,0.32972905,0.32972905" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

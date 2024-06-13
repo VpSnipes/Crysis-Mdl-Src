@@ -1,0 +1,19 @@
+<Material MtlFlags="4718848">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="524416" Shader="Illum" GenMask="400000010200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.15728073,0.15728073,0.15728073" Specular="0.13902245,0.13902245,0.13902245" Emissive="0,0,0" Shininess="134" Opacity="1" GlowAmount="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp_glow.tif">
+     <TexMod TexMod_UOscillatorRate="0.5" TexMod_VOscillatorRate="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="2.9400001" FresnelScale="1" GlossFromDiffuseOffset="0.259" FresnelBias="1" GlossFromDiffuseAmount="0.93400002" GlossFromDiffuseBrightness="0.66000003" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

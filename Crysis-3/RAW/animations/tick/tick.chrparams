@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\Alien\tick"/>
+		<Animation name="$TracksDatabase" path="animations\alien\tick\tick.dba"/>
+		<Animation name="$AnimEventDatabase" path="animations\alien\tick\events.animevents"/>
+		<Comment value=" ---------------------------------------------------------------------------"/>
+		<Comment value=" LMGs"/>
+		<Comment value=" ---------------------------------------------------------------------------"/>
+		<Animation name="_STAND_walk" path="locomotion\lmg\walk_idle.bspace"/>
+		<Comment value="Idle\\"/>
+		<Animation name="*" path="behavior\idle\*.caf"/>
+		<Comment value="Walk\\"/>
+		<Animation name="*" path="locomotion\walk\stand\*.caf"/>
+		<Comment value="melee\\"/>
+		<Animation name="*" path="synced\*.caf"/>
+		<Animation name="*" path="synced\PvA\*.caf"/>		
+		<Animation name="*" path="weapons\*.caf"/>
+		<Comment value="collect\\"/>
+		<Animation name="*" path="smartObjects\special\*.caf"/>
+		<Comment value=" Cinematics \\"/>
+		<Animation name="*" path="cinematics\cxp\*.caf"/>
+		<Animation name="*" path="cinematics\01_governors_island\*.caf"/>
+		<Animation name="*" path="cinematics\02_battery_park\*.caf"/>
+		<Animation name="*" path="cinematics\03_downtown\*.caf"/>
+		<Animation name="*" path="cinematics\04_city_hall\*.caf"/>
+		<Animation name="*" path="cinematics\05_flood\*.caf"/>
+		<Animation name="*" path="cinematics\06_grand_central\*.caf"/>
+		<Animation name="*" path="cinematics\07_times_square\*.caf"/>
+		<Animation name="*" path="cinematics\08_roosevelt_island\*.caf"/>
+		<Animation name="*" path="cinematics\09_terminal\*.caf"/>
+		<Animation name="*" path="cinematics\10_columbus_circle\*.caf"/>
+		<Animation name="*" path="cinematics\11_central_park\*.caf"/>
+	</AnimationList>
+</Params>

@@ -1,0 +1,121 @@
+<Material MtlFlags="4718848">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/metal_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/metal_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/metal_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="0.5" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_1" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="220" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/plate_1_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/plate_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/plate_1_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/screencondensation.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="0" FresnelScale="0.5" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_2" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="220" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/plate_2_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/plate_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/plate_2_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/screencondensation.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="1" SpecMapChannelG="1" FresnelScale="0.5" FresnelBias="1" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="eyes" MtlFlags="524448" Shader="Illum" GenMask="400000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.10871115,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/grunt/textures/grunt_eyes.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.5" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="jelly" MtlFlags="524416" Shader="Humanskin" GenMask="80044080220" StringGenMask="%BAKED_TRANSLUCENCY%BUMP_MAP%GLOSS_MAP%MULTILAYER%RIM_GLOSS%TEMP_SKIN" SurfaceType="mat_alien_jelly" MatTemplate="" Diffuse="0.24680044,0.288816,0.47044027" Specular="0.45345649,0.45345649,0.45345649" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="51" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/heavy_jelly_outer_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/heavy_jelly_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/heavy_jelly_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/white.dds" Filter="2"/>
+    <Texture Map="Opacity" File="objects/characters/alien/heavy/textures/heavy_jelly_inner_dif.tif"/>
+    <Texture Map="SubSurface" File="objects/characters/alien/stalker/textures/grey.tif"/>
+    <Texture Map="Custom" File="objects/characters/alien/heavy/textures/heavy_jelly_transl.tif"/>
+   </Textures>
+   <PublicParams TranslucencyStrength="4.9099998" RimFresnelPow="1.2" InnerLayerAnimFreq="1.99" TranslucencyEmissive="4.4899998" InnerLayerDiffuse="0.48776522,0.48776522,0.48776522" ScatterRadius="5.026" Melanin="0" FresnelScale="0" RimStrength="0.38" FresnelBias="0.081" OutterLayerOpacity="0.50099999" InnerLayerAnimPhase="1.4400001" SecondarySpecGloss="255" TranslucencyColor="1,1,1" RimGloss="0.23" InnerLayerDepth="7.0599999" TranslucencyBaseReflex="1.5700001" SecondarySpecStrength="0.0099999998" IndirectColor="0.38891026,0.38891026,0.38891026"/>
+  </Material>
+  <Material Name="phys_armor" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.72941202,1,0" Specular="0.89999998,0.89999998,0.89999998" Emissive="0.5,0.5,0.5" Shininess="10" Opacity="0.2" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="phys_jelly" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_alien_jelly" MatTemplate="" Diffuse="0,0.72941202,1" Specular="0.89999998,0.89999998,0.89999998" Emissive="0.5,0.5,0.5" Shininess="10" Opacity="0.2" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="nodraw_nophys" MtlFlags="524448" Shader="Illum" GenMask="400000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,1,0" Specular="0.89999998,0.89999998,0.89999998" Emissive="0.027755279,0.027755279,0.027755279" Shininess="10" LayerAct="1">
+   <Textures />
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="guts" MtlFlags="541856" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.5174014,0.5174014,0.5174014" Specular="0,0,0" Emissive="1,1,1" Shininess="100" Opacity="1" HeatAmountScaled="64" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="plate_glow" MtlFlags="524448" Shader="Illum" GenMask="400000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.20109573,0.0083731171,0" Specular="0,0,0" Emissive="0.027755279,0.027755279,0.027755279" Shininess="10" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_noshadow" MtlFlags="524448" Shader="Illum" GenMask="400000080209" StringGenMask="%ALLOW_SILHOUETTE_POM%ANISO_SPECULAR%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.20835964,0.20835964,0.20835964" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="144" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/metal_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/metal_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/metal_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" AnisotropicShape="0.60100001" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_1_noshadow" MtlFlags="524448" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.20835964,0.20835964,0.20835964" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="144" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/plate_1_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/plate_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/plate_1_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/screencondensation.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="0.2" SpecMapChannelG="1" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_2_noshadow" MtlFlags="524448" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.20835964,0.20835964,0.20835964" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="144" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/plate_2_dif.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/textures/plate_2_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/plate_2_ddn.tif"/>
+    <Texture Map="Detail" File="textures/defaults/screencondensation.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="0.2" SpecMapChannelG="1" FresnelScale="1" FresnelBias="1" IndirectColor="0.25084025,0.25084025,0.25084025"/>
+  </Material>
+  <Material Name="eyes_jelly" MtlFlags="524416" Shader="Illum" GenMask="400000000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.04145189,0.0036972393,0.00080465846" Specular="0.31118053,0.58597302,1" Emissive="0,0,0" Shininess="20" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/textures/heavy_jelly_outer_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/textures/"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="weapons_alive" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_alien_shell" MatTemplate="" Diffuse="0.17013837,0.17013837,0.17013837" Specular="0.26317474,0.32038158,0.39408314" Emissive="0,0,0" Shininess="221" Opacity="1" GlowAmount="4" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp.tif"/>
+    <Texture Map="Specular" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/heavy_mortar/textures/mortar_tp_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/heavy_minigun/textures/particle_flow.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="0.5" TexMod_VOscillatorRate="0.5" TexMod_UOscillatorAmplitude="0.5" TexMod_VOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="weapons_dead" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.20835964,0.20835964,0.20835964" Specular="0.50543249,0.50543249,0.50543249" Emissive="0.027755279,0.027755279,0.027755279" Shininess="144" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/heavy/weapons/weapons_dmg_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/alien/heavy/weapons/weapons_dmg_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/alien/heavy/weapons/weapons_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

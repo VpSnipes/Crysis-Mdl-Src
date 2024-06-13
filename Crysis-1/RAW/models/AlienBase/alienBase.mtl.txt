@@ -1,0 +1,59 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Body" MtlFlags="16512" Shader="Methagen" GenMask="285212816" SurfaceType="mat_alien_flesh" Diffuse="0.45098042,0.45098042,0.45098042" Specular="1,1,1" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/alienbase/alienbase.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/alienbase/alienbase.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/alienbase/alienbase_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds" TexType="3">
+     <TexMod />
+    </Texture>
+    <Texture Map="SubSurface" File="objects/characters/alien/alienbase/alienbase_ramp.tif" IsTileU="0" IsTileV="0">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefractBumpScale="0.0049999999" g_curveKeyPoint0="0.75" g_curveKeyPoint2="1.65" g_TranlucencyBumpStrenght="0.88999999" g_DepthRampAdjust="1.03" g_SkeletonBrightness="10" fReflectAmount="1.8099999" fFresnelScale="1" fFresnelBias="0"/>
+  </Material>
+  <Material Name="Head" MtlFlags="16512" Shader="Methagen" GenMask="285212816" SurfaceType="mat_alien_flesh" Diffuse="0.45098042,0.45098042,0.45098042" Specular="1,1,1" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/alien/alienbase/alienbase_head.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/alien/alienbase/alienbase_head.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/alien/alienbase/alienbase_head_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds" TexType="3">
+     <TexMod />
+    </Texture>
+    <Texture Map="SubSurface" File="objects/characters/alien/alienbase/alienbase_ramp.tif" IsTileU="0" IsTileV="0">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams RefractBumpScale="0.0049999999" g_curveKeyPoint0="0.736" g_curveKeyPoint2="1.6619999" g_TranlucencyBumpStrenght="0.88999999" g_DepthRampAdjust="1.03" g_SkeletonBrightness="10" fReflectAmount="1.8099999" fFresnelScale="1" fFresnelBias="0"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_alien_flesh" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="eyes" MtlFlags="128" Shader="Metal" GenMask="268443664" SurfaceType="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/alien_02.dds" TexType="3">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="2" AnisotropicShape="0.25" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

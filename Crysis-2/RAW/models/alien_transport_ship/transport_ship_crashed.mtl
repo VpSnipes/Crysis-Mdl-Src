@@ -1,0 +1,29 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="2080082101" StringGenMask="%ALLOW_POM%BLENDLAYER%DETAIL_BUMP_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.049433462,0.049433462,0.049433462" Specular="0.56049919,0.56049919,0.56049919" Emissive="0,0,0" Shininess="161" Opacity="1" GlowAmount="16">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/alien/transport_ship/transport_ship_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/alien/transport_ship/transport_ship_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/alien/transport_ship/transport_ship_ddn.tif"/>
+    <Texture Map="Environment" File="objects/vehicles/alien/transport_ship/transport_ship_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail/!c_detail_metal_ddn.dds"/>
+    <Texture Map="Opacity" File="objects/vehicles/alien/gunship/crumpled_metal_depth.tif"/>
+    <Texture Map="Custom" File="objects/vehicles/alien/gunship/crumpled_metal_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/vehicles/alien/gunship/crumpled_metal_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="2" SpecMapChannelR="0" FresnelPower="4.5" DetailBumpTillingU="6" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1.5" FresnelBias="0.5" DetailBumpScale="1" BlendMaskTiling="1" DetailBumpTillingV="6" BlendFactor="1.6" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

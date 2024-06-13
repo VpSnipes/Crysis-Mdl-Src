@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2021-11-03T17:58:35.9848839+00:00</created>
+    <modified>2021-11-03T17:58:35.9867672+00:00</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+    <contributor>
+      <author>Heffay</author>
+      <author_email>markemp@gmail.com</author_email>
+      <author_website>https://github.com/Markemp/Cryengine-Converter</author_website>
+      <source_data>pinger_plate_back_left_scaled</source_data>
+    </contributor>
+    <contributor>
+      <author>Matthewl@UKPC1103</author>
+      <source_data>D:\matthewl\perforce_frankfurt\data\Games\Crysis3\dev\C3\Objects\characters\alien\pinger\pinger_setup_mp_scaled_3.max</source_data>
+    </contributor>
+    <revision>1.3.1.0</revision>
+    <title>pinger_plate_back_left_scaled</title>
+    <extra id="material_file_name" name="pinger_plate_back_left_scaled.mtl" type="mtl_file" />
+  </asset>
+  <library_images />
+  <library_effects>
+    <effect id="body-effect" name="body">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tubes-effect" name="tubes">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="plates-effect" name="plates">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_metal-effect" name="proxy_metal">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="nodraw_nophys-effect" name="nodraw_nophys">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow-effect" name="glow">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow_effect-effect" name="glow_effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_weakspot-effect" name="proxy_weakspot">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.5 0.5</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">1 1 1</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">0.2</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="body-material" name="body">
+      <instance_effect url="#body-effect" />
+    </material>
+    <material id="tubes-material" name="tubes">
+      <instance_effect url="#tubes-effect" />
+    </material>
+    <material id="plates-material" name="plates">
+      <instance_effect url="#plates-effect" />
+    </material>
+    <material id="proxy_metal-material" name="proxy_metal">
+      <instance_effect url="#proxy_metal-effect" />
+    </material>
+    <material id="nodraw_nophys-material" name="nodraw_nophys">
+      <instance_effect url="#nodraw_nophys-effect" />
+    </material>
+    <material id="glow-material" name="glow">
+      <instance_effect url="#glow-effect" />
+    </material>
+    <material id="glow_effect-material" name="glow_effect">
+      <instance_effect url="#glow_effect-effect" />
+    </material>
+    <material id="proxy_weakspot-material" name="proxy_weakspot">
+      <instance_effect url="#proxy_weakspot-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="pinger_plate_back_left_scaled-mesh" name="pinger_plate_back_left_scaled">
+      <mesh>
+        <source id="pinger_plate_back_left_scaled-mesh-pos" name="pinger_plate_back_left_scaled-pos">
+          <float_array id="pinger_plate_back_left_scaled-mesh-pos-array" count="321">-1.235352 -0.567383 5.207031 -1.388672 -1.772461 5.421875 -1.949219 -1.776367 5.421875 -1.700195 -0.560059 5.207031 -1.700195 -0.560059 5.207031 -1.949219 -1.671875 6.218750 -1.700195 -0.367188 5.796875 -1.235352 -0.374023 5.796875 -1.949219 -1.671875 6.218750 -1.388672 -1.666992 6.218750 -1.388672 -1.666992 6.218750 -1.949219 -1.671875 6.218750 -1.949219 -1.776367 5.421875 -1.388672 -1.772461 5.421875 -1.235352 -0.374023 5.796875 -1.388672 -1.666992 6.218750 -1.388672 -1.772461 5.421875 -1.235352 -0.567383 5.207031 -1.700195 -0.367188 5.796875 -1.235352 -0.374023 5.796875 -1.235352 -0.567383 5.207031 -1.700195 -0.560059 5.207031 -1.668945 -0.751465 5.871094 -1.708008 -0.729492 5.871094 -1.860352 -1.274414 6.050781 -1.817383 -1.285156 6.054688 -1.682617 -1.643555 6.175781 -1.449219 -0.360840 5.773438 -1.407227 -0.373779 5.777344 -1.654297 -1.626953 6.171875 -1.817383 -1.285156 6.054688 -1.429688 -0.359863 5.753906 -1.384766 -0.376221 5.757812 -1.681641 -1.681641 5.949219 -1.652344 -1.665039 5.945312 -1.813477 -1.314453 5.828125 -1.550781 -0.550781 5.605469 -1.856445 -1.303711 5.824219 -1.698242 -0.863770 5.707031 -1.380859 -0.365234 5.648438 -1.349609 -0.387451 5.664062 -1.734375 -0.837891 5.710938 -1.674805 -0.800781 5.574219 -1.250000 -0.348145 5.585938 -1.233398 -0.376709 5.617188 -1.699219 -0.760742 5.523438 -1.540039 -0.784180 5.398438 -1.467773 -0.558105 5.496094 -1.302734 -0.543457 5.433594 -1.233398 -0.376709 5.617188 -1.290039 -0.579102 5.468750 -1.557617 -0.745117 5.351562 -1.354492 -0.770996 5.332031 -1.364258 -0.732910 5.289062 -1.552734 -1.688477 5.585938 -1.631836 -1.711914 5.757812 -1.661133 -1.736328 5.710938 -1.423828 -1.640625 5.457031 -1.404297 -1.623047 5.496094 -1.655273 -1.707031 5.925781 -1.625977 -1.690430 5.921875 -1.812500 -1.317383 5.796875 -1.575195 -1.705078 5.539062 -1.856445 -1.306641 5.796875 -1.709961 -0.887695 5.687500 -1.856445 -1.319336 5.578125 -1.747070 -0.861816 5.691406 -1.688477 -0.825195 5.570312 -1.755859 -1.299805 5.414062 -1.713867 -0.785156 5.519531 -1.557617 -0.802246 5.386719 -1.546875 -1.255859 5.371094 -1.404297 -1.623047 5.496094 -1.568359 -0.771484 5.347656 -1.369141 -0.796387 5.328125 -1.583984 -1.245117 5.339844 -1.369141 -0.796387 5.328125 -1.378906 -0.758301 5.285156 -1.568359 -0.771484 5.347656 -1.668945 -0.751465 5.871094 -1.698242 -0.863770 5.707031 -1.674805 -0.800781 5.574219 -1.817383 -1.285156 6.054688 -1.813477 -1.314453 5.828125 -1.652344 -1.665039 5.945312 -1.654297 -1.626953 6.171875 -1.476562 -0.585449 5.636719 -1.407227 -0.373779 5.777344 -1.384766 -0.376221 5.757812 -1.540039 -0.784180 5.398438 -1.349609 -0.387451 5.664062 -1.423828 -0.592773 5.531250 -1.354492 -0.770996 5.332031 -1.290039 -0.579102 5.468750 -1.233398 -0.376709 5.617188 -1.709961 -0.887695 5.687500 -1.812500 -1.317383 5.796875 -1.814453 -1.324219 5.628906 -1.688477 -0.825195 5.570312 -1.625977 -1.690430 5.921875 -1.631836 -1.711914 5.757812 -1.552734 -1.688477 5.585938 -1.715820 -1.307617 5.457031 -1.404297 -1.623047 5.496094 -1.557617 -0.802246 5.386719 -1.546875 -1.255859 5.371094 -1.369141 -0.796387 5.328125</float_array>
+          <technique_common>
+            <accessor count="107" offset="0" source="#pinger_plate_back_left_scaled-mesh-pos-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_back_left_scaled-mesh-norm" name="pinger_plate_back_left_scaled-norm">
+          <float_array id="pinger_plate_back_left_scaled-mesh-norm-array" count="321">0.014220 0.949800 -0.312536 0.992127 -0.118961 0.039145 -0.980269 0.195978 -0.025793 -0.980269 0.195978 -0.025793 -0.980269 0.195978 -0.025793 -0.980269 0.195978 -0.025793 -0.983937 0.169570 -0.055798 0.014220 0.949800 -0.312536 -0.980269 0.195978 -0.025793 0.993530 -0.112599 0.014819 0.993530 -0.112599 0.014819 -0.980269 0.195978 -0.025793 -0.980269 0.195978 -0.025793 0.992127 -0.118961 0.039145 0.014220 0.949800 -0.312536 0.993530 -0.112599 0.014819 0.992127 -0.118961 0.039145 0.014220 0.949800 -0.312536 -0.983937 0.169570 -0.055798 0.014220 0.949800 -0.312536 0.014220 0.949800 -0.312536 -0.980269 0.195978 -0.025793 0.813867 -0.480570 0.326608 -0.827569 0.547899 -0.122211 -0.911282 -0.410233 0.035709 0.908338 0.413424 -0.063268 -0.907292 -0.415657 0.063637 -0.498417 0.706648 -0.502225 0.813867 -0.480570 0.326608 0.908338 0.413424 -0.063268 0.908338 0.413424 -0.063268 -0.658943 0.675047 -0.331822 0.769935 -0.536396 0.345658 -0.911282 -0.410233 0.035709 0.089900 -0.282784 -0.954961 0.089900 -0.282784 -0.954961 -0.591025 0.646072 -0.482992 -0.911282 -0.410233 0.035709 -0.546953 -0.716354 -0.433219 -0.591025 0.646072 -0.482992 0.388785 -0.596027 0.702566 -0.436159 -0.802102 -0.407919 0.609616 -0.681109 0.405535 0.198634 0.748735 0.632409 0.342953 -0.616563 0.708684 -0.464236 -0.760314 -0.454322 0.609616 -0.681109 0.405535 -0.268922 0.665993 -0.695797 -0.325109 0.636749 -0.699181 0.342953 -0.616563 0.708684 0.388785 -0.596027 0.702566 -0.268922 0.665993 -0.695797 0.299742 -0.656510 0.692206 -0.268922 0.665993 -0.695797 0.321393 0.422022 0.847705 0.760502 0.494902 0.420367 -0.738976 -0.492238 -0.460017 0.473988 -0.867535 0.150723 0.316919 0.418063 0.851343 0.016892 0.313542 0.949424 0.901756 0.423376 -0.087118 0.901756 0.423376 -0.087118 -0.721493 -0.475081 -0.503731 -0.971775 0.235614 -0.011764 0.526267 0.707648 0.471463 -0.721493 -0.475081 -0.503731 -0.971775 0.235614 -0.011764 0.808399 -0.176289 0.561617 -0.416593 0.027743 -0.908670 -0.965273 0.249775 -0.076558 0.808399 -0.176289 0.561617 0.316919 0.418063 0.851343 0.316919 0.418063 0.851343 -0.416593 0.027743 -0.908670 0.156497 0.818182 0.553251 -0.416593 0.027743 -0.908670 0.156497 0.818182 0.553251 -0.313149 0.024974 -0.949376 -0.416593 0.027743 -0.908670 0.813867 -0.480570 0.326608 -0.546953 -0.716354 -0.433219 0.609616 -0.681109 0.405535 0.908338 0.413424 -0.063268 0.089900 -0.282784 -0.954961 0.089900 -0.282784 -0.954961 0.908338 0.413424 -0.063268 0.609616 -0.681109 0.405535 0.813867 -0.480570 0.326608 0.769935 -0.536396 0.345658 0.609616 -0.681109 0.405535 0.388785 -0.596027 0.702566 0.661564 -0.653149 0.368414 0.299742 -0.656510 0.692206 0.388785 -0.596027 0.702566 0.342953 -0.616563 0.708684 0.526267 0.707648 0.471463 0.901756 0.423376 -0.087118 0.864565 -0.159704 0.476469 0.808399 -0.176289 0.561617 0.901756 0.423376 -0.087118 0.760502 0.494902 0.420367 0.321393 0.422022 0.847705 0.808399 -0.176289 0.561617 0.316919 0.418063 0.851343 0.808399 -0.176289 0.561617 0.316919 0.418063 0.851343 0.156497 0.818182 0.553251</float_array>
+          <technique_common>
+            <accessor count="107" offset="0" source="#pinger_plate_back_left_scaled-mesh-norm-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_back_left_scaled-mesh-UV" name="pinger_plate_back_left_scaled-UV">
+          <float_array id="pinger_plate_back_left_scaled-mesh-UV-array" count="214">0 1 0 0 1 0 1 1 0 0 1 1 0 1 1 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 0.239929 0.178591 0.240692 0.170809 0.138247 0.174512 0.135635 0.181294 0.065135 0.174937 0.320149 0.176868 0.323783 0.182635 0.056858 0.179237 0.135635 0.181294 0.323368 0.176175 0.330501 0.180136 0.075453 0.135423 0.070265 0.128884 0.141554 0.128205 0.293314 0.139831 0.144352 0.134854 0.226286 0.130995 0.334060 0.159047 0.340594 0.163072 0.230649 0.137819 0.244420 0.110447 0.355042 0.146603 0.360204 0.147919 0.255586 0.111864 0.275513 0.079858 0.307976 0.121650 0.335427 0.108269 0.360204 0.147919 0.342714 0.102945 0.282526 0.086576 0.313635 0.070757 0.312552 0.075290 0.238668 0.080370 0.246390 0.042448 0.238493 0.047671 0.221415 0.110776 0.224631 0.115650 0.238392 0.012287 0.242774 0.008315 0.160172 0.003763 0.230125 0.080263 0.158627 0.010039 0.075458 0.006433 0.156498 0.045727 0.077579 0.011988 0.057334 0.034874 0.151341 0.076161 0.062066 0.044661 0.049089 0.081377 0.146191 0.116349 0.224631 0.115650 0.056879 0.085416 0.052674 0.124809 0.142821 0.108413 0.052674 0.124809 0.056412 0.118456 0.056879 0.085416 1.240309 0.170935 1.230654 0.138092 1.255598 0.111836 1.138491 0.174536 1.144193 0.134705 1.075370 0.135550 1.065538 0.174906 1.293292 0.139459 1.320174 0.176602 1.323240 0.175980 1.282319 0.086354 1.334025 0.158781 1.307892 0.121389 1.312508 0.074869 1.335577 0.108000 1.355021 0.146404 -0.921578 0.011872 -0.841505 0.010160 -0.843166 0.045402 -0.936893 0.044289 -0.761598 0.013289 -0.762057 0.048348 -0.770087 0.079889 -0.848788 0.075675 -0.779313 0.110150 -0.942135 0.083873 -0.857231 0.107253 -0.943264 0.117240</float_array>
+          <technique_common>
+            <accessor count="107" offset="0" source="#pinger_plate_back_left_scaled-mesh-UV-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pinger_plate_back_left_scaled-mesh-color" name="pinger_plate_back_left_scaled-color">
+          <float_array id="pinger_plate_back_left_scaled-mesh-color-array" count="0" />
+        </source>
+        <vertices id="pinger_plate_back_left_scaled-vertices">
+          <input semantic="POSITION" source="#pinger_plate_back_left_scaled-mesh-pos" />
+        </vertices>
+        <triangles count="12" material="proxy_metal-material">
+          <input semantic="VERTEX" source="#pinger_plate_back_left_scaled-vertices" offset="0" set="0" />
+          <input semantic="NORMAL" source="#pinger_plate_back_left_scaled-mesh-norm" offset="1" set="0" />
+          <input semantic="TEXCOORD" source="#pinger_plate_back_left_scaled-mesh-UV" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0 4 4 4 2 2 2 5 5 5 5 5 5 6 6 6 4 4 4 7 7 7 6 6 6 8 8 8 8 8 8 9 9 9 7 7 7 10 10 10 11 11 11 12 12 12 12 12 12 13 13 13 10 10 10 14 14 14 15 15 15 16 16 16 16 16 16 17 17 17 14 14 14 18 18 18 19 19 19 20 20 20 20 20 20 21 21 21 18 18 18</p>
+        </triangles>
+        <triangles count="104" material="body-material">
+          <input semantic="VERTEX" source="#pinger_plate_back_left_scaled-vertices" offset="0" set="0" />
+          <input semantic="NORMAL" source="#pinger_plate_back_left_scaled-mesh-norm" offset="1" set="0" />
+          <input semantic="TEXCOORD" source="#pinger_plate_back_left_scaled-mesh-UV" offset="2" set="0" />
+          <p>22 22 22 23 23 23 24 24 24 24 24 24 25 25 25 22 22 22 25 25 25 24 24 24 26 26 26 27 27 27 23 23 23 22 22 22 22 22 22 28 28 28 27 27 27 26 26 26 29 29 29 30 30 30 31 31 31 27 27 27 28 28 28 28 28 28 32 32 32 31 31 31 29 29 29 26 26 26 33 33 33 33 33 33 26 26 26 24 24 24 33 33 33 34 34 34 29 29 29 35 35 35 34 34 34 33 33 33 27 27 27 31 31 31 36 36 36 36 36 36 23 23 23 27 27 27 33 33 33 37 37 37 35 35 35 24 24 24 37 37 37 33 33 33 38 38 38 35 35 35 37 37 37 39 39 39 31 31 31 32 32 32 36 36 36 31 31 31 39 39 39 32 32 32 40 40 40 39 39 39 37 37 37 41 41 41 38 38 38 41 41 41 37 37 37 24 24 24 24 24 24 23 23 23 41 41 41 42 42 42 38 38 38 41 41 41 43 43 43 39 39 39 40 40 40 40 40 40 44 44 44 43 43 43 41 41 41 45 45 45 42 42 42 45 45 45 41 41 41 23 23 23 23 23 23 36 36 36 45 45 45 46 46 46 42 42 42 45 45 45 39 39 39 47 47 47 36 36 36 45 45 45 36 36 36 47 47 47 39 39 39 43 43 43 48 48 48 48 48 48 47 47 47 39 39 39 48 48 48 43 43 43 49 49 49 49 49 49 50 50 50 48 48 48 45 45 45 51 51 51 46 46 46 47 47 47 51 51 51 45 45 45 52 52 52 46 46 46 51 51 51 53 53 53 48 48 48 50 50 50 50 50 50 52 52 52 53 53 53 47 47 47 48 48 48 53 53 53 51 51 51 53 53 53 52 52 52 53 53 53 51 51 51 47 47 47 54 54 54 55 55 55 56 56 56 57 57 57 58 58 58 54 54 54 59 59 59 56 56 56 55 55 55 55 55 55 60 60 60 59 59 59 59 59 59 60 60 60 61 61 61 56 56 56 62 62 62 54 54 54 54 54 54 62 62 62 57 57 57 61 61 61 63 63 63 59 59 59 56 56 56 59 59 59 63 63 63 63 63 63 61 61 61 64 64 64 62 62 62 56 56 56 65 65 65 63 63 63 65 65 65 56 56 56 64 64 64 66 66 66 63 63 63 65 65 65 63 63 63 66 66 66 66 66 66 64 64 64 67 67 67 65 65 65 68 68 68 62 62 62 57 57 57 62 62 62 68 68 68 67 67 67 69 69 69 66 66 66 66 66 66 69 69 69 65 65 65 68 68 68 65 65 65 69 69 69 69 69 69 67 67 67 70 70 70 71 71 71 72 72 72 57 57 57 70 70 70 73 73 73 69 69 69 69 69 69 73 73 73 68 68 68 73 73 73 70 70 70 74 74 74 68 68 68 75 75 75 57 57 57 75 75 75 68 68 68 73 73 73 57 57 57 75 75 75 71 71 71 76 76 76 71 71 71 75 75 75 73 73 73 77 77 77 75 75 75 75 75 75 77 77 77 74 74 74 74 74 74 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 80 80 80 79 79 79 82 82 82 82 82 82 83 83 83 80 80 80 84 84 84 83 83 83 82 82 82 82 82 82 85 85 85 84 84 84 81 81 81 86 86 86 79 79 79 87 87 87 79 79 79 86 86 86 86 86 86 88 88 88 87 87 87 86 86 86 81 81 81 89 89 89 90 90 90 88 88 88 86 86 86 89 89 89 91 91 91 86 86 86 86 86 86 91 91 91 90 90 90 91 91 91 89 89 89 92 92 92 92 92 92 93 93 93 91 91 91 90 90 90 91 91 91 93 93 93 93 93 93 94 94 94 90 90 90 95 95 95 96 96 96 97 97 97 97 97 97 98 98 98 95 95 95 96 96 96 99 99 99 100 100 100 100 100 100 97 97 97 96 96 96 97 97 97 100 100 100 101 101 101 98 98 98 97 97 97 102 102 102 101 101 101 102 102 102 97 97 97 102 102 102 101 101 101 103 103 103 102 102 102 104 104 104 98 98 98 103 103 103 105 105 105 102 102 102 104 104 104 102 102 102 105 105 105 105 105 105 106 106 106 104 104 104</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="pinger_plate_back_left_scaled" name="pinger_plate_back_left_scaled" type="NODE">
+        <matrix sid="transform">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000</matrix>
+        <instance_geometry name="pinger_plate_back_left_scaled" url="#pinger_plate_back_left_scaled-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material target="#proxy_metal-material" symbol="proxy_metal-material" />
+              <instance_material target="#body-material" symbol="body-material" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene name="Scene" url="#Scene" />
+  </scene>
+</COLLADA>

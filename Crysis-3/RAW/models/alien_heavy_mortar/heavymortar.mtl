@@ -1,0 +1,30 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.024222942,0.024222942,0.024222942" Specular="0.26317474,0.32038158,0.39408314" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="2" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/heavy_mortar/textures/mat_1.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/alien/heavy_mortar/textures/mat_1_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/heavy_mortar/textures/mat_1_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/heavy_mortar/textures/mat_1_glow.tif">
+     <TexMod TexMod_UOscillatorRate="8" TexMod_VOscillatorRate="8" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="8" TexMod_VOscillatorAmplitude="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.40000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat_2" MtlFlags="524416" Shader="Illum" GenMask="400080090200" StringGenMask="%BUMP_MAP%ENVIRONMENT_MAP%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.024222942,0.024222942,0.024222942" Specular="0.26317474,0.32038158,0.39408314" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="2" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/alien/heavy_mortar/textures/mat_2.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/alien/heavy_mortar/textures/mat_2_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/alien/heavy_mortar/textures/mat_2_ddn.tif" Filter="5"/>
+    <Texture Map="Environment" File="textures/cubemaps/fp_weapon.tif"/>
+    <Texture Map="Decal" File="objects/weapons/alien/heavy_mortar/textures/mat_2_glow.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.40000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mat_3" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.028991185,0.044552624,0.054592282" Specular="0.25902736,0.25902736,0.25902736" Emissive="0,0,0" Shininess="46" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2021-11-03T17:58:28.5570366+00:00</created>
+    <modified>2021-11-03T17:58:28.5589444+00:00</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+    <contributor>
+      <author>Heffay</author>
+      <author_email>markemp@gmail.com</author_email>
+      <author_website>https://github.com/Markemp/Cryengine-Converter</author_website>
+      <source_data>Pinger_Base</source_data>
+    </contributor>
+    <contributor>
+      <author>mathias@FRWP1MATHIAS</author>
+      <source_data>j:\data\Games\Crysis3\dev\C3\Objects\characters\alien\pinger\pinger_setup.max</source_data>
+    </contributor>
+    <revision>1.3.1.0</revision>
+    <title>Pinger_Base</title>
+    <extra id="material_file_name" name="pinger.mtl" type="mtl_file" />
+  </asset>
+  <library_images>
+    <image id="body_map_1_Diffuse" name="body_map_1_Diffuse">
+      <init_from>textures/pinger_mi1_diff.dds</init_from>
+    </image>
+    <image id="body_map_1_Specular" name="body_map_1_Specular">
+      <init_from>textures/pinger_mi1_spec.dds</init_from>
+    </image>
+    <image id="body_map_1_Bumpmap" name="body_map_1_Bumpmap">
+      <init_from>textures/pinger_mi1_ddn.dds</init_from>
+    </image>
+    <image id="body_map_1_Decal" name="body_map_1_Decal">
+      <init_from>textures/mat_2_glow.dds</init_from>
+    </image>
+    <image id="body_map_2_Diffuse" name="body_map_2_Diffuse">
+      <init_from>textures/pinger_mi2_diff.dds</init_from>
+    </image>
+    <image id="body_map_2_Specular" name="body_map_2_Specular">
+      <init_from>textures/pinger_mi2_spec.dds</init_from>
+    </image>
+    <image id="body_map_2_Bumpmap" name="body_map_2_Bumpmap">
+      <init_from>textures/pinger_mi2_ddn.dds</init_from>
+    </image>
+    <image id="body_map_2_Decal" name="body_map_2_Decal">
+      <init_from>textures/mat_1_glow.dds</init_from>
+    </image>
+    <image id="hatch_Diffuse" name="hatch_Diffuse">
+      <init_from>textures/hatch_dif.dds</init_from>
+    </image>
+    <image id="hatch_Specular" name="hatch_Specular">
+      <init_from>textures/hatch_spec.dds</init_from>
+    </image>
+    <image id="hatch_Bumpmap" name="hatch_Bumpmap">
+      <init_from>textures/hatch_ddn.dds</init_from>
+    </image>
+    <image id="hatch_Decal" name="hatch_Decal">
+      <init_from>textures/hatch_glow_alpha.dds</init_from>
+    </image>
+    <image id="glow_Diffuse" name="glow_Diffuse">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="glow_Bumpmap" name="glow_Bumpmap">
+      <init_from>textures/pinger_glow_ddn.dds</init_from>
+    </image>
+    <image id="glow_effect_Diffuse" name="glow_effect_Diffuse">
+      <init_from>textures/pinger_glow_effect_diff.dds</init_from>
+    </image>
+    <image id="glow_effect_Bumpmap" name="glow_effect_Bumpmap">
+      <init_from>textures/water_droplets.dds</init_from>
+    </image>
+    <image id="glow_effect_Environment" name="glow_effect_Environment">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="glow_effect_Decal" name="glow_effect_Decal">
+      <init_from>textures/pinger_glow_effect_spec.dds</init_from>
+    </image>
+    <image id="gunGlow_Diffuse" name="gunGlow_Diffuse">
+      <init_from>textures/pinger_glow_diff.dds</init_from>
+    </image>
+    <image id="gunGlow_Bumpmap" name="gunGlow_Bumpmap">
+      <init_from>textures/pinger_glow_ddn.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="body_map_1-effect" name="body_map_1">
+      <profile_COMMON>
+        <newparam sid="pinger_mi1_diff-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi1_spec-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi1_ddn-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi1_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi1_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mat_2_glow-surface">
+          <surface type="2D">
+            <init_from>body_map_1_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mat_2_glow-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mat_2_glow-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_mi1_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_mi1_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="pinger_mi1_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="body_map_2-effect" name="body_map_2">
+      <profile_COMMON>
+        <newparam sid="pinger_mi2_diff-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi2_spec-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_mi2_ddn-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_mi2_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_mi2_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="mat_1_glow-surface">
+          <surface type="2D">
+            <init_from>body_map_2_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mat_1_glow-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>mat_1_glow-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_mi2_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_mi2_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="pinger_mi2_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="hatch-effect" name="hatch">
+      <profile_COMMON>
+        <newparam sid="hatch_dif-surface">
+          <surface type="2D">
+            <init_from>hatch_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_dif-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_dif-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_spec-surface">
+          <surface type="2D">
+            <init_from>hatch_Specular</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_ddn-surface">
+          <surface type="2D">
+            <init_from>hatch_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="hatch_glow_alpha-surface">
+          <surface type="2D">
+            <init_from>hatch_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hatch_glow_alpha-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>hatch_glow_alpha-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="hatch_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="hatch_dif-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <texture texture="hatch_spec-sampler" texcoord="" />
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">220</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_metal-effect" name="proxy_metal">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="nodraw_nophys-effect" name="nodraw_nophys">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow-effect" name="glow">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>glow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-surface">
+          <surface type="2D">
+            <init_from>glow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_glow_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glow_effect-effect" name="glow_effect">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_effect_diff-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_effect_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_effect_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="water_droplets-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="water_droplets-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>water_droplets-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Environment</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_effect_spec-surface">
+          <surface type="2D">
+            <init_from>glow_effect_Decal</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_effect_spec-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_effect_spec-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="water_droplets-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">1 1 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_effect_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0.01200002</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="proxy_weakspot-effect" name="proxy_weakspot">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">10</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="gunGlow-effect" name="gunGlow">
+      <profile_COMMON>
+        <newparam sid="pinger_glow_diff-surface">
+          <surface type="2D">
+            <init_from>gunGlow_Diffuse</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_diff-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_diff-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-surface">
+          <surface type="2D">
+            <init_from>gunGlow_Bumpmap</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="pinger_glow_ddn-sampler">
+          <sampler2D>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <wrap_p>WRAP</wrap_p>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+            <mip_max_level>0</mip_max_level>
+            <mip_min_level>0</mip_min_level>
+            <mip_bias>0</mip_bias>
+            <max_anisotropy>0</max_anisotropy>
+            <source>pinger_glow_ddn-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump xmlns="">
+                <texture texture="pinger_glow_ddn-sampler" />
+              </bump>
+            </technique>
+          </extra>
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0</color>
+            </emission>
+            <diffuse>
+              <texture texture="pinger_glow_diff-sampler" texcoord="" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0</color>
+            </specular>
+            <transparent>
+              <color>0</color>
+            </transparent>
+            <shininess>
+              <float sid="shininess">30</float>
+            </shininess>
+            <index_of_refraction>
+              <float>0</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="body_map_1-material" name="body_map_1">
+      <instance_effect url="#body_map_1-effect" />
+    </material>
+    <material id="body_map_2-material" name="body_map_2">
+      <instance_effect url="#body_map_2-effect" />
+    </material>
+    <material id="hatch-material" name="hatch">
+      <instance_effect url="#hatch-effect" />
+    </material>
+    <material id="proxy_metal-material" name="proxy_metal">
+      <instance_effect url="#proxy_metal-effect" />
+    </material>
+    <material id="nodraw_nophys-material" name="nodraw_nophys">
+      <instance_effect url="#nodraw_nophys-effect" />
+    </material>
+    <material id="glow-material" name="glow">
+      <instance_effect url="#glow-effect" />
+    </material>
+    <material id="glow_effect-material" name="glow_effect">
+      <instance_effect url="#glow_effect-effect" />
+    </material>
+    <material id="proxy_weakspot-material" name="proxy_weakspot">
+      <instance_effect url="#proxy_weakspot-effect" />
+    </material>
+    <material id="gunGlow-material" name="gunGlow">
+      <instance_effect url="#gunGlow-effect" />
+    </material>
+  </library_materials>
+  <library_controllers>
+    <controller id="Controller">
+      <skin source="#Pinger_Base-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Controller-joints">
+          <Name_array id="Controller-joints-array" count="64">Pinger_Root Pelvis L_Hip R_Hip Rear_Leg01 Spine1 L_Leg01 L_Leg02 L_Leg03 L_Foot L_Toe1_01 L_Toe2_01 L_Toe3_01 planeAlignerLeft L_Toe1_02 L_Toe1_03 L_Toe2_02 L_Toe2_03 L_Toe3_02 L_Toe3_03 planeLockWeightLeft R_Leg01 R_Leg02 R_Leg03 R_Foot planeAlignerRight R_Toe1_01 R_Toe2_01 R_Toe3_01 planeLockWeightRight R_Toe1_02 R_Toe1_03 R_Toe2_02 R_Toe2_03 R_Toe3_02 R_Toe3_03 Rear_Leg02 Rear_Leg03 Rear_Leg04 Rear_Foot planeAlignerCenter Rear_Toe1_01 Rear_Toe2_01 Rear_Toe3_01 planeLockWeightCenter Rear_Toe1_02 Rear_Toe1_03 Rear_Toe2_02 Rear_Toe2_03 Rear_Toe3_02 Rear_Toe3_03 Back_Bone Head Motor_Bone Ping_Mechanism BN_LookIK bottomMouth L_Mouth01 L_mouthFront mouthGun R_Mouth01 R_mouthFront TopMouth weapon_bone</Name_array>
+          <technique_common>
+            <accessor count="64" offset="0" source="#Controller-joints-array" stride="1" />
+          </technique_common>
+        </source>
+        <source id="Controller-bind_poses">
+          <float_array id="Controller-bind_poses-array" count="1024" digits="0" magnitude="0">1 0 0 -0 -0 1 -0.000001 0 -0 0.000001 1 0 0 0 0 1 -0.000001 0.000001 1 -4.484927 0.000002 1 -0.000001 -1.162569 -1 0.000002 -0.000001 0.000001 0 0 0 1 -0.989742 0.142717 0.006540 -1.076950 0.004362 -0.015569 0.999869 -4.466239 0.142800 0.989641 0.014787 -1.216844 0 0 0 1 0.989742 0.142718 0.006539 -1.076946 0.004361 0.015569 -0.999869 4.466240 -0.142801 0.989641 0.014787 -1.216848 0 0 0 1 -0.000005 -0.899328 -0.437275 2.090171 -0.000010 0.437275 -0.899328 3.756859 1 0 -0.000011 0.000048 0 0 0 1 -0 0.395075 0.918649 -4.848317 0 0.918649 -0.395075 0.814100 -1 0 -0 0.000002 0 0 0 1 -0.322560 0.660371 -0.678133 1.601341 0.313469 0.750526 0.581763 -3.154013 0.893136 -0.024920 -0.449095 3.506739 0 0 0 1 -0.160093 -0.950938 -0.264738 2.830124 -0.420312 0.308340 -0.853384 1.399176 0.893145 -0.025348 -0.449054 3.507617 0 0 0 1 -0.338752 0.618868 -0.708695 0.916137 0.295868 0.785085 0.544153 -1.557313 0.893146 -0.025348 -0.449052 3.507616 0 0 0 1 -0.422556 0.906337 0.000034 -3.791674 -0.000157 -0.000111 1 -0.894695 0.906337 0.422556 0.000189 1.973559 0 0 0 1 0.390716 -0.765600 -0.511075 3.498653 0.890569 0.454847 -0.000531 1.864421 0.232868 -0.454940 0.859536 1.302281 0 0 0 1 -0.072025 0.534932 -0.841820 -1.195918 -0.991121 -0.132965 0.000306 -2.932879 -0.111769 0.834367 0.539759 -3.113252 0 0 0 1 -0.381927 0.354905 -0.853331 -1.771844 -0.681323 -0.731982 0.000505 -0.511898 -0.624444 0.581588 0.521369 -4.193330 0 0 0 1 0.906308 0.422618 0 1.973629 -0.422618 0.906308 0 -3.792620 0 -0 1 -0.082999 0 0 0 1 0.452838 -0.886750 -0.092802 3.345253 0.890571 0.454844 -0.000530 1.864430 0.042680 -0.082407 0.995684 -0.147446 0 0 0 1 0.160353 -0.315055 -0.935429 1.396643 0.890571 0.454844 -0.000530 1.864431 0.425641 -0.832981 0.353514 2.524067 0 0 0 1 -0.129609 0.966609 0.221063 -3.450883 -0.991120 -0.132966 0.000307 -2.932877 0.029690 -0.219060 0.975259 0.386877 0 0 0 1 -0.052214 0.387058 -0.920576 -1.067466 -0.991121 -0.132965 0.000310 -2.932883 -0.122284 0.912418 0.390564 -3.741059 0 0 0 1 -0.703383 0.654889 0.276358 -4.600436 -0.681321 -0.731985 0.000504 -0.511882 0.202620 -0.187934 0.961055 0.913624 0 0 0 1 -0.280635 0.260575 -0.923767 -1.476014 -0.681317 -0.731989 0.000502 -0.511850 -0.676056 0.629518 0.382955 -4.904428 0 0 0 1 0.906266 0.422707 0.000076 1.973251 -0.422707 0.906266 -0.000206 -3.792797 -0.000156 0.000154 1 -0.083932 0 0 0 1 0.323843 0.660702 -0.677199 1.594748 -0.311279 0.750328 0.583193 -3.163877 0.893438 0.021935 0.448651 -3.500630 0 0 0 1 0.157207 -0.950869 -0.266709 2.843535 0.420522 0.308814 -0.853109 1.397083 0.893559 0.021957 0.448409 -3.500085 0 0 0 1 0.340010 0.619125 -0.707868 0.909855 -0.293163 0.784985 0.545759 -1.568976 0.893560 0.021957 0.448407 -3.500083 0 0 0 1 0.422243 0.906483 0.000090 -3.792567 -0.000292 0.000036 1 -0.894196 0.906483 -0.422243 0.000280 -1.974867 0 0 0 1 0.906308 -0.422617 -0 -1.972913 0.422617 0.906308 0 -3.792740 0 -0 1 -0.082821 0 0 0 1 -0.390939 -0.764477 -0.512582 3.499117 0.890407 -0.455165 -0.000257 -1.862197 -0.233113 -0.456507 0.858638 1.307760 0 0 0 1 0.071051 0.534375 -0.842256 -1.191118 -0.991189 0.132455 0.000422 2.934158 0.111787 0.834805 0.539078 -3.115564 0 0 0 1 0.381073 0.354489 -0.853886 -1.767403 -0.681373 0.731937 -0.000221 0.511181 0.624912 0.581899 0.520461 -4.196507 0 0 0 1 0.906308 -0.422618 0.000076 -1.972917 0.422618 0.906308 -0.000206 -3.792723 0.000018 0.000219 1 -0.083453 0 0 0 1 -0.453166 -0.886442 -0.094131 3.347968 0.890407 -0.455165 -0.000257 -1.862197 -0.042618 -0.083932 0.995560 -0.144098 0 0 0 1 -0.162338 -0.317045 -0.934413 1.405424 0.890408 -0.455163 -0.000257 -1.862202 -0.425229 -0.832051 0.356190 2.522097 0 0 0 1 0.129285 0.966772 0.220539 -3.451315 -0.991189 0.132455 0.000421 2.934162 -0.028804 -0.218651 0.975378 0.382516 0 0 0 1 0.051206 0.386106 -0.921032 -1.060874 -0.991189 0.132456 0.000421 2.934155 0.122159 0.912895 0.389486 -3.742942 0 0 0 1 0.703472 0.654958 0.275966 -4.601722 -0.681372 0.731937 -0.000221 0.511181 -0.202135 -0.187880 0.961167 0.911519 0 0 0 1 0.279038 0.259502 -0.924552 -1.465970 -0.681402 0.731909 -0.000222 0.511388 0.676631 0.630054 0.381055 -4.908345 0 0 0 1 0.000508 -0.814924 0.579568 -2.852281 -0.000375 -0.579568 -0.814924 2.615102 1 0.000197 -0.000601 0.002430 0 0 0 1 -0.000040 -0.928982 -0.370126 0.319892 -0.000491 0.370126 -0.928981 4.324865 1 0.000145 -0.000471 0.001898 0 0 0 1 -0.000089 -0.393963 -0.919126 2.584811 -0.000968 0.919126 -0.393962 3.532752 0.999999 0.000855 -0.000464 0.003466 0 0 0 1 -1 0 0 -0.000131 -0 -1 0 -3.448567 0 0 1 -0.921791 0 0 0 1 1 0 -0 0.000482 -0 1 0 3.449533 0 -0 1 -0.083001 0 0 0 1 0.001115 -0.873984 -0.485953 -2.819804 0.999999 0.000525 0.001351 0.001895 -0.000926 -0.485954 0.873984 -2.197881 0 0 0 1 -0.181145 0.555503 -0.811544 2.173854 -0.950366 -0.311132 -0.000838 -1.150242 -0.252963 0.771112 0.584291 2.059731 0 0 0 1 0.203951 0.547867 -0.811324 2.143056 -0.937706 0.347427 -0.001112 1.235152 0.281266 0.761010 0.584596 2.019095 0 0 0 1 1 -0 0.000076 0.000475 0 1 -0.000206 3.449551 -0.000076 0.000206 1 -0.082289 0 0 0 1 0.000428 -0.996849 0.079325 -3.881255 0.999999 0.000536 0.001344 0.001748 -0.001383 0.079324 0.996848 -0.058404 0 0 0 1 0.001448 -0.340064 -0.940401 -1.102093 0.999999 0.000540 0.001345 0.001597 0.000050 -0.940402 0.340064 -4.240912 0 0 0 1 -0.293957 0.897020 0.330066 2.495208 -0.950367 -0.311131 -0.000839 -1.150238 0.101941 -0.313930 0.943958 -1.173730 0 0 0 1 -0.171606 0.526421 -0.832726 1.648113 -0.950366 -0.311132 -0.000838 -1.150241 -0.259529 0.791251 0.553685 1.706938 0 0 0 1 0.327777 0.885713 0.328746 2.449546 -0.937705 0.347430 -0.001112 1.235162 -0.115202 -0.307903 0.944418 -1.151382 0 0 0 1 0.193711 0.520161 -0.831811 1.620226 -0.937706 0.347429 -0.001112 1.235156 0.288417 0.780209 0.555058 1.663309 0 0 0 1 -0 -0.885686 0.464285 -1.983490 -0.000001 0.464285 0.885686 -6.026259 -1 -0 -0.000001 0.000004 0 0 0 1 -0 0.515609 0.856824 -6.196496 0 0.856824 -0.515609 0.849667 -1 -0 -0 0.000001 0 0 0 1 0.000001 -0.202423 -0.979298 6.256797 0.000002 -0.979298 0.202423 -1.475861 -1 -0.000002 -0.000001 0.000004 0 0 0 1 -0.000002 0.338491 0.940969 -5.978651 -0.000002 0.940969 -0.338491 2.401839 -1 -0.000002 -0.000001 0.000005 0 0 0 1 1 -0.000007 0.000004 0 0.000007 1 -0 -3.749327 -0.000004 0 1 -5.201243 0 0 0 1 0 0.967861 -0.251484 -1.409399 0.000001 -0.251484 -0.967861 5.591250 -1 0 -0.000001 0.000003 0 0 0 1 0.402893 0.580398 -0.707683 3.136905 -0.454796 0.797954 0.395512 -5.042584 0.794253 0.162503 0.585453 -3.423293 0 0 0 1 0.048920 0.937625 -0.344189 -1.338912 -0.000001 -0.344602 -0.938749 6.610794 -0.998803 0.045924 -0.016857 -0.405144 0 0 0 1 -0 0.342021 0.939692 -5.987259 -0 0.939692 -0.342021 -1.960354 -1 -0 0 0.000001 0 0 0 1 -0.402892 0.580398 -0.707684 3.136906 -0.454797 -0.797954 -0.395511 5.042582 -0.794253 0.162504 0.585453 -3.423297 0 0 0 1 -0.048918 0.937626 -0.344187 -1.338933 -0 -0.344599 -0.938750 6.610790 -0.998803 -0.045922 0.016857 0.405132 0 0 0 1 -0.000005 0.838068 -0.545566 1.140482 0.000001 -0.545566 -0.838068 6.621599 -1 -0.000005 0.000001 0.000010 0 0 0 1 1 -0 0.000001 -0.000001 0 1 0 -3.198929 -0.000001 -0 1 -4.154715 0 0 0 1</float_array>
+          <technique_common>
+            <accessor count="64" offset="0" source="#Controller-bind_poses-array" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Controller-weights">
+          <float_array id="Controller-weights-array" count="4" digits="0" magnitude="0">1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0</float_array>
+          <technique_common>
+            <accessor count="16" offset="0" source="#Controller-weights-array" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Controller-joints" />
+          <input semantic="INV_BIND_MATRIX" source="#Controller-bind_poses" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Controller-joints" offset="0" set="0" />
+          <input semantic="WEIGHT" source="#Controller-weights" offset="1" set="0" />
+          <vcount>4 4 4 4</vcount>
+          <v>1 0 0 1 0 2 0 3 1 4 0 5 0 6 0 7 1 8 0 9 0 10 0 11 1 12 0 13 0 14 0 15</v>
+        </vertex_weights>
+      </skin>
+      <extra>
+        <technique profile="FCOLLADA">
+          <user_properties>SkinController</user_properties>
+        </technique>
+      </extra>
+    </controller>
+  </library_controllers>
+  <library_geometries>
+    <geometry id="Pinger_Base-mesh" name="Pinger_Base">
+      <mesh>
+        <source id="Pinger_Base-mesh-pos" name="Pinger_Base-pos">
+          <float_array id="Pinger_Base-mesh-pos-array" count="12">-0.500000 -0.500000 0 0.500000 -0.500000 0 0.500000 0.500000 0 -0.500000 0.500000 0</float_array>
+          <technique_common>
+            <accessor count="4" offset="0" source="#Pinger_Base-mesh-pos-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pinger_Base-mesh-norm" name="Pinger_Base-norm">
+          <float_array id="Pinger_Base-mesh-norm-array" count="12">-0 0 1 -0 0 1 -0 0 1 -0 0 1</float_array>
+          <technique_common>
+            <accessor count="4" offset="0" source="#Pinger_Base-mesh-norm-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pinger_Base-mesh-UV" name="Pinger_Base-UV">
+          <float_array id="Pinger_Base-mesh-UV-array" count="8">0 0 1 0 1 1 0 1</float_array>
+          <technique_common>
+            <accessor count="4" offset="0" source="#Pinger_Base-mesh-UV-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pinger_Base-mesh-color" name="Pinger_Base-color">
+          <float_array id="Pinger_Base-mesh-color-array" count="0" />
+        </source>
+        <vertices id="Pinger_Base-vertices">
+          <input semantic="POSITION" source="#Pinger_Base-mesh-pos" />
+        </vertices>
+        <triangles count="2" material="body_map_1-material">
+          <input semantic="VERTEX" source="#Pinger_Base-vertices" offset="0" set="0" />
+          <input semantic="NORMAL" source="#Pinger_Base-mesh-norm" offset="1" set="0" />
+          <input semantic="TEXCOORD" source="#Pinger_Base-mesh-UV" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="Armature" sid="Pinger_Root" name="Pinger_Root" type="JOINT">
+        <matrix>1 -0 -0 0 0 1 0.000001 0 0 -0.000001 1 0 0 0 0 1</matrix>
+        <node id="Armature_Pelvis" sid="Pelvis" name="Pelvis" type="JOINT">
+          <matrix>-0.000001 0.000002 -1 0 -0 1 0.000002 1.162567 1 0 -0.000001 4.484927 0 0 0 1</matrix>
+          <node id="Armature_L_Hip" sid="L_Hip" name="L_Hip" type="JOINT">
+            <matrix>0.006541 0.999869 0.014787 0.005767 0.142715 -0.015569 0.989641 0.125831 0.989742 -0.004363 -0.142798 0.872656 0 0 0 1</matrix>
+            <node id="Armature_L_Leg01" sid="L_Leg01" name="L_Leg01" type="JOINT">
+              <matrix>0.409062 -0.199336 -0.890468 0.761932 -0.689733 0.571370 -0.444753 -0.000002 0.597441 0.796117 0.096237 -0.000070 0 0 0 1</matrix>
+              <node id="Armature_L_Leg02" sid="L_Leg02" name="L_Leg02" type="JOINT">
+                <matrix>-0.396805 0.917903 -0.000314 1.441141 -0.917903 -0.396805 -0.000294 -0.000001 -0.000395 0.000171 1 -0 0 0 0 1</matrix>
+                <node id="Armature_L_Leg03" sid="L_Leg03" name="L_Leg03" type="JOINT">
+                  <matrix>-0.346655 -0.937993 -0.000001 1.686964 0.937992 -0.346655 -0.000001 -0 0.000001 -0.000002 1 -0.000002 0 0 0 1</matrix>
+                  <node id="Armature_L_Foot" sid="L_Foot" name="L_Foot" type="JOINT">
+                    <matrix>0.704021 -0.708710 -0.045651 3.041570 0.586549 0.544020 0.600002 -0.030715 -0.400392 -0.449190 0.798695 0.011298 0 0 0 1</matrix>
+                    <node id="Armature_L_Toe1_01" sid="L_Toe1_01" name="L_Toe1_01" type="JOINT">
+                      <matrix>-0.859008 0.035930 -0.510699 -0.188217 -0.511051 -0.000722 0.859550 -0.224732 0.030515 0.999354 0.018982 -0.021138 0 0 0 1</matrix>
+                      <node id="Armature_L_Toe1_02" sid="L_Toe1_02" name="L_Toe1_02" type="JOINT">
+                        <matrix>0.903256 0.000002 -0.429103 0.413761 -0.000003 1 -0.000002 0 0.429103 0.000003 0.903256 0 0 0 0 1</matrix>
+                        <node id="Armature_L_Toe1_03" sid="L_Toe1_03" name="L_Toe1_03" type="JOINT">
+                          <matrix>0.438799 0 0.898585 0.464317 -0 1 -0 0 -0.898585 -0 0.438799 -0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_L_Toe2_01" sid="L_Toe2_01" name="L_Toe2_01" type="JOINT">
+                      <matrix>0.515235 0.298292 0.803464 0.200746 -0.841867 0.000477 0.539684 -0.219927 0.160600 -0.954474 0.251368 0.148839 0 0 0 1</matrix>
+                      <node id="Armature_L_Toe2_02" sid="L_Toe2_02" name="L_Toe2_02" type="JOINT">
+                        <matrix>0.340310 -0.000001 -0.940313 0.342236 0.000001 1 -0 -0 0.940313 -0 0.340310 0 0 0 0 1</matrix>
+                        <node id="Armature_L_Toe2_03" sid="L_Toe2_03" name="L_Toe2_03" type="JOINT">
+                          <matrix>0.177396 0.000002 0.984139 0.420211 0.000002 1 -0.000003 -0 -0.984139 0.000003 0.177396 -0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_L_Toe3_01" sid="L_Toe3_01" name="L_Toe3_01" type="JOINT">
+                      <matrix>0.483020 -0.375525 0.790994 0.188832 -0.853310 0.000694 0.521403 -0.219859 -0.196348 -0.926812 -0.320105 -0.191079 0 0 0 1</matrix>
+                      <node id="Armature_L_Toe3_02" sid="L_Toe3_02" name="L_Toe3_02" type="JOINT">
+                        <matrix>0.265239 -0.000001 -0.964182 0.329271 0.000004 1 0 0.000001 0.964183 -0.000004 0.265239 0 0 0 0 1</matrix>
+                        <node id="Armature_L_Toe3_03" sid="L_Toe3_03" name="L_Toe3_03" type="JOINT">
+                          <matrix>0.112751 -0.000006 0.993623 0.439137 0 1 0.000006 -0.000002 -0.993623 -0 0.112751 0.000001 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_planeAlignerLeft" sid="planeAlignerLeft" name="planeAlignerLeft" type="JOINT">
+                      <matrix>0.000069 1 0.000033 0.000813 -0.000189 -0.000033 1 -0.811449 1 -0.000069 0.000189 -0.000315 0 0 0 1</matrix>
+                      <node id="Armature_planeLockWeightLeft" sid="planeLockWeightLeft" name="planeLockWeightLeft" type="JOINT">
+                        <matrix>1 -0.000098 -0.000076 -0.000001 0.000098 1 0.000206 0 0.000076 -0.000206 1 -0 0 0 0 1</matrix>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="Armature_R_Hip" sid="R_Hip" name="R_Hip" type="JOINT">
+            <matrix>0.006538 -0.999869 0.014788 0.005765 0.142720 0.015570 0.989640 0.125836 -0.989741 -0.004360 0.142803 -0.872656 0 0 0 1</matrix>
+            <node id="Armature_R_Leg01" sid="R_Leg01" name="R_Leg01" type="JOINT">
+              <matrix>0.410386 -0.197187 0.890337 0.761455 0.688810 -0.572791 -0.444355 -0.000002 0.597599 0.795630 -0.099241 0 0 0 0 1</matrix>
+              <node id="Armature_R_Leg02" sid="R_Leg02" name="R_Leg02" type="JOINT">
+                <matrix>-0.396715 0.917942 0.000217 1.441141 -0.917942 -0.396715 -0.000162 0 -0.000062 -0.000263 1 0.000001 0 0 0 1</matrix>
+                <node id="Armature_R_Leg03" sid="R_Leg03" name="R_Leg03" type="JOINT">
+                  <matrix>-0.346460 -0.938065 0.000001 1.686964 0.938065 -0.346460 0.000002 0.000001 -0.000002 0.000002 1 0.000001 0 0 0 1</matrix>
+                  <node id="Armature_R_Foot" sid="R_Foot" name="R_Foot" type="JOINT">
+                    <matrix>0.704729 -0.707945 0.046593 3.041560 0.587839 0.545873 -0.597049 -0.030532 0.397244 0.448147 0.800851 -0.011204 0 0 0 1</matrix>
+                    <node id="Armature_planeAlignerRight" sid="planeAlignerRight" name="planeAlignerRight" type="JOINT">
+                      <matrix>-0.000413 1 0.000090 -0.000635 -0.000280 -0.000090 1 -0.812270 1 0.000413 0.000280 -0.000364 0 0 0 1</matrix>
+                      <node id="Armature_planeLockWeightRight" sid="planeLockWeightRight" name="planeLockWeightRight" type="JOINT">
+                        <matrix>1 0.000001 -0.000076 -0.000001 -0 1 0.000206 0 0.000076 -0.000206 1 -0 0 0 0 1</matrix>
+                      </node>
+                    </node>
+                    <node id="Armature_R_Toe1_01" sid="R_Toe1_01" name="R_Toe1_01" type="JOINT">
+                      <matrix>-0.858103 -0.036631 -0.512169 -0.188384 -0.512496 -0.000533 0.858689 -0.224865 -0.031728 0.999329 -0.018316 0.021052 0 0 0 1</matrix>
+                      <node id="Armature_R_Toe1_02" sid="R_Toe1_02" name="R_Toe1_02" type="JOINT">
+                        <matrix>0.903076 0 -0.429482 0.413762 -0 1 -0 0 0.429482 0 0.903075 0 0 0 0 1</matrix>
+                        <node id="Armature_R_Toe1_03" sid="R_Toe1_03" name="R_Toe1_03" type="JOINT">
+                          <matrix>0.442566 -0.000002 0.896736 0.464317 0 1 0.000002 -0 -0.896736 -0 0.442566 0.000001 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_R_Toe2_01" sid="R_Toe2_01" name="R_Toe2_01" type="JOINT">
+                      <matrix>0.514326 -0.298454 0.803986 0.200638 -0.842257 0.000716 0.539075 -0.220002 -0.161465 -0.954424 -0.251007 -0.148788 0 0 0 1</matrix>
+                      <node id="Armature_R_Toe2_02" sid="R_Toe2_02" name="R_Toe2_02" type="JOINT">
+                        <matrix>0.340054 0 -0.940406 0.342235 0.000001 1 0.000001 -0 0.940406 -0.000001 0.340054 0 0 0 0 1</matrix>
+                        <node id="Armature_R_Toe2_03" sid="R_Toe2_03" name="R_Toe2_03" type="JOINT">
+                          <matrix>0.176772 0.000002 0.984252 0.420211 -0.000001 1 -0.000001 0 -0.984252 -0.000001 0.176772 -0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_R_Toe3_01" sid="R_Toe3_01" name="R_Toe3_01" type="JOINT">
+                      <matrix>0.482166 0.375783 0.791393 0.188607 -0.853984 0.000004 0.520299 -0.220093 0.195516 -0.926707 0.320915 0.191126 0 0 0 1</matrix>
+                      <node id="Armature_R_Toe3_02" sid="R_Toe3_02" name="R_Toe3_02" type="JOINT">
+                        <matrix>0.264606 0 -0.964356 0.329271 -0 1 -0 -0.000001 0.964356 0 0.264606 0 0 0 0 1</matrix>
+                        <node id="Armature_R_Toe3_03" sid="R_Toe3_03" name="R_Toe3_03" type="JOINT">
+                          <matrix>0.111113 -0.000039 0.993808 0.439138 0.000015 1 0.000038 -0 -0.993808 0.000011 0.111113 0.000001 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="Armature_Rear_Leg01" sid="Rear_Leg01" name="Rear_Leg01" type="JOINT">
+            <matrix>-0.437276 -0.899327 -0.000012 -0.192298 -0.899327 0.437276 0.000002 -0.925603 0.000003 0.000012 -1 -0.000002 0 0 0 1</matrix>
+            <node id="Armature_Rear_Leg02" sid="Rear_Leg02" name="Rear_Leg02" type="JOINT">
+              <matrix>0.479453 0.877567 0.000081 1.162778 -0.877567 0.479453 0.000616 -0.000029 0.000502 -0.000366 1 0.000007 0 0 0 1</matrix>
+              <node id="Armature_Rear_Leg03" sid="Rear_Leg03" name="Rear_Leg03" type="JOINT">
+                <matrix>0.542536 -0.840032 0.000118 0.607193 0.840032 0.542536 -0.000076 -0.000013 -0 0.000140 1 -0.000073 0 0 0 1</matrix>
+                <node id="Armature_Rear_Leg04" sid="Rear_Leg04" name="Rear_Leg04" type="JOINT">
+                  <matrix>0.706176 -0.708035 -0.000662 0.995874 0.708036 0.706177 0.000256 -0.000021 0.000286 -0.000650 1 -0.000012 0 0 0 1</matrix>
+                  <node id="Armature_Rear_Foot" sid="Rear_Foot" name="Rear_Foot" type="JOINT">
+                    <matrix>0.000089 0.393963 -0.919126 3.096176 0.000969 -0.919126 -0.393962 -0.000067 -0.999999 -0.000855 -0.000464 -0.000041 0 0 0 1</matrix>
+                    <node id="Armature_planeAlignerCenter" sid="planeAlignerCenter" name="planeAlignerCenter" type="JOINT">
+                      <matrix>-1 0 -0 0.000350 -0 -1 0 0.000966 -0 0 1 -0.838791 0 0 0 1</matrix>
+                      <node id="Armature_planeLockWeightCenter" sid="planeLockWeightCenter" name="planeLockWeightCenter" type="JOINT">
+                        <matrix>1 0 -0.000076 -0 -0 1 0.000206 0 0.000076 -0.000206 1 -0 0 0 0 1</matrix>
+                      </node>
+                    </node>
+                    <node id="Armature_Rear_Toe1_01" sid="Rear_Toe1_01" name="Rear_Toe1_01" type="JOINT">
+                      <matrix>-0.001115 -0.999999 0.000925 0.000653 0.873984 -0.000525 0.485954 0.083966 -0.485953 0.001351 0.873984 -0.371174 0 0 0 1</matrix>
+                      <node id="Armature_Rear_Toe1_02" sid="Rear_Toe1_02" name="Rear_Toe1_02" type="JOINT">
+                        <matrix>0.832682 -0.000007 -0.553751 0.379708 0.000012 1 0.000005 0.000194 0.553751 -0.000011 0.832682 0.000001 0 0 0 1</matrix>
+                        <node id="Armature_Rear_Toe1_03" sid="Rear_Toe1_03" name="Rear_Toe1_03" type="JOINT">
+                          <matrix>0.264396 -0.000003 0.964414 0.500130 0.000001 1 0.000003 0.000166 -0.964414 0.000001 0.264396 0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_Rear_Toe2_01" sid="Rear_Toe2_01" name="Rear_Toe2_01" type="JOINT">
+                      <matrix>0.181145 0.950366 0.252963 0.178201 -0.555503 0.311132 -0.771112 -0.294826 -0.811544 -0.000838 0.584291 -0.362061 0 0 0 1</matrix>
+                      <node id="Armature_Rear_Toe2_02" sid="Rear_Toe2_02" name="Rear_Toe2_02" type="JOINT">
+                        <matrix>0.283684 0.000001 -0.958918 0.340495 -0.000001 1 0.000001 -0 0.958918 0.000001 0.283684 -0.000001 0 0 0 1</matrix>
+                        <node id="Armature_Rear_Toe2_03" sid="Rear_Toe2_03" name="Rear_Toe2_03" type="JOINT">
+                          <matrix>0.247801 -0.000001 0.968811 0.433104 0.000001 1 0 0 -0.968811 0.000001 0.247801 0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                    <node id="Armature_Rear_Toe3_01" sid="Rear_Toe3_01" name="Rear_Toe3_01" type="JOINT">
+                      <matrix>-0.203951 0.937706 -0.281266 -0.153360 -0.547867 -0.347427 -0.761010 -0.308781 -0.811324 -0.001112 0.584596 -0.362061 0 0 0 1</matrix>
+                      <node id="Armature_Rear_Toe3_02" sid="Rear_Toe3_02" name="Rear_Toe3_02" type="JOINT">
+                        <matrix>0.285383 0.000002 -0.958413 0.340494 -0.000003 1 0.000001 -0 0.958413 0.000003 0.285383 -0 0 0 0 1</matrix>
+                        <node id="Armature_Rear_Toe3_03" sid="Rear_Toe3_03" name="Rear_Toe3_03" type="JOINT">
+                          <matrix>0.250752 -0.000002 0.968051 0.433103 0.000001 1 0.000001 0.000001 -0.968051 0.000001 0.250752 -0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="Armature_Spine1" sid="Spine1" name="Spine1" type="JOINT">
+            <matrix>0.918649 -0.395075 0 0.290605 0.395075 0.918649 -0.000002 0.005007 0.000001 0.000002 1 -0 0 0 0 1</matrix>
+            <node id="Armature_Back_Bone" sid="Back_Bone" name="Back_Bone" type="JOINT">
+              <matrix>0.076603 0.997062 -0 1.312176 -0.997062 0.076603 0 -0.701935 0 0 1 0 0 0 0 1</matrix>
+              <node id="Armature_Motor_Bone" sid="Motor_Bone" name="Motor_Bone" type="JOINT">
+                <matrix>-0.275390 0.961332 0.000002 1.158364 -0.961332 -0.275390 -0.000001 -0.417835 -0.000001 -0.000002 1 0 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_Ping_Mechanism" sid="Ping_Mechanism" name="Ping_Mechanism" type="JOINT">
+                <matrix>0.137082 -0.990560 0.000002 1.215237 0.990560 0.137082 -0.000001 -0.433297 0.000001 0.000002 1 0.000001 0 0 0 1</matrix>
+              </node>
+            </node>
+            <node id="Armature_Head" sid="Head" name="Head" type="JOINT">
+              <matrix>0.990824 -0.135154 0 1.406159 0.135154 0.990824 -0 0.809709 -0 0 1 0 0 0 0 1</matrix>
+              <node id="Armature_BN_LookIK" sid="BN_LookIK" name="BN_LookIK" type="JOINT">
+                <matrix>-0 0.515609 0.856824 0.193242 -0.000008 0.856824 -0.515609 1.380371 -1 -0.000007 0.000004 -0.000004 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_bottomMouth" sid="bottomMouth" name="bottomMouth" type="JOINT">
+                <matrix>0.283560 -0.958954 -0 -0.435093 0.958954 0.283561 0 0.615759 -0 -0 1 -0.000001 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_L_Mouth01" sid="L_Mouth01" name="L_Mouth01" type="JOINT">
+                <matrix>-0.307101 0.750316 0.585418 0.554442 0.862187 0.479776 -0.162628 0.007658 -0.402892 0.454796 -0.794253 0.838223 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_L_mouthFront" sid="L_mouthFront" name="L_mouthFront" type="JOINT">
+                <matrix>0.188538 -0.982022 0.009236 0.551630 0.980846 0.188764 0.048041 0.934514 -0.048920 0.000002 0.998802 0.339150 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_mouthGun" sid="mouthGun" name="mouthGun" type="JOINT">
+                <matrix>0.981500 0.191462 0 0.055333 -0.191462 0.981500 -0 1.627421 -0 0 1 -0.000001 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_R_Mouth01" sid="R_Mouth01" name="R_Mouth01" type="JOINT">
+                <matrix>-0.307101 -0.750316 0.585419 0.554443 0.862187 -0.479777 -0.162628 0.007659 0.402892 0.454797 0.794253 -0.838225 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_R_mouthFront" sid="R_mouthFront" name="R_mouthFront" type="JOINT">
+                <matrix>0.188542 -0.982022 -0.009234 0.551629 0.980846 0.188767 -0.048039 0.934514 0.048918 0 0.998803 -0.339151 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_TopMouth" sid="TopMouth" name="TopMouth" type="JOINT">
+                <matrix>-0.035338 -0.999375 -0.000001 0.461270 0.999375 -0.035338 -0.000005 -0.056106 0.000005 -0.000001 1 -0.000008 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_weapon_bone" sid="weapon_bone" name="weapon_bone" type="JOINT">
+                <matrix>0 0.515610 0.856823 -0.987240 -0.000001 0.856823 -0.515610 1.448373 -1 -0 0.000001 0.000002 0 0 0 1</matrix>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="Pinger_Base.chr" name="Pinger_Base.chr" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_controller url="#Controller">
+          <bind_material>
+            <technique_common>
+              <instance_material target="#body_map_1-material" symbol="body_map_1-material" />
+              <instance_material target="#body_map_2-material" symbol="body_map_2-material" />
+              <instance_material target="#hatch-material" symbol="hatch-material" />
+              <instance_material target="#proxy_metal-material" symbol="proxy_metal-material" />
+              <instance_material target="#nodraw_nophys-material" symbol="nodraw_nophys-material" />
+              <instance_material target="#glow-material" symbol="glow-material" />
+              <instance_material target="#glow_effect-material" symbol="glow_effect-material" />
+              <instance_material target="#proxy_weakspot-material" symbol="proxy_weakspot-material" />
+              <instance_material target="#gunGlow-material" symbol="gunGlow-material" />
+            </technique_common>
+          </bind_material>
+          <skeleton>#Armature</skeleton>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene name="Scene" url="#Scene" />
+  </scene>
+</COLLADA>
