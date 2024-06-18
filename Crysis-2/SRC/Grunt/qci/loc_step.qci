@@ -1,0 +1,49 @@
+
+$Sequence "stand_step_com_180_fast_lfoot" { 
+	"new_anims/locomotion/step/stand/stand_step_com_180_fast_lfoot.smd"
+	activity "act_stand_step_com_180_fast_lfoot" 1
+}
+$Sequence "stand_step_com_180_fast_rfoot" { 
+	"new_anims/locomotion/step/stand/stand_step_com_180_fast_rfoot.smd"
+	activity "act_stand_step_com_180_fast_rfoot" 1
+}
+$Sequence "stand_step_rlx_180_fast_lfoot" { 
+	"new_anims/locomotion/step/stand/stand_step_rlx_180_fast_lfoot.smd"
+	activity "act_stand_step_rlx_180_fast_lfoot" 1
+}
+$Sequence "stand_step_rlx_180_fast_rfoot" { 
+	"new_anims/locomotion/step/stand/stand_step_rlx_180_fast_rfoot.smd"
+	activity "act_stand_step_rlx_180_fast_rfoot" 1
+}
+$Sequence "stand_steprotate_com_idle_90" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_com_idle_90.smd"
+	activity "act_stand_steprotate_com_idle_90" 1
+}
+$Sequence "stand_steprotate_com_idle_180" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_com_idle_180.smd"
+	activity "act_stand_steprotate_com_idle_180" 1
+}
+$Sequence "stand_steprotate_com_lft" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_com_lft.smd"
+	activity "act_stand_steprotate_com_lft" 1
+}
+$Sequence "stand_steprotate_com_rgt" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_com_rgt.smd"
+	activity "act_stand_steprotate_com_rgt" 1
+}
+$Sequence "stand_steprotate_rlx_idle_90" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_rlx_idle_90.smd"
+	activity "act_stand_steprotate_rlx_idle_90" 1
+}
+$Sequence "stand_steprotate_rlx_idle_180" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_rlx_idle_180.smd"
+	activity "act_stand_steprotate_rlx_idle_180" 1
+}
+$Sequence "stand_steprotate_rlx_lft" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_rlx_lft.smd"
+	activity "act_stand_steprotate_rlx_lft" 1
+}
+$Sequence "stand_steprotate_rlx_rgt" { 
+	"new_anims/locomotion/step/stand/stand_steprotate_rlx_rgt.smd"
+	activity "act_stand_steprotate_rlx_rgt" 1
+}

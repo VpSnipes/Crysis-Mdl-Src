@@ -1,0 +1,8 @@
+$Sequence "cine_07timessquare_spear_grunt_pickupsequence" { 
+	"new_anims/cinematics/07_times_square/cine_07timessquare_spear_grunt_pickupsequence.smd"
+	activity "act_cine_07timessquare_spear_grunt_pickupsequence" 1
+}
+$Sequence "cine_07timessquare_spear_grunt_sporedeath" { 
+	"new_anims/cinematics/07_times_square/cine_07timessquare_spear_grunt_sporedeath.smd"
+	activity "act_cine_07timessquare_spear_grunt_sporedeath" 1
+}

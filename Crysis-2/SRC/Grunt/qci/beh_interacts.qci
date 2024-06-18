@@ -1,0 +1,57 @@
+
+$Sequence "stand_idle_rlx_break" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_break.smd"
+	activity "act_stand_idle_rlx_break" 1
+}
+$Sequence "stand_idle_rlx_interact_alien_gruntact_01" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_01.smd"
+	activity "act_stand_idle_rlx_interact_alien_gruntact_01" 1
+}
+$Sequence "stand_idle_rlx_interact_alien_gruntact_02" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_02.smd"
+	activity "act_stand_idle_rlx_interact_alien_gruntact_02" 1
+}
+$Sequence "stand_idle_rlx_interact_alien_gruntact_03" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_03.smd"
+	activity "act_stand_idle_rlx_interact_alien_gruntact_03" 1
+}
+$Sequence "stand_idle_rlx_interact_alien_gruntpass_01" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntpass_01.smd"
+	activity "act_stand_idle_rlx_interact_alien_gruntpass_01" 1
+}
+$Sequence "stand_idle_rlx_interact_alien_gruntpass_02" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntpass_02.smd"
+	activity "act_stand_idle_rlx_interact_alien_gruntpass_02" 1
+}
+$Sequence "stand_idle_rlx_interact_biomass" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_biomass.smd"
+	activity "act_stand_idle_rlx_interact_biomass" 1
+}
+$Sequence "stand_idle_rlx_interact_body" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_body.smd"
+	activity "act_stand_idle_rlx_interact_body" 1
+}
+$Sequence "stand_idle_rlx_interact_car_01" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_car_01.smd"
+	activity "act_stand_idle_rlx_interact_car_01" 1
+}
+$Sequence "stand_idle_rlx_interact_car_02" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_car_02.smd"
+	activity "act_stand_idle_rlx_interact_car_02" 1
+}
+$Sequence "stand_idle_rlx_interact_generickick" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_generickick.smd"
+	activity "act_stand_idle_rlx_interact_generickick" 1
+}
+$Sequence "stand_idle_rlx_interact_genericobserve" { 
+	"new_anims/behavior/interacts/stand_idle_rlx_interact_genericobserve.smd"
+	activity "act_stand_idle_rlx_interact_genericobserve" 1
+}
+$Sequence "stand_tac_idle_interact_genericobserve_01" { 
+	"new_anims/behavior/interacts/stand_tac_idle_interact_genericobserve_01.smd"
+	activity "act_stand_tac_idle_interact_genericobserve_01" 1
+}
+$Sequence "stand_tac_idle_interact_genericobserve_02" { 
+	"new_anims/behavior/interacts/stand_tac_idle_interact_genericobserve_02.smd"
+	activity "act_stand_tac_idle_interact_genericobserve_02" 1
+}

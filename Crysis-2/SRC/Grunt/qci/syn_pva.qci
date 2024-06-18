@@ -1,0 +1,36 @@
+$Sequence "stand_syncdeath_combokill_grunt" { 
+	"new_anims/synced/PvA/stand_syncdeath_combokill_grunt.smd"
+	activity "act_stand_syncdeath_combokill_grunt" 1
+}
+$Sequence "stand_syncdeathgrunt_back_grunt" { 
+	"new_anims/synced/PvA/stand_syncdeathgrunt_back_grunt.smd"
+	activity "act_stand_syncdeathgrunt_back_grunt" 1
+}
+$Sequence "stand_syncdeathgrunt_front_grunt_01" { 
+	"new_anims/synced/PvA/stand_syncdeathgrunt_front_grunt_01.smd"
+	activity "act_stand_syncdeathgrunt_front_grunt_01" 1
+}
+$Sequence "stand_syncdeathgrunt_front_grunt_02" { 
+	"new_anims/synced/PvA/stand_syncdeathgrunt_front_grunt_02.smd"
+	activity "act_stand_syncdeathgrunt_front_grunt_02" 1
+}
+$Sequence "stand_tac_grab_front_into_grunt" { 
+	"new_anims/synced/PvA/stand_tac_grab_front_into_grunt.smd"
+	activity "act_stand_tac_grab_front_into_grunt" 1
+}
+$Sequence "stand_tac_grab_front_kill_grunt" { 
+	"new_anims/synced/PvA/stand_tac_grab_front_kill_grunt.smd"
+	activity "act_stand_tac_grab_front_kill_grunt" 1
+}
+$Sequence "stand_tac_grab_front_loop_grunt" { 
+	"new_anims/synced/PvA/stand_tac_grab_front_loop_grunt.smd"
+	activity "act_stand_tac_grab_front_loop_grunt" 1
+}
+$Sequence "stand_tac_grab_front_outof_grunt" { 
+	"new_anims/synced/PvA/stand_tac_grab_front_outof_grunt.smd"
+	activity "act_stand_tac_grab_front_outof_grunt" 1
+}
+$Sequence "stand_tac_stealthkill_grunt" { 
+	"new_anims/synced/PvA/stand_tac_stealthkill_grunt.smd"
+	activity "act_stand_tac_stealthkill_grunt" 1
+}

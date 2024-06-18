@@ -1,0 +1,68 @@
+$Sequence "stand_car_walk_com_bwd_to_fwd_900" { 
+	"new_anims/smartobjects/jump/walk/stand_car_walk_com_bwd_to_fwd_900.smd"
+	activity "act_stand_car_walk_com_bwd_to_fwd_900" 1
+}
+$Sequence "stand_car_walk_com_fwd_to_bwd_900" { 
+	"new_anims/smartobjects/jump/walk/stand_car_walk_com_fwd_to_bwd_900.smd"
+	activity "act_stand_car_walk_com_fwd_to_bwd_900" 1
+}
+$Sequence "stand_car_walk_com_lft_to_rgt_600" { 
+	"new_anims/smartobjects/jump/walk/stand_car_walk_com_lft_to_rgt_600.smd"
+	activity "act_stand_car_walk_com_lft_to_rgt_600" 1
+}
+$Sequence "stand_car_walk_com_rgt_to_lft_600" { 
+	"new_anims/smartobjects/jump/walk/stand_car_walk_com_rgt_to_lft_600.smd"
+	activity "act_stand_car_walk_com_rgt_to_lft_600" 1
+}
+$Sequence "stand_duck_run_com_down_125" { 
+	"new_anims/smartobjects/jump/walk/stand_duck_run_com_down_125.smd"
+	activity "act_stand_duck_run_com_down_125" 1
+}
+$Sequence "stand_jump_run_com_down_150" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_down_150.smd"
+	activity "act_stand_jump_run_com_down_150" 1
+}
+$Sequence "stand_jump_run_com_down_300" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_down_300.smd"
+	activity "act_stand_jump_run_com_down_300" 1
+}
+$Sequence "stand_jump_run_com_down_450" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_down_450.smd"
+	activity "act_stand_jump_run_com_down_450" 1
+}
+$Sequence "stand_jump_run_com_down_900" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_down_900.smd"
+	activity "act_stand_jump_run_com_down_900" 1
+}
+$Sequence "stand_jump_run_com_fwd_500" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_fwd_500.smd"
+	activity "act_stand_jump_run_com_fwd_500" 1
+}
+$Sequence "stand_jump_run_com_fwd_900" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_fwd_900.smd"
+	activity "act_stand_jump_run_com_fwd_900" 1
+}
+$Sequence "stand_jump_run_com_up_150" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_up_150.smd"
+	activity "act_stand_jump_run_com_up_150" 1
+}
+$Sequence "stand_jump_run_com_up_300" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_up_300.smd"
+	activity "act_stand_jump_run_com_up_300" 1
+}
+$Sequence "stand_jump_run_com_up_450" { 
+	"new_anims/smartobjects/jump/walk/stand_jump_run_com_up_450.smd"
+	activity "act_stand_jump_run_com_up_450" 1
+}
+$Sequence "stand_vault_run_com_fwd_125" { 
+	"new_anims/smartobjects/jump/walk/stand_vault_run_com_fwd_125.smd"
+	activity "act_stand_vault_run_com_fwd_125" 1
+}
+$Sequence "stand_vault_run_com_fwd_800" { 
+	"new_anims/smartobjects/jump/walk/stand_vault_run_com_fwd_800.smd"
+	activity "act_stand_vault_run_com_fwd_800" 1
+}
+$Sequence "stand_vault_walk_com_fwd_125" { 
+	"new_anims/smartobjects/jump/walk/stand_vault_walk_com_fwd_125.smd"
+	activity "act_stand_vault_walk_com_fwd_125" 1
+}

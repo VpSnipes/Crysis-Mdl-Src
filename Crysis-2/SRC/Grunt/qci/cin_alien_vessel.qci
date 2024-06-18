@@ -1,0 +1,5 @@
+
+$Sequence "grunt_killing_two_marines" { 
+	"new_anims/cinematics/alien_vessel/grunt_killing_two_marines.smd"
+	activity "act_grunt_killing_two_marines" 1
+}

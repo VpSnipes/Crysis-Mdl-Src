@@ -1,0 +1,21 @@
+
+$Sequence "stand_com_idle" { 
+	"new_anims/behavior/idle/stand_com_idle.smd"
+	activity "act_idle" 1
+	addlayer "aim_com"
+}
+
+$Sequence "stand_idle" { 
+	"new_anims/behavior/idle/stand_idle.smd"
+	activity "act_stand_idle" 1
+}
+
+$Sequence "stand_idle_com_torlx" { 
+	"new_anims/behavior/idle/stand_idle_com_torlx.smd"
+	activity "act_stand_idle_com_torlx" 1
+}
+
+$Sequence "stand_idle_rlx_tocom" { 
+	"new_anims/behavior/idle/stand_idle_rlx_tocom.smd"
+	activity "act_stand_idle_rlx_tocom" 1
+}

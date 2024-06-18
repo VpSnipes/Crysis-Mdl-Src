@@ -1,0 +1,384 @@
+$Sequence "coverhigh_covertoidle_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_covertoidle_com_lft.smd"
+	activity "act_coverhigh_covertoidle_com_lft" 1
+}
+$Sequence "coverhigh_covertoidle_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_covertoidle_com_rgt.smd"
+	activity "act_coverhigh_covertoidle_com_rgt" 1
+}
+$Sequence "coverhigh_fromblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_fromblind_com_lft.smd"
+	activity "act_coverhigh_fromblind_com_lft" 1
+}
+$Sequence "coverhigh_fromblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_fromblind_com_rgt.smd"
+	activity "act_coverhigh_fromblind_com_rgt" 1
+}
+$Sequence "coverhigh_frompeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_frompeek_com_lft.smd"
+	activity "act_coverhigh_frompeek_com_lft" 1
+}
+$Sequence "coverhigh_frompeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_frompeek_com_rgt.smd"
+	activity "act_coverhigh_frompeek_com_rgt" 1
+}
+$Sequence "coverhigh_fromshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverhigh_fromshoot_com_lft_01.smd"
+	activity "act_coverhigh_fromshoot_com_lft_01" 1
+}
+$Sequence "coverhigh_fromshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverhigh_fromshoot_com_lft_02.smd"
+	activity "act_coverhigh_fromshoot_com_lft_02" 1
+}
+$Sequence "coverhigh_fromshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverhigh_fromshoot_com_rgt_01.smd"
+	activity "act_coverhigh_fromshoot_com_rgt_01" 1
+}
+$Sequence "coverhigh_fromshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverhigh_fromshoot_com_rgt_02.smd"
+	activity "act_coverhigh_fromshoot_com_rgt_02" 1
+}
+$Sequence "coverhigh_idle_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_idle_com_lft.smd"
+	activity "act_coverhigh_idle_com_lft" 1
+}
+$Sequence "coverhigh_idle_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_idle_com_rgt.smd"
+	activity "act_coverhigh_idle_com_rgt" 1
+}
+$Sequence "coverhigh_idleblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_idleblind_com_lft.smd"
+	activity "act_coverhigh_idleblind_com_lft" 1
+}
+$Sequence "coverhigh_idleblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_idleblind_com_rgt.smd"
+	activity "act_coverhigh_idleblind_com_rgt" 1
+}
+$Sequence "coverhigh_idlepeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_idlepeek_com_lft.smd"
+	activity "act_coverhigh_idlepeek_com_lft" 1
+}
+$Sequence "coverhigh_idlepeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_idlepeek_com_rgt.smd"
+	activity "act_coverhigh_idlepeek_com_rgt" 1
+}
+$Sequence "coverhigh_idleshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverhigh_idleshoot_com_lft_01.smd"
+	activity "act_coverhigh_idleshoot_com_lft_01" 1
+}
+$Sequence "coverhigh_idleshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverhigh_idleshoot_com_lft_02.smd"
+	activity "act_coverhigh_idleshoot_com_lft_02" 1
+}
+$Sequence "coverhigh_idleshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverhigh_idleshoot_com_rgt_01.smd"
+	activity "act_coverhigh_idleshoot_com_rgt_01" 1
+}
+$Sequence "coverhigh_idleshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverhigh_idleshoot_com_rgt_02.smd"
+	activity "act_coverhigh_idleshoot_com_rgt_02" 1
+}
+$Sequence "coverhigh_idletocover_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_idletocover_com_lft.smd"
+	activity "act_coverhigh_idletocover_com_lft" 1
+}
+$Sequence "coverhigh_idletocover_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_idletocover_com_rgt.smd"
+	activity "act_coverhigh_idletocover_com_rgt" 1
+}
+$Sequence "coverhigh_toblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_toblind_com_lft.smd"
+	activity "act_coverhigh_toblind_com_lft" 1
+}
+$Sequence "coverhigh_toblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_toblind_com_rgt.smd"
+	activity "act_coverhigh_toblind_com_rgt" 1
+}
+$Sequence "coverhigh_tocoverlow_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_tocoverlow_com_lft.smd"
+	activity "act_coverhigh_tocoverlow_com_lft" 1
+}
+$Sequence "coverhigh_tocoverlow_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_tocoverlow_com_rgt.smd"
+	activity "act_coverhigh_tocoverlow_com_rgt" 1
+}
+$Sequence "coverhigh_topeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_topeek_com_lft.smd"
+	activity "act_coverhigh_topeek_com_lft" 1
+}
+$Sequence "coverhigh_topeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_topeek_com_rgt.smd"
+	activity "act_coverhigh_topeek_com_rgt" 1
+}
+$Sequence "coverhigh_toshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverhigh_toshoot_com_lft_01.smd"
+	activity "act_coverhigh_toshoot_com_lft_01" 1
+}
+$Sequence "coverhigh_toshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverhigh_toshoot_com_lft_02.smd"
+	activity "act_coverhigh_toshoot_com_lft_02" 1
+}
+$Sequence "coverhigh_toshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverhigh_toshoot_com_rgt_01.smd"
+	activity "act_coverhigh_toshoot_com_rgt_01" 1
+}
+$Sequence "coverhigh_toshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverhigh_toshoot_com_rgt_02.smd"
+	activity "act_coverhigh_toshoot_com_rgt_02" 1
+}
+$Sequence "coverhigh_transidle_lft_to_rgt" { 
+	"new_anims/smartobjects/cover/coverhigh_transidle_lft_to_rgt.smd"
+	activity "act_coverhigh_transidle_lft_to_rgt" 1
+}
+$Sequence "coverhigh_transidle_rgt_to_lft" { 
+	"new_anims/smartobjects/cover/coverhigh_transidle_rgt_to_lft.smd"
+	activity "act_coverhigh_transidle_rgt_to_lft" 1
+}
+$Sequence "coverlow_covertoidle_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_covertoidle_com_lft.smd"
+	activity "act_coverlow_covertoidle_com_lft" 1
+}
+$Sequence "coverlow_covertoidle_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_covertoidle_com_rgt.smd"
+	activity "act_coverlow_covertoidle_com_rgt" 1
+}
+$Sequence "coverlow_fromblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_fromblind_com_lft.smd"
+	activity "act_coverlow_fromblind_com_lft" 1
+}
+$Sequence "coverlow_fromblind_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_fromblind_com_midlft.smd"
+	activity "act_coverlow_fromblind_com_midlft" 1
+}
+$Sequence "coverlow_fromblind_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_fromblind_com_midrgt.smd"
+	activity "act_coverlow_fromblind_com_midrgt" 1
+}
+$Sequence "coverlow_fromblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_fromblind_com_rgt.smd"
+	activity "act_coverlow_fromblind_com_rgt" 1
+}
+$Sequence "coverlow_frompeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_frompeek_com_lft.smd"
+	activity "act_coverlow_frompeek_com_lft" 1
+}
+$Sequence "coverlow_frompeek_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_frompeek_com_midlft.smd"
+	activity "act_coverlow_frompeek_com_midlft" 1
+}
+$Sequence "coverlow_frompeek_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_frompeek_com_midrgt.smd"
+	activity "act_coverlow_frompeek_com_midrgt" 1
+}
+$Sequence "coverlow_frompeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_frompeek_com_rgt.smd"
+	activity "act_coverlow_frompeek_com_rgt" 1
+}
+$Sequence "coverlow_fromshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_lft_01.smd"
+	activity "act_coverlow_fromshoot_com_lft_01" 1
+}
+$Sequence "coverlow_fromshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_lft_02.smd"
+	activity "act_coverlow_fromshoot_com_lft_02" 1
+}
+$Sequence "coverlow_fromshoot_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_midlft.smd"
+	activity "act_coverlow_fromshoot_com_midlft" 1
+}
+$Sequence "coverlow_fromshoot_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_midrgt.smd"
+	activity "act_coverlow_fromshoot_com_midrgt" 1
+}
+$Sequence "coverlow_fromshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_rgt_01.smd"
+	activity "act_coverlow_fromshoot_com_rgt_01" 1
+}
+$Sequence "coverlow_fromshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverlow_fromshoot_com_rgt_02.smd"
+	activity "act_coverlow_fromshoot_com_rgt_02" 1
+}
+$Sequence "coverlow_idle_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_idle_com_lft.smd"
+	activity "act_coverlow_idle_com_lft" 1
+}
+$Sequence "coverlow_idle_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_idle_com_rgt.smd"
+	activity "act_coverlow_idle_com_rgt" 1
+}
+$Sequence "coverlow_idleblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_idleblind_com_lft.smd"
+	activity "act_coverlow_idleblind_com_lft" 1
+}
+$Sequence "coverlow_idleblind_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_idleblind_com_midlft.smd"
+	activity "act_coverlow_idleblind_com_midlft" 1
+}
+$Sequence "coverlow_idleblind_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_idleblind_com_midrgt.smd"
+	activity "act_coverlow_idleblind_com_midrgt" 1
+}
+$Sequence "coverlow_idleblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_idleblind_com_rgt.smd"
+	activity "act_coverlow_idleblind_com_rgt" 1
+}
+$Sequence "coverlow_idlepeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_idlepeek_com_lft.smd"
+	activity "act_coverlow_idlepeek_com_lft" 1
+}
+$Sequence "coverlow_idlepeek_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_idlepeek_com_midlft.smd"
+	activity "act_coverlow_idlepeek_com_midlft" 1
+}
+$Sequence "coverlow_idlepeek_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_idlepeek_com_midrgt.smd"
+	activity "act_coverlow_idlepeek_com_midrgt" 1
+}
+$Sequence "coverlow_idlepeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_idlepeek_com_rgt.smd"
+	activity "act_coverlow_idlepeek_com_rgt" 1
+}
+$Sequence "coverlow_idleshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_lft_01.smd"
+	activity "act_coverlow_idleshoot_com_lft_01" 1
+}
+$Sequence "coverlow_idleshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_lft_02.smd"
+	activity "act_coverlow_idleshoot_com_lft_02" 1
+}
+$Sequence "coverlow_idleshoot_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_midlft.smd"
+	activity "act_coverlow_idleshoot_com_midlft" 1
+}
+$Sequence "coverlow_idleshoot_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_midrgt.smd"
+	activity "act_coverlow_idleshoot_com_midrgt" 1
+}
+$Sequence "coverlow_idleshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_rgt_01.smd"
+	activity "act_coverlow_idleshoot_com_rgt_01" 1
+}
+$Sequence "coverlow_idleshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverlow_idleshoot_com_rgt_02.smd"
+	activity "act_coverlow_idleshoot_com_rgt_02" 1
+}
+$Sequence "coverlow_idletocover_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_idletocover_com_lft.smd"
+	activity "act_coverlow_idletocover_com_lft" 1
+}
+$Sequence "coverlow_idletocover_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_idletocover_com_rgt.smd"
+	activity "act_coverlow_idletocover_com_rgt" 1
+}
+$Sequence "coverlow_slideinto_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_lft.smd"
+	activity "act_coverlow_slideinto_com_lft" 1
+}
+$Sequence "coverlow_slideinto_com_lft_short" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_lft_short.smd"
+	activity "act_coverlow_slideinto_com_lft_short" 1
+}
+$Sequence "coverlow_slideinto_com_lft_shortside" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_lft_shortside.smd"
+	activity "act_coverlow_slideinto_com_lft_shortside" 1
+}
+$Sequence "coverlow_slideinto_com_lft_side" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_lft_side.smd"
+	activity "act_coverlow_slideinto_com_lft_side" 1
+}
+$Sequence "coverlow_slideinto_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_rgt.smd"
+	activity "act_coverlow_slideinto_com_rgt" 1
+}
+$Sequence "coverlow_slideinto_com_rgt_short" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_rgt_short.smd"
+	activity "act_coverlow_slideinto_com_rgt_short" 1
+}
+$Sequence "coverlow_slideinto_com_rgt_shortside" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_rgt_shortside.smd"
+	activity "act_coverlow_slideinto_com_rgt_shortside" 1
+}
+$Sequence "coverlow_slideinto_com_rgt_side" { 
+	"new_anims/smartobjects/cover/coverlow_slideinto_com_rgt_side.smd"
+	activity "act_coverlow_slideinto_com_rgt_side" 1
+}
+$Sequence "coverlow_toblind_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_toblind_com_lft.smd"
+	activity "act_coverlow_toblind_com_lft" 1
+}
+$Sequence "coverlow_toblind_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_toblind_com_midlft.smd"
+	activity "act_coverlow_toblind_com_midlft" 1
+}
+$Sequence "coverlow_toblind_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_toblind_com_midrgt.smd"
+	activity "act_coverlow_toblind_com_midrgt" 1
+}
+$Sequence "coverlow_toblind_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_toblind_com_rgt.smd"
+	activity "act_coverlow_toblind_com_rgt" 1
+}
+$Sequence "coverlow_tocoverhigh_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_tocoverhigh_com_lft.smd"
+	activity "act_coverlow_tocoverhigh_com_lft" 1
+}
+$Sequence "coverlow_tocoverhigh_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_tocoverhigh_com_rgt.smd"
+	activity "act_coverlow_tocoverhigh_com_rgt" 1
+}
+$Sequence "coverlow_topeek_com_lft" { 
+	"new_anims/smartobjects/cover/coverlow_topeek_com_lft.smd"
+	activity "act_coverlow_topeek_com_lft" 1
+}
+$Sequence "coverlow_topeek_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_topeek_com_midlft.smd"
+	activity "act_coverlow_topeek_com_midlft" 1
+}
+$Sequence "coverlow_topeek_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_topeek_com_midrgt.smd"
+	activity "act_coverlow_topeek_com_midrgt" 1
+}
+$Sequence "coverlow_topeek_com_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_topeek_com_rgt.smd"
+	activity "act_coverlow_topeek_com_rgt" 1
+}
+$Sequence "coverlow_toshoot_com_lft_01" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_lft_01.smd"
+	activity "act_coverlow_toshoot_com_lft_01" 1
+}
+$Sequence "coverlow_toshoot_com_lft_02" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_lft_02.smd"
+	activity "act_coverlow_toshoot_com_lft_02" 1
+}
+$Sequence "coverlow_toshoot_com_midlft" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_midlft.smd"
+	activity "act_coverlow_toshoot_com_midlft" 1
+}
+$Sequence "coverlow_toshoot_com_midrgt" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_midrgt.smd"
+	activity "act_coverlow_toshoot_com_midrgt" 1
+}
+$Sequence "coverlow_toshoot_com_rgt_01" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_rgt_01.smd"
+	activity "act_coverlow_toshoot_com_rgt_01" 1
+}
+$Sequence "coverlow_toshoot_com_rgt_02" { 
+	"new_anims/smartobjects/cover/coverlow_toshoot_com_rgt_02.smd"
+	activity "act_coverlow_toshoot_com_rgt_02" 1
+}
+$Sequence "coverlow_transaim_lft_to_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_transaim_lft_to_rgt.smd"
+	activity "act_coverlow_transaim_lft_to_rgt" 1
+}
+$Sequence "coverlow_transaim_rgt_to_lft" { 
+	"new_anims/smartobjects/cover/coverlow_transaim_rgt_to_lft.smd"
+	activity "act_coverlow_transaim_rgt_to_lft" 1
+}
+$Sequence "coverlow_transidle_lft_to_rgt" { 
+	"new_anims/smartobjects/cover/coverlow_transidle_lft_to_rgt.smd"
+	activity "act_coverlow_transidle_lft_to_rgt" 1
+}
+$Sequence "coverlow_transidle_rgt_to_lft" { 
+	"new_anims/smartobjects/cover/coverlow_transidle_rgt_to_lft.smd"
+	activity "act_coverlow_transidle_rgt_to_lft" 1
+}

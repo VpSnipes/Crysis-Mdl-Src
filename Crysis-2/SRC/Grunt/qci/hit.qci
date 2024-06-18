@@ -1,0 +1,184 @@
+$Sequence "coverhigh_idle_com_lft_hit_back" { 
+	"new_anims/hits/coverhigh_idle_com_lft_hit_back.smd"
+	activity "act_coverhigh_idle_com_lft_hit_back" 1
+}
+$Sequence "coverhigh_idle_com_lft_hit_front" { 
+	"new_anims/hits/coverhigh_idle_com_lft_hit_front.smd"
+	activity "act_coverhigh_idle_com_lft_hit_front" 1
+}
+$Sequence "coverhigh_idle_com_rgt_hit_back" { 
+	"new_anims/hits/coverhigh_idle_com_rgt_hit_back.smd"
+	activity "act_coverhigh_idle_com_rgt_hit_back" 1
+}
+$Sequence "coverhigh_idle_com_rgt_hit_front" { 
+	"new_anims/hits/coverhigh_idle_com_rgt_hit_front.smd"
+	activity "act_coverhigh_idle_com_rgt_hit_front" 1
+}
+$Sequence "coverhigh_shoot_com_midlft_hit_back" { 
+	"new_anims/hits/coverhigh_shoot_com_midlft_hit_back.smd"
+	activity "act_coverhigh_shoot_com_midlft_hit_back" 1
+}
+$Sequence "coverhigh_shoot_com_midlft_hit_front" { 
+	"new_anims/hits/coverhigh_shoot_com_midlft_hit_front.smd"
+	activity "act_coverhigh_shoot_com_midlft_hit_front" 1
+}
+$Sequence "coverhigh_shoot_com_midrgt_hit_back" { 
+	"new_anims/hits/coverhigh_shoot_com_midrgt_hit_back.smd"
+	activity "act_coverhigh_shoot_com_midrgt_hit_back" 1
+}
+$Sequence "coverhigh_shoot_com_midrgt_hit_front" { 
+	"new_anims/hits/coverhigh_shoot_com_midrgt_hit_front.smd"
+	activity "act_coverhigh_shoot_com_midrgt_hit_front" 1
+}
+$Sequence "coverlow_idle_com_lft_hit_back" { 
+	"new_anims/hits/coverlow_idle_com_lft_hit_back.smd"
+	activity "act_coverlow_idle_com_lft_hit_back" 1
+}
+$Sequence "coverlow_idle_com_lft_hit_front" { 
+	"new_anims/hits/coverlow_idle_com_lft_hit_front.smd"
+	activity "act_coverlow_idle_com_lft_hit_front" 1
+}
+$Sequence "coverlow_idle_com_rgt_hit_back" { 
+	"new_anims/hits/coverlow_idle_com_rgt_hit_back.smd"
+	activity "act_coverlow_idle_com_rgt_hit_back" 1
+}
+$Sequence "coverlow_idle_com_rgt_hit_front" { 
+	"new_anims/hits/coverlow_idle_com_rgt_hit_front.smd"
+	activity "act_coverlow_idle_com_rgt_hit_front" 1
+}
+$Sequence "coverlow_shoot_com_midlft_hit_back" { 
+	"new_anims/hits/coverlow_shoot_com_midlft_hit_back.smd"
+	activity "act_coverlow_shoot_com_midlft_hit_back" 1
+}
+$Sequence "coverlow_shoot_com_midlft_hit_front" { 
+	"new_anims/hits/coverlow_shoot_com_midlft_hit_front.smd"
+	activity "act_coverlow_shoot_com_midlft_hit_front" 1
+}
+$Sequence "coverlow_shoot_com_midrgt_hit_back" { 
+	"new_anims/hits/coverlow_shoot_com_midrgt_hit_back.smd"
+	activity "act_coverlow_shoot_com_midrgt_hit_back" 1
+}
+$Sequence "coverlow_shoot_com_midrgt_hit_front" { 
+	"new_anims/hits/coverlow_shoot_com_midrgt_hit_front.smd"
+	activity "act_coverlow_shoot_com_midrgt_hit_front" 1
+}
+$Sequence "stand_hit_back_legs" { 
+	"new_anims/hits/stand_hit_back_legs.smd"
+	activity "act_stand_hit_back_legs" 1
+}
+$Sequence "stand_hit_back_torso" { 
+	"new_anims/hits/stand_hit_back_torso.smd"
+	activity "act_stand_hit_back_torso" 1
+}
+$Sequence "stand_hit_explosionreact_com" { 
+	"new_anims/hits/stand_hit_explosionreact_com.smd"
+	activity "act_stand_hit_explosionreact_com" 1
+}
+$Sequence "stand_hit_front_legs" { 
+	"new_anims/hits/stand_hit_front_legs.smd"
+	activity "act_stand_hit_front_legs" 1
+}
+$Sequence "stand_hit_front_r_leg" { 
+	"new_anims/hits/stand_hit_front_r_leg.smd"
+	activity "act_stand_hit_front_r_leg" 1
+}
+$Sequence "stand_hit_front_r_shoulder" { 
+	"new_anims/hits/stand_hit_front_r_shoulder.smd"
+	activity "act_stand_hit_front_r_shoulder" 1
+}
+$Sequence "stand_hit_front_torso" { 
+	"new_anims/hits/stand_hit_front_torso.smd"
+	activity "act_stand_hit_front_torso" 1
+}
+$Sequence "stand_hit_left_legs" { 
+	"new_anims/hits/stand_hit_left_legs.smd"
+	activity "act_stand_hit_left_legs" 1
+}
+$Sequence "stand_hit_left_torso" { 
+	"new_anims/hits/stand_hit_left_torso.smd"
+	activity "act_stand_hit_left_torso" 1
+}
+$Sequence "stand_hit_light_back_legs" { 
+	"new_anims/hits/stand_hit_light_back_legs.smd"
+	activity "act_stand_hit_light_back_legs" 1
+}
+$Sequence "stand_hit_light_back_torso" { 
+	"new_anims/hits/stand_hit_light_back_torso.smd"
+	activity "act_stand_hit_light_back_torso" 1
+}
+$Sequence "stand_hit_light_left_legs" { 
+	"new_anims/hits/stand_hit_light_left_legs.smd"
+	activity "act_stand_hit_light_left_legs" 1
+}
+$Sequence "stand_hit_light_left_torso" { 
+	"new_anims/hits/stand_hit_light_left_torso.smd"
+	activity "act_stand_hit_light_left_torso" 1
+}
+$Sequence "stand_hit_light_right_legs" { 
+	"new_anims/hits/stand_hit_light_right_legs.smd"
+	activity "act_stand_hit_light_right_legs" 1
+}
+$Sequence "stand_hit_light_right_torso" { 
+	"new_anims/hits/stand_hit_light_right_torso.smd"
+	activity "act_stand_hit_light_right_torso" 1
+}
+$Sequence "stand_hit_light_test_add_01" { 
+	"new_anims/hits/stand_hit_light_test_add_01.smd"
+	activity "act_stand_hit_light_test_add_01" 1
+}
+$Sequence "stand_hit_light_test_add_02" { 
+	"new_anims/hits/stand_hit_light_test_add_02.smd"
+	activity "act_stand_hit_light_test_add_02" 1
+}
+$Sequence "stand_hit_right_legs" { 
+	"new_anims/hits/stand_hit_right_legs.smd"
+	activity "act_stand_hit_right_legs" 1
+}
+$Sequence "stand_hit_right_torso" { 
+	"new_anims/hits/stand_hit_right_torso.smd"
+	activity "act_stand_hit_right_torso" 1
+}
+$Sequence "stand_hitcoll_front_torso" { 
+	"new_anims/hits/stand_hitcoll_front_torso.smd"
+	activity "act_stand_hitcoll_front_torso" 1
+}
+$Sequence "stand_hitcoll_lft_torso" { 
+	"new_anims/hits/stand_hitcoll_lft_torso.smd"
+	activity "act_stand_hitcoll_lft_torso" 1
+}
+$Sequence "stand_hitcoll_rgt_torso" { 
+	"new_anims/hits/stand_hitcoll_rgt_torso.smd"
+	activity "act_stand_hitcoll_rgt_torso" 1
+}
+$Sequence "stand_hitrun_bwd" { 
+	"new_anims/hits/stand_hitrun_bwd.smd"
+	activity "act_stand_hitrun_bwd" 1
+}
+$Sequence "stand_hitrun_fwd_back" { 
+	"new_anims/hits/stand_hitrun_fwd_back.smd"
+	activity "act_stand_hitrun_fwd_back" 1
+}
+$Sequence "stand_hitrun_fwd_front" { 
+	"new_anims/hits/stand_hitrun_fwd_front.smd"
+	activity "act_stand_hitrun_fwd_front" 1
+}
+$Sequence "stand_hitrun_fwd_left" { 
+	"new_anims/hits/stand_hitrun_fwd_left.smd"
+	activity "act_stand_hitrun_fwd_left" 1
+}
+$Sequence "stand_hitrun_fwd_right" { 
+	"new_anims/hits/stand_hitrun_fwd_right.smd"
+	activity "act_stand_hitrun_fwd_right" 1
+}
+$Sequence "stand_hitrun_strafe_left" { 
+	"new_anims/hits/stand_hitrun_strafe_left.smd"
+	activity "act_stand_hitrun_strafe_left" 1
+}
+$Sequence "stand_hitrun_strafe_right" { 
+	"new_anims/hits/stand_hitrun_strafe_right.smd"
+	activity "act_stand_hitrun_strafe_right" 1
+}
+$Sequence "stand_stun_com" { 
+	"new_anims/hits/stand_stun_com.smd"
+	activity "act_stand_stun_com" 1
+}
