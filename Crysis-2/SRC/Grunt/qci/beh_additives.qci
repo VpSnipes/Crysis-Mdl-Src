@@ -1,3 +1,5 @@
+$animation "idle_ref"	"new_anims/behavior/idle/stand_com_idle.smd" frame 0 0
+
 $Sequence "stand_idle_com_search_lft_alr_add" {
     "new_anims/behavior/additives/stand_idle_com_search_lft_alr_add.smd"
     subtract "stand_idle_com_search_lft_alr_add" 0
