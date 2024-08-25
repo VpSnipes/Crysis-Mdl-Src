@@ -1,9 +1,16 @@
+$origin 0 0 0 180
 $modelname "crysis2\aheavy.mdl"
 $model "Body" "aheavy_reference.smd"
 $model "Body" "aHeavy_Jelly_Guts.smd"
 $model "Body" "aheavy_jelly.smd"
 $model "Body" "aheavy_jelly_sss.smd"
 $model "Body" "aheavy_jelly_refract.smd"
+$poseparameter "move_yaw" -180 180 wrap
+
+$Sequence "Ragdoll" { 
+	"reference.smd"
+	activity "ACT_DIERAGDOLL" 1
+}
 
 $bodygroup "Helmet"
 {
@@ -151,71 +158,71 @@ $cdmaterials "models\crysis2\aheavy\"
 $cdmaterials "models\crysis2\shared\"
 $mostlyopaque
 
-$Animation "aimidle_lo_com_ref" 		"anims/aimparams/aim_pose_lo_idle.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_com" 			"anims/aimparams/aim_pose_lo_idle.smd" 	frame 2 2	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_down_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 7 7	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_down_left_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 5 5	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_down_right_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 9 9	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_left_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 0 0	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_right_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 4 4	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_up_com" 			"anims/aimparams/aim_pose_lo_idle.smd" 	frame 12 12	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_up_left_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 10 10	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_lo_up_right_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 14 14	subtract	"aimidle_lo_com_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimidle_lo_com_ref" 		"anims/aimparams/aim_pose_lo_idle.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimidle_lo_com" 			"anims/aimparams/aim_pose_lo_idle.smd" 	frame 2 2	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_down_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 7 7	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_down_left_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 5 5	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_down_right_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 9 9	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_left_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 0 0	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_right_com" 		"anims/aimparams/aim_pose_lo_idle.smd" 	frame 4 4	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_up_com" 			"anims/aimparams/aim_pose_lo_idle.smd" 	frame 12 12	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_up_left_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 10 10	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_lo_up_right_com" 	"anims/aimparams/aim_pose_lo_idle.smd" 	frame 14 14	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
 
-$Animation "aimrun_lo_com_ref" 			"anims/aimparams/aim_pose_lo_run.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_com" 				"anims/aimparams/aim_pose_lo_run.smd" 	frame 2 2 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_down_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 7 7 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_down_left_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 5 5 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_down_right_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 9 9 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_left_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 0 0 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_right_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 4 4 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_up_com" 			"anims/aimparams/aim_pose_lo_run.smd" 	frame 12 12 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_up_left_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 10 10 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimrun_lo_up_right_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 14 14 subtract "aimrun_lo_com_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimrun_lo_com_ref" 			"anims/aimparams/aim_pose_lo_run.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimrun_lo_com" 				"anims/aimparams/aim_pose_lo_run.smd" 	frame 2 2 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_down_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 7 7 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_down_left_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 5 5 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_down_right_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 9 9 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_left_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 0 0 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_right_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 4 4 	subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_up_com" 			"anims/aimparams/aim_pose_lo_run.smd" 	frame 12 12 subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_up_left_com" 		"anims/aimparams/aim_pose_lo_run.smd" 	frame 10 10 subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_lo_up_right_com" 	"anims/aimparams/aim_pose_lo_run.smd" 	frame 14 14 subtract "aimrun_lo_com_ref" 0	weightlist aim_parameters
 
-$Animation "aimwalk_lo_alr_ref" 		"anims/aimparams/aim_pose_lo_walk.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_alr" 			"anims/aimparams/aim_pose_lo_walk.smd" 	frame 2 2	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_down_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 7 7	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_down_left_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 5 5	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_down_right_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 9 9	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_left_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 0 0	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_right_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 4 4	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_up_alr" 			"anims/aimparams/aim_pose_lo_walk.smd" 	frame 12 12	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_up_left_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 10 10	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_lo_up_right_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 14 14	subtract	"aimwalk_lo_alr_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimwalk_lo_alr_ref" 		"anims/aimparams/aim_pose_lo_walk.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimwalk_lo_alr" 			"anims/aimparams/aim_pose_lo_walk.smd" 	frame 2 2	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_down_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 7 7	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_down_left_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 5 5	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_down_right_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 9 9	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_left_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 0 0	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_right_alr" 		"anims/aimparams/aim_pose_lo_walk.smd" 	frame 4 4	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_up_alr" 			"anims/aimparams/aim_pose_lo_walk.smd" 	frame 12 12	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_up_left_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 10 10	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_lo_up_right_alr" 	"anims/aimparams/aim_pose_lo_walk.smd" 	frame 14 14	subtract	"aimwalk_lo_alr_ref" 0	weightlist aim_parameters
 
-$Animation "aimidle_hi_com_ref" 		"anims/aimparams/aim_pose_hi_idle.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_com" 			"anims/aimparams/aim_pose_hi_idle.smd" 	frame 2 2	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 7 7	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_left_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 5 5	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_right_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 9 9	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_left_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 0 0	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_right_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 4 4	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_com" 			"anims/aimparams/aim_pose_hi_idle.smd" 	frame 12 12	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_left_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 10 10	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_right_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 14 14	subtract	"aimidle_hi_com_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimidle_hi_com_ref" 		"anims/aimparams/aim_pose_hi_idle.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimidle_hi_com" 			"anims/aimparams/aim_pose_hi_idle.smd" 	frame 2 2	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 7 7	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_left_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 5 5	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_right_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 9 9	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_left_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 0 0	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_right_com" 		"anims/aimparams/aim_pose_hi_idle.smd" 	frame 4 4	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_com" 			"anims/aimparams/aim_pose_hi_idle.smd" 	frame 12 12	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_left_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 10 10	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_right_com" 	"anims/aimparams/aim_pose_hi_idle.smd" 	frame 14 14	subtract	"aimidle_hi_com_ref" 0	weightlist aim_parameters
 
-$Animation "aimidle_hi_alr_ref" 		"anims/aimparams/aim_pose_hi_mortar.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_alr" 			"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 2 2	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 7 7	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_left_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 5 5	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_down_right_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 9 9	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_left_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 0 0	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_right_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 4 4	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_alr" 			"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 12 12	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_left_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 10 10	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimidle_hi_up_right_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 14 14	subtract	"aimidle_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimidle_hi_alr_ref" 		"anims/aimparams/aim_pose_hi_mortar.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimidle_hi_alr" 			"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 2 2	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 7 7	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_left_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 5 5	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_down_right_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 9 9	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_left_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 0 0	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_right_alr" 		"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 4 4	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_alr" 			"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 12 12	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_left_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 10 10	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimidle_hi_up_right_alr" 	"anims/aimparams/aim_pose_hi_mortar.smd" 	frame 14 14	subtract	"aimidle_hi_alr_ref" 0	weightlist aim_parameters
 
-$Animation "aimwalk_hi_alr_ref" 		"anims/aimparams/aim_pose_hi_walk.smd"	frame 2 2	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_alr" 			"anims/aimparams/aim_pose_hi_walk.smd" 	frame 2 2	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_down_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 7 7	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_down_left_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 5 5	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_down_right_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 9 9	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_left_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 0 0	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_right_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 4 4	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_up_alr" 			"anims/aimparams/aim_pose_hi_walk.smd" 	frame 12 12	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_up_left_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 10 10	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
-$Animation "aimwalk_hi_up_right_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 14 14	subtract "aimwalk_hi_alr_ref" 0	rotate 180 weightlist aim_parameters
+$Animation "aimwalk_hi_alr_ref" 		"anims/aimparams/aim_pose_hi_walk.smd"	frame 2 2	weightlist aim_parameters
+$Animation "aimwalk_hi_alr" 			"anims/aimparams/aim_pose_hi_walk.smd" 	frame 2 2	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_down_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 7 7	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_down_left_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 5 5	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_down_right_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 9 9	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_left_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 0 0	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_right_alr" 		"anims/aimparams/aim_pose_hi_walk.smd" 	frame 4 4	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_up_alr" 			"anims/aimparams/aim_pose_hi_walk.smd" 	frame 12 12	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_up_left_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 10 10	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
+$Animation "aimwalk_hi_up_right_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 14 14	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
 
 $sequence "aimidle_lo_com_params" {
     "aimidle_lo_up_right_com" 		"aimidle_lo_up_com" 	"aimidle_lo_up_left_com"
@@ -280,7 +287,6 @@ $sequence "aimwalk_hi_alr_params" {
 $Sequence "a_idle_aim" { "anims/a_idle_aim.smd"
 	activity "ACT_IDLE_COMBAT" 1
 	loop
-	rotate 180
 	cmdlist lockfeet
 	addlayer "aimidle_hi_com_params"
 }
@@ -288,19 +294,18 @@ $Sequence "a_idle_aim" { "anims/a_idle_aim.smd"
 $Sequence "a_idle" { "anims/a_idle.smd"
 	activity "ACT_IDLE_COMBAT" 1
 	loop
-	rotate 180
 	cmdlist lockfeet
 	addlayer "aimidle_lo_com_params"
 }
 
-$Animation "Run_Front" 			"anims\a_run_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 0	
-$Animation "Run_Front-left" 	"anims\a_run_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 45	
-$Animation "Run_Front-right" 	"anims\a_run_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto -45	
-$Animation "Run_Back" 			"anims\a_run_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -180
-$Animation "Run_Back-left" 		"anims\a_run_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto 135	
-$Animation "Run_Back-right" 	"anims\a_run_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -135
-$Animation "Run_Right" 			"anims\a_run_rgt.smd" 	fudgeloop LX LY		rotate 180 rotateto -90 
-$Animation "Run_Left" 			"anims\a_run_lft.smd" 	fudgeloop LX LY		rotate 180 rotateto 90 	
+$Animation "Run_Front" 			"anims\a_run_fwd.smd"	fudgeloop LX LY		rotateto 0	
+$Animation "Run_Front-left" 	"anims\a_run_fwd.smd"	fudgeloop LX LY		rotateto 45	
+$Animation "Run_Front-right" 	"anims\a_run_fwd.smd"	fudgeloop LX LY		rotateto -45	
+$Animation "Run_Back" 			"anims\a_run_bwd.smd"	fudgeloop LX LY		rotateto -180
+$Animation "Run_Back-left" 		"anims\a_run_bwd.smd"	fudgeloop LX LY		rotateto 135	
+$Animation "Run_Back-right" 	"anims\a_run_bwd.smd"	fudgeloop LX LY		rotateto -135
+$Animation "Run_Right" 			"anims\a_run_rgt.smd" 	fudgeloop LX LY		rotateto -90 
+$Animation "Run_Left" 			"anims\a_run_lft.smd" 	fudgeloop LX LY		rotateto 90 	
 
 $sequence "a_run" {
 	"Run_Back"
@@ -318,14 +323,14 @@ $sequence "a_run" {
 	addlayer "aimrun_lo_com_params"
 }
 
-$Animation "Walk_aim_Front" 		"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 0	
-$Animation "Walk_aim_Front-left" 	"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 45	
-$Animation "Walk_aim_Front-right" 	"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto -45	
-$Animation "Walk_aim_Back" 			"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -180
-$Animation "Walk_aim_Back-left" 	"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto 135	
-$Animation "Walk_aim_Back-right" 	"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -135
-$Animation "Walk_aim_Right" 		"anims\a_walk_aim_rgt.smd"	fudgeloop LX LY		rotate 180 rotateto -90 
-$Animation "Walk_aim_Left" 			"anims\a_walk_aim_lft.smd"	fudgeloop LX LY		rotate 180 rotateto 90 	
+$Animation "Walk_aim_Front" 		"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotateto 0	
+$Animation "Walk_aim_Front-left" 	"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotateto 45	
+$Animation "Walk_aim_Front-right" 	"anims\a_walk_aim_fwd.smd"	fudgeloop LX LY		rotateto -45	
+$Animation "Walk_aim_Back" 			"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotateto -180
+$Animation "Walk_aim_Back-left" 	"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotateto 135	
+$Animation "Walk_aim_Back-right" 	"anims\a_walk_aim_bwd.smd"	fudgeloop LX LY		rotateto -135
+$Animation "Walk_aim_Right" 		"anims\a_walk_aim_rgt.smd"	fudgeloop LX LY		rotateto -90 
+$Animation "Walk_aim_Left" 			"anims\a_walk_aim_lft.smd"	fudgeloop LX LY		rotateto 90 	
 
 $sequence "a_walk_aim_alr" {
 	"Walk_aim_Back"
@@ -343,14 +348,14 @@ $sequence "a_walk_aim_alr" {
 	addlayer "aimwalk_hi_alr_params"
 }
 
-$Animation "Walk_Front" 		"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 0	
-$Animation "Walk_Front-left" 	"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto 45	
-$Animation "Walk_Front-right" 	"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotate 180 rotateto -45	
-$Animation "Walk_Back" 			"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -180
-$Animation "Walk_Back-left" 	"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto 135	
-$Animation "Walk_Back-right" 	"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotate 180 rotateto -135
-$Animation "Walk_Right" 		"anims\a_walk_rgt.smd" 	fudgeloop LX LY		rotate 180 rotateto -90 
-$Animation "Walk_Left" 			"anims\a_walk_lft.smd" 	fudgeloop LX LY		rotate 180 rotateto 90 	
+$Animation "Walk_Front" 		"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotateto 0
+$Animation "Walk_Front-left" 	"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotateto 45
+$Animation "Walk_Front-right" 	"anims\a_walk_fwd.smd"	fudgeloop LX LY		rotateto -45
+$Animation "Walk_Back" 			"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotateto -180
+$Animation "Walk_Back-left" 	"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotateto 135
+$Animation "Walk_Back-right" 	"anims\a_walk_bwd.smd"	fudgeloop LX LY		rotateto -135
+$Animation "Walk_Right" 		"anims\a_walk_rgt.smd" 	fudgeloop LX LY		rotateto -90
+$Animation "Walk_Left" 			"anims\a_walk_lft.smd" 	fudgeloop LX LY		rotateto 90
 
 $sequence "a_walk_alr" {
 	"Walk_Back"
@@ -366,4 +371,143 @@ $sequence "a_walk_alr" {
     blendwidth 9 blend move_yaw -180 180
 	activity "ACT_WALK" 1
 	addlayer "aimwalk_lo_alr_params"
+}
+
+$collisionjoints "physmesh.smd"
+{
+	$mass 90.0
+	$inertia 10.00
+	$damping 0.01
+	$rotdamping 1.50
+	$rootbone "heavy_root"
+	$collisionjoints ragdoll {
+
+	$jointconstrain "spine03" x limit -50.00 50.00 0.00
+	$jointconstrain "spine03" y limit -50.00 50.00 0.00
+	$jointconstrain "spine03" z limit -50.00 50.00 0.00
+
+	$jointconstrain "r_arm01_joint01" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01_joint01" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01_joint01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_arm01_joint03" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01_joint03" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01_joint03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_arm02_joint01" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02_joint01" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02_joint01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope02_seg01" x limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg01" y limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope02_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope02_seg05" x limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg05" y limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg05" z limit -60.00 60.00 0.00
+
+	$jointconstrain "head" x limit -40.00 40.00 0.00
+	$jointconstrain "head" y limit -40.00 40.00 0.00
+	$jointconstrain "head" z limit -45.00 45.00 0.00
+
+	$jointconstrain "rope01_seg01" x limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg01" y limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope01_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope01_seg05" x limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg05" y limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg05" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm02_joint01" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02_joint01" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02_joint01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm02_joint03" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02_joint03" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02_joint03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm01_joint01" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01_joint01" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01_joint01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm01_joint03" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01_joint03" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01_joint03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_hand" x limit -90.00 90.00 0.00
+	$jointconstrain "l_hand" y limit -90.00 90.00 0.00
+	$jointconstrain "l_hand" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope03_seg01" x limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg01" y limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope03_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_hand" x limit -90.00 90.00 0.00
+	$jointconstrain "r_hand" y limit -90.00 90.00 0.00
+	$jointconstrain "r_hand" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_leg01" x limit -70.00 70.00 0.00
+	$jointconstrain "r_leg01" y limit -90.00 90.00 0.00
+	$jointconstrain "r_leg01" z limit -30.00 30.00 0.00
+
+	$jointconstrain "r_leg02" x limit 0.00 0.00 0.00
+	$jointconstrain "r_leg02" y limit -50.00 50.00 0.00
+	$jointconstrain "r_leg02" z limit 0.00 0.00 0.00
+
+	$jointconstrain "r_arm02_joint03" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02_joint03" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02_joint03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_leg03" x limit 0.00 0.00 0.00
+	$jointconstrain "r_leg03" y limit 0.00 0.00 0.00
+	$jointconstrain "r_leg03" z limit -70.00 70.00 0.00
+
+	$jointconstrain "l_leg01" x limit -70.00 70.00 0.00
+	$jointconstrain "l_leg01" y limit -90.00 90.00 0.00
+	$jointconstrain "l_leg01" z limit -30.00 30.00 0.00
+
+	$jointconstrain "l_leg02" x limit 0.00 0.00 0.00
+	$jointconstrain "l_leg02" y limit -50.00 50.00 0.00
+	$jointconstrain "l_leg02" z limit 0.00 0.00 0.00
+
+	$jointconstrain "l_leg03" x limit 0.00 0.00 0.00
+	$jointconstrain "l_leg03" y limit 0.00 0.00 0.00
+	$jointconstrain "l_leg03" z limit -70.00 70.00 0.00
+
+	$jointconstrain "l_foot" x limit -40.00 40.00 0.00
+	$jointconstrain "l_foot" y limit -50.00 50.00 0.00
+	$jointconstrain "l_foot" z limit -30.00 30.00 0.00
+
+	$jointconstrain "r_foot" x limit -40.00 40.00 0.00
+	$jointconstrain "r_foot" y limit -50.00 50.00 0.00
+	$jointconstrain "r_foot" z limit -30.00 30.00 0.00
+}
+
+$collisiontext
+{
+ animatedfriction 
+ {
+  "animfrictionmin" "1.000000"
+  "animfrictionmax" "400.000000"
+  "animfrictiontimein" "0.500000"
+  "animfrictiontimeout" "0.300000"
+  "animfrictiontimehold" "0.000000"
+ }
+ editparams 
+ {
+  "rootname" "heavy_root"
+  "totalmass" "90.000000"
+ }
 }

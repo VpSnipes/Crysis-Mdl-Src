@@ -19,6 +19,8 @@ $sequence "stand_walk_com" {
 	"Walk_com_Back"
     blendwidth 9 blend move_yaw -180 180
 	activity "ACT_WALK" 1
+	addlayer "aim_move_com"
+	addlayer "aimwalk_hi_params"
 }
 
 $Animation "Walk_Front" 		"new_anims/locomotion/walk/stand/stand_walk_idle_fwd_fast.smd" 				loop LX LY	 rotateto 	0
@@ -42,8 +44,9 @@ $sequence "stand_walk" {
 	"Walk_Back"
     blendwidth 9 blend move_yaw -180 180
 	activity "ACT_WALK_RELAXED" 1
+	addlayer "aimwalk_lo_params"
 }
-
+/*
 $Sequence "coverlow_walklft_strafe_lft" { 
 	"new_anims/locomotion/walk/crouch/coverlow_walklft_strafe_lft.smd"
 	activity "act_coverlow_walklft_strafe_lft" 1
@@ -208,3 +211,4 @@ $Sequence "stand_walk_rlx_fwd_lfoot_toidle" {
 	"new_anims/locomotion/walk/stand/transitions/stand_walk_rlx_fwd_lfoot_toidle.smd"
 	activity "act_stand_walk_rlx_fwd_lfoot_toidle" 1
 }
+*/

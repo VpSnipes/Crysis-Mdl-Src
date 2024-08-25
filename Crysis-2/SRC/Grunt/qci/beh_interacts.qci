@@ -2,56 +2,154 @@
 $Sequence "stand_idle_rlx_break" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_break.smd"
 	activity "act_stand_idle_rlx_break" 1
+//	ikrule l_foot footstep range .. 19 139 .. usesequence
+//	ikrule l_foot footstep range .. 152 11 .. usesequence
+//	ikrule r_foot footstep usesequence
 }
 $Sequence "stand_idle_rlx_interact_alien_gruntact_01" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_01.smd"
 	activity "act_stand_idle_rlx_interact_alien_gruntact_01" 1
+//	cmdlist lockfeet
 }
 $Sequence "stand_idle_rlx_interact_alien_gruntact_02" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_02.smd"
 	activity "act_stand_idle_rlx_interact_alien_gruntact_02" 1
+//	cmdlist lockfeet
 }
 $Sequence "stand_idle_rlx_interact_alien_gruntact_03" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntact_03.smd"
 	activity "act_stand_idle_rlx_interact_alien_gruntact_03" 1
+//	ikrule l_foot footstep range .. 80 70 .. usesequence
+//	ikrule r_foot footstep range .. 147 138 .. usesequence
+	walkframe 55 LX LY
+	walkframe 75 LX LY
+	walkframe 95 LX LY
+	walkframe 155 LX LY
 }
 $Sequence "stand_idle_rlx_interact_alien_gruntpass_01" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntpass_01.smd"
 	activity "act_stand_idle_rlx_interact_alien_gruntpass_01" 1
+//	cmdlist lockfeet
 }
 $Sequence "stand_idle_rlx_interact_alien_gruntpass_02" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_alien_gruntpass_02.smd"
 	activity "act_stand_idle_rlx_interact_alien_gruntpass_02" 1
+//	cmdlist lockfeet
 }
 $Sequence "stand_idle_rlx_interact_biomass" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_biomass.smd"
 	activity "act_stand_idle_rlx_interact_biomass" 1
+//	cmdlist lockfeet
 }
 $Sequence "stand_idle_rlx_interact_body" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_body.smd"
 	activity "act_stand_idle_rlx_interact_body" 1
+//	ikrule l_foot footstep range .. 40 14 .. usesequence
+//	ikrule r_foot footstep range .. 15 0 .. usesequence
+	walkframe 15 LX LY
+	walkframe 25 LX LY
+	walkframe 35 LX LY
+	walkframe 45 LX LY
 }
 $Sequence "stand_idle_rlx_interact_car_01" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_car_01.smd"
 	activity "act_stand_idle_rlx_interact_car_01" 1
+//	ikrule l_foot footstep range .. 175 5 .. usesequence
+//	ikrule l_foot footstep range .. 45 168 .. usesequence
+//	ikrule r_foot footstep range .. 10 50 .. usesequence
+//	ikrule r_foot footstep range .. 57 87 .. usesequence
+//	ikrule r_foot footstep range .. 90 156 .. usesequence
+//	ikrule r_foot footstep range .. 163 185 .. usesequence
+	walkframe 15 LX LY
+	walkframe 26 LX LY
+	walkframe 38 LX LY
+	walkframe 47 LX LY
+	walkframe 155 LX LY
+	walkframe 161 LX LY
+	walkframe 185 LX LY
 }
 $Sequence "stand_idle_rlx_interact_car_02" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_car_02.smd"
 	activity "act_stand_idle_rlx_interact_car_02" 1
+//	ikrule l_foot footstep range .. 140 40 .. usesequence
+//	ikrule l_foot footstep range .. 51 131 .. usesequence
+//	ikrule r_foot footstep range .. 10 117 .. usesequence
+//	ikrule r_foot footstep range .. 122 140 .. usesequence
+//	ikrule r_foot footstep range .. 146 0 .. usesequence
+	walkframe 9 LX LY
+	walkframe 21 LX LY
+	walkframe 30 LX LY
+	walkframe 51 LX LY
+	walkframe 78 LX LY
+	walkframe 93 LX LY
+	walkframe 105 LX LY
+	walkframe 117 LX LY
+	walkframe 141 LX LY LZR
+	walkframe 156 LX LY
 }
 $Sequence "stand_idle_rlx_interact_generickick" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_generickick.smd"
 	activity "act_stand_idle_rlx_interact_generickick" 1
+//	ikrule l_foot footstep range .. 39 12 .. usesequence
+//	ikrule r_foot footstep range .. 13 51 .. usesequence
+//	ikrule r_foot footstep range .. 58 0 .. usesequence
+	walkframe 4 LX LY
+	walkframe 10 LX LY
+	walkframe 17 LX LY
+	walkframe 25 LX LY
+	walkframe 36 LX LY
+	walkframe 45 LX LY
+	walkframe 64 LX LY
 }
 $Sequence "stand_idle_rlx_interact_genericobserve" { 
 	"new_anims/behavior/interacts/stand_idle_rlx_interact_genericobserve.smd"
 	activity "act_stand_idle_rlx_interact_genericobserve" 1
+//	ikrule l_foot footstep range .. 40 14 .. usesequence
+//	ikrule r_foot footstep range .. 15 0 .. usesequence
+	walkframe 10 LX LY
+	walkframe 20 LX LY
+	walkframe 30 LX LY
+	walkframe 40 LX LY
+	walkframe 50 LX LY
+	walkframe 60 LX LY
+	walkframe 70 LX LY
+	walkframe 80 LX LY
+	walkframe 190 LX LY
 }
 $Sequence "stand_tac_idle_interact_genericobserve_01" { 
 	"new_anims/behavior/interacts/stand_tac_idle_interact_genericobserve_01.smd"
 	activity "act_stand_tac_idle_interact_genericobserve_01" 1
+//	ikrule l_foot footstep range .. 101 19 .. usesequence
+//	ikrule l_foot footstep range .. 25 90 .. usesequence
+//	ikrule r_foot footstep range .. 111 5 .. usesequence
+//	ikrule r_foot footstep range .. 15 103 .. usesequence
+	walkframe 15 LX LY
+	walkframe 25 LX LY
+	walkframe 35 LX LY
+	walkframe 45 LX LY
+	walkframe 85 LX LY
+	walkframe 95 LX LY
+	walkframe 105 LX LY
+	walkframe 115 LX LY
+	walkframe 125 LX LY
 }
 $Sequence "stand_tac_idle_interact_genericobserve_02" { 
 	"new_anims/behavior/interacts/stand_tac_idle_interact_genericobserve_02.smd"
 	activity "act_stand_tac_idle_interact_genericobserve_02" 1
+//	ikrule l_foot footstep range .. 121 19 .. usesequence
+//	ikrule l_foot footstep range .. 27 113 .. usesequence
+//	ikrule r_foot footstep range .. 106 5 .. usesequence
+//	ikrule r_foot footstep range .. 13 89 .. usesequence
+	walkframe 15 LX LY
+	walkframe 25 LX LY
+	walkframe 35 LX LY
+	walkframe 45 LX LY
+	walkframe 85 LX LY
+	walkframe 90 LX LY
+	walkframe 95 LX LY
+	walkframe 100 LX LY
+	walkframe 110 LX LY
+	walkframe 115 LX LY
+	walkframe 120 LX LY
+	walkframe 125 LX LY
 }

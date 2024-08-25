@@ -61,6 +61,19 @@ $weightlist aim_parameters {
 $weightlist all {
 	"Grunt_Root"           1
 }
+/*
+$ikchain l_foot "l_foot" Z 0 knee 0.707 -0.707 0 pad 5 center 0 0 4
+$ikchain r_foot "r_foot" Z 0 knee 0.707 -0.707 0 pad 5 center 0 0 4
+$cmdlist lockfeet {
+	ikrule l_foot footstep height 20 floor 0
+	ikrule r_foot footstep height 20 floor 0
+	//ikrule lhand touch "LArm_IK_Target" usesource
+}
+*/
+$Sequence "Ragdoll" { 
+	"Grunt-Pose-Ref.smd"
+	activity "ACT_DIERAGDOLL" 1
+}
 
 $Animation "aimidle_lo_com_ref" 		"anims/aimparams/aim_pose_lo_idle.smd"	frame 2 2	weightlist aim_parameters
 $Animation "aimidle_lo_com" 			"anims/aimparams/aim_pose_lo_idle.smd" 	frame 2 2	subtract	"aimidle_lo_com_ref" 0	weightlist aim_parameters
@@ -128,7 +141,7 @@ $Animation "aimwalk_hi_up_alr" 			"anims/aimparams/aim_pose_hi_walk.smd" 	frame 
 $Animation "aimwalk_hi_up_left_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 10 10	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
 $Animation "aimwalk_hi_up_right_alr" 	"anims/aimparams/aim_pose_hi_walk.smd" 	frame 14 14	subtract "aimwalk_hi_alr_ref" 0	weightlist aim_parameters
 
-$sequence "aimidle_lo_com_params" {
+$sequence "aimidle_lo_params" {
     "aimidle_lo_up_right_com" 		"aimidle_lo_up_com" 	"aimidle_lo_up_left_com"
     "aimidle_lo_right_com" 			"aimidle_lo_com" 		"aimidle_lo_left_com"
     "aimidle_lo_down_right_com" 	"aimidle_lo_down_com" 	"aimidle_lo_down_left_com"
@@ -138,7 +151,7 @@ $sequence "aimidle_lo_com_params" {
 	hidden
 }
 
-$sequence "aimrun_lo_com_params" {
+$sequence "aimrun_lo_params" {
     "aimrun_lo_up_right_com" 	"aimrun_lo_up_com" 		"aimrun_lo_up_left_com"
     "aimrun_lo_right_com" 		"aimrun_lo_com" 		"aimrun_lo_left_com"
     "aimrun_lo_down_right_com" 	"aimrun_lo_down_com" 	"aimrun_lo_down_left_com"
@@ -148,7 +161,7 @@ $sequence "aimrun_lo_com_params" {
 	hidden
 }
 
-$sequence "aimwalk_lo_alr_params" {
+$sequence "aimwalk_lo_params" {
     "aimwalk_lo_up_right_alr" 	"aimwalk_lo_up_alr"		"aimwalk_lo_up_left_alr"
     "aimwalk_lo_right_alr" 		"aimwalk_lo_alr" 		"aimwalk_lo_left_alr"
     "aimwalk_lo_down_right_alr"	"aimwalk_lo_down_alr" 	"aimwalk_lo_down_left_alr"
@@ -158,7 +171,7 @@ $sequence "aimwalk_lo_alr_params" {
 	hidden
 }
 
-$sequence "aimidle_hi_com_params" {
+$sequence "aimidle_hi_params" {
     "aimidle_hi_up_right_com" 		"aimidle_hi_up_com" 	"aimidle_hi_up_left_com"
     "aimidle_hi_right_com" 			"aimidle_hi_com" 		"aimidle_hi_left_com"
     "aimidle_hi_down_right_com" 	"aimidle_hi_down_com" 	"aimidle_hi_down_left_com"
@@ -168,7 +181,7 @@ $sequence "aimidle_hi_com_params" {
 	hidden
 }
 
-$sequence "aimrun_hi_com_params" {
+$sequence "aimrun_hi_params" {
     "aimrun_hi_up_right_com" 	"aimrun_hi_up_com" 		"aimrun_hi_up_left_com"
     "aimrun_hi_right_com" 		"aimrun_hi_com" 		"aimrun_hi_left_com"
     "aimrun_hi_down_right_com" 	"aimrun_hi_down_com" 	"aimrun_hi_down_left_com"
@@ -178,7 +191,7 @@ $sequence "aimrun_hi_com_params" {
 	hidden
 }
 
-$sequence "aimwalk_hi_alr_params" {
+$sequence "aimwalk_hi_params" {
     "aimwalk_hi_up_right_alr"	"aimwalk_hi_up_alr"		"aimwalk_hi_up_left_alr"
     "aimwalk_hi_right_alr"		"aimwalk_hi_alr" 		"aimwalk_hi_left_alr"
     "aimwalk_hi_down_right_alr"	"aimwalk_hi_down_alr" 	"aimwalk_hi_down_left_alr"
@@ -198,21 +211,174 @@ $Sequence "aim_com" {
 	delta
 	//autoplay
 	hidden
-	addlayer "aimidle_hi_com_params"
+}
+
+$Animation "aim-move-neutral" 		"anims/aimparams/aim_pose_lo_walk.smd"	frame 2 2 weightlist "worldblend_params"
+$Animation "aim-move-up" 			"anims/aimparams/ADS_AimUp_M.smd"		frame 0 0 subtract "aim-move-neutral" 0 weightlist "worldblend_params"
+$Animation "aim-move-down" 			"anims/aimparams/aim_pose_lo_walk.smd"	frame 2 2 subtract "aim-move-neutral" 0 weightlist "worldblend_params"
+$Sequence "aim_move_com" {
+	"aim-move-down"
+	"aim-move-up"
+	blendwidth 2 blend "ads" 0 1
+	delta
+	//autoplay
+	hidden
 }
 
 $include "qci/beh.qci"
 $include "qci/beh_additives.qci"
 $include "qci/beh_idle.qci"
-$include "qci/beh_interacts.qci"
-$include "qci/cin_07_times_square.qci"
-$include "qci/cin_alien_vessel.qci"
+//$include "qci/beh_interacts.qci"
+//$include "qci/cin_07_times_square.qci"
+//$include "qci/cin_alien_vessel.qci"
 $include "qci/det.qci"
 $include "qci/hit.qci"
 $include "qci/loc_run.qci"
 $include "qci/loc_step.qci"
 $include "qci/loc_walk.qci"
-$include "qci/smo_cover.qci"
-$include "qci/smo_jump.qci"
-$include "qci/syn_pva.qci"
+//$include "qci/smo_cover.qci"
+//$include "qci/smo_jump.qci"
+//$include "qci/syn_pva.qci"
 $include "qci/wep.qci"
+
+$collisionjoints "physmesh.smd"
+{
+	$mass 90.0
+	$inertia 10.00
+	$damping 0.01
+	$rotdamping 1.50
+	$rootbone "Pelvis"
+
+	$jointconstrain "spine04" x limit -50.00 50.00 0.00
+	$jointconstrain "spine04" y limit -50.00 50.00 0.00
+	$jointconstrain "spine04" z limit -50.00 50.00 0.00
+
+	$jointconstrain "r_arm01" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_arm02" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm02" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_arm03" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm03" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_arm04" x limit -90.00 90.00 0.00
+	$jointconstrain "r_arm04" y limit -90.00 90.00 0.00
+	$jointconstrain "r_arm04" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm01" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm01" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm02" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm02" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm03" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm03" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm04" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm04" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm04" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_arm05" x limit -90.00 90.00 0.00
+	$jointconstrain "l_arm05" y limit -90.00 90.00 0.00
+	$jointconstrain "l_arm05" z limit -60.00 60.00 0.00
+
+	$jointconstrain "l_hand" x limit -90.00 90.00 0.00
+	$jointconstrain "l_hand" y limit -90.00 90.00 0.00
+	$jointconstrain "l_hand" z limit -60.00 60.00 0.00
+
+	$jointconstrain "null_rope03_connect" x limit -80.00 80.00 0.00
+	$jointconstrain "null_rope03_connect" y limit -80.00 80.00 0.00
+	$jointconstrain "null_rope03_connect" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope03_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope03_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "null_rope02_connect" x limit -80.00 80.00 0.00
+	$jointconstrain "null_rope02_connect" y limit -80.00 80.00 0.00
+	$jointconstrain "null_rope02_connect" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope02_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope02_seg05" x limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg05" y limit -80.00 80.00 0.00
+	$jointconstrain "rope02_seg05" z limit -60.00 60.00 0.00
+
+	$jointconstrain "null_rope01_connect" x limit -80.00 80.00 0.00
+	$jointconstrain "null_rope01_connect" y limit -80.00 80.00 0.00
+	$jointconstrain "null_rope01_connect" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope01_seg03" x limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg03" y limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg03" z limit -60.00 60.00 0.00
+
+	$jointconstrain "rope01_seg05" x limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg05" y limit -80.00 80.00 0.00
+	$jointconstrain "rope01_seg05" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_hand" x limit -90.00 90.00 0.00
+	$jointconstrain "r_hand" y limit -90.00 90.00 0.00
+	$jointconstrain "r_hand" z limit -60.00 60.00 0.00
+
+	$jointconstrain "r_leg01" x limit -70.00 70.00 0.00
+	$jointconstrain "r_leg01" y limit -90.00 90.00 0.00
+	$jointconstrain "r_leg01" z limit -30.00 30.00 0.00
+
+	$jointconstrain "r_leg02" x limit 0.00 0.00 0.00
+	$jointconstrain "r_leg02" y limit -50.00 50.00 0.00
+	$jointconstrain "r_leg02" z limit 0.00 0.00 0.00
+
+	$jointconstrain "r_leg03" x limit 0.00 0.00 0.00
+	$jointconstrain "r_leg03" y limit -70.00 70.00 0.00
+	$jointconstrain "r_leg03" z limit 0.00 0.00 0.00
+
+	$jointconstrain "r_foot" x limit -40.00 40.00 0.00
+	$jointconstrain "r_foot" y limit -50.00 50.00 0.00
+	$jointconstrain "r_foot" z limit -30.00 30.00 0.00
+
+	$jointconstrain "l_leg01" x limit -70.00 70.00 0.00
+	$jointconstrain "l_leg01" y limit -90.00 90.00 0.00
+	$jointconstrain "l_leg01" z limit -30.00 30.00 0.00
+
+	$jointconstrain "l_leg02" x limit 0.00 0.00 0.00
+	$jointconstrain "l_leg02" y limit -50.00 50.00 0.00
+	$jointconstrain "l_leg02" z limit 0.00 0.00 0.00
+
+	$jointconstrain "l_leg03" x limit 0.00 0.00 0.00
+	$jointconstrain "l_leg03" y limit -70.00 70.00 0.00
+	$jointconstrain "l_leg03" z limit 0.00 0.00 0.00
+
+	$jointconstrain "l_foot" x limit -40.00 40.00 0.00
+	$jointconstrain "l_foot" y limit -50.00 50.00 0.00
+	$jointconstrain "l_foot" z limit -30.00 30.00 0.00
+
+	$jointconstrain "head" x limit -40.00 40.00 0.00
+	$jointconstrain "head" y limit -40.00 40.00 0.00
+	$jointconstrain "head" z limit -45.00 45.00 0.00
+}
+
+$collisiontext
+{
+ animatedfriction 
+ {
+  "animfrictionmin" "1.000000"
+  "animfrictionmax" "400.000000"
+  "animfrictiontimein" "0.500000"
+  "animfrictiontimeout" "0.300000"
+  "animfrictiontimehold" "0.000000"
+ }
+ editparams 
+ {
+  "rootname" "Pelvis"
+  "totalmass" "90.000000"
+ }
+}

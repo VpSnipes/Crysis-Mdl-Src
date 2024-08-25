@@ -19,12 +19,9 @@ $sequence "stand_run_com" {
 	"Run_com_Back"
     blendwidth 9 blend move_yaw -180 180
 	activity "ACT_RUN" 1
+	addlayer "aimrun_lo_params"
 }
-
-$Sequence "stand_run_com_fwd_onthespot" { 
-	"new_anims/locomotion/run/stand/stand_run_com_fwd_onthespot.smd"
-	activity "act_stand_run_com_fwd_onthespot" 1
-}
+/*
 $Sequence "stand_idle_com_to_run90lft" { 
 	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_run90lft.smd"
 	activity "act_stand_idle_com_to_run90lft" 1
@@ -121,3 +118,4 @@ $Sequence "stand_run_com_rgt_lfoot_juke_tolft" {
 	"new_anims/locomotion/run/stand/transitions/stand_run_com_rgt_lfoot_juke_tolft.smd"
 	activity "act_stand_run_com_rgt_lfoot_juke_tolft" 1
 }
+*/

@@ -1,6 +1,7 @@
 $Sequence "stand_idle_com_grenadeshoot" { 
 	"new_anims/weapons/stand_idle_com_grenadeshoot.smd"
 	activity "act_stand_idle_com_grenadeshoot" 1
+	addlayer "aimidle_hi_params"
 }
 $Sequence "stand_idle_com_grenadeshoot_add" { 
 	"new_anims/weapons/stand_idle_com_grenadeshoot_add.smd"
@@ -9,8 +10,11 @@ $Sequence "stand_idle_com_grenadeshoot_add" {
 $Sequence "stand_melee_com_gun" { 
 	"new_anims/weapons/stand_melee_com_gun.smd"
 	activity "act_stand_melee_com_gun" 1
+	addlayer "aimidle_hi_params"
+	addlayer "aim_move_com"
 }
 $Sequence "stand_meleeshort_com_gun" { 
 	"new_anims/weapons/stand_meleeshort_com_gun.smd"
 	activity "act_stand_meleeshort_com_gun" 1
+	addlayer "aimidle_lo_params"
 }

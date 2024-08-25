@@ -1,37 +1,35 @@
-$animation "idle_ref"	"new_anims/behavior/idle/stand_com_idle.smd" frame 0 0
-
 $Sequence "stand_idle_com_search_lft_alr_add" {
     "new_anims/behavior/additives/stand_idle_com_search_lft_alr_add.smd"
     subtract "stand_idle_com_search_lft_alr_add" 0
-	delta
+	predelta
 }
 
 $Sequence "stand_idle_com_search_rgt_alr_add" {
     "new_anims/behavior/additives/stand_idle_com_search_rgt_alr_add.smd"
     subtract "stand_idle_com_search_rgt_alr_add" 0
-	delta
+	predelta
 }
 
 $Sequence "stand_run_com_fwd_fast_gun_pose_add_01" {
     "new_anims/behavior/additives/stand_run_com_fwd_fast_gun_pose_add_01.smd"
     subtract "stand_run_com_fwd_fast_gun_pose_add_01" 0
-	delta
+	predelta
 }
 
 $Sequence "stand_run_com_fwd_fast_gun_pose_add_02" {
     "new_anims/behavior/additives/stand_run_com_fwd_fast_gun_pose_add_02.smd"
     subtract "stand_run_com_fwd_fast_gun_pose_add_02" 0
-	delta
+	predelta
 }
 
 $Sequence "stand_walk_com_fwd_fast_search_lft_alr_add" {
     "new_anims/behavior/additives/stand_walk_com_fwd_fast_search_lft_alr_add.smd"
     subtract "stand_walk_com_fwd_fast_search_lft_alr_add" 0
-	delta
+	predelta
 }
 
 $Sequence "stand_walk_com_fwd_fast_search_rgt_alr_add" {
     "new_anims/behavior/additives/stand_walk_com_fwd_fast_search_rgt_alr_add.smd"
     subtract "stand_walk_com_fwd_fast_search_rgt_alr_add" 0
-	delta
+	predelta
 }

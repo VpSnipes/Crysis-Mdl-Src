@@ -13,23 +13,39 @@ $Sequence "stand_death_headshot" {
 $Sequence "stand_death_microwave" { 
 	"new_anims/deaths/stand_death_microwave.smd"
 	activity "act_stand_death_microwave" 1
+	walkframe 18 LX LY
+	walkframe 28 LX LY
+	walkframe 38 LX LY
+	walkframe 48 LX LY
+	walkframe 58 LX LY
+	walkframe 68 LX LY
+	walkframe 134 LX LY
 }
+/*
 $Sequence "stand_deathexplode_back_torso" { 
 	"new_anims/deaths/stand_deathexplode_back_torso.smd"
 	activity "act_stand_deathexplode_back_torso" 1
 }
+*/
 $Sequence "stand_deathexplode_front_torso" { 
 	"new_anims/deaths/stand_deathexplode_front_torso.smd"
 	activity "act_stand_deathexplode_front_torso" 1
+	walkframe 5 LX LY
+	walkframe 10 LX LY
 }
+/*
 $Sequence "stand_deathheavy_back_torso" { 
 	"new_anims/deaths/stand_deathheavy_back_torso.smd"
 	activity "act_stand_deathheavy_back_torso" 1
 }
+*/
 $Sequence "stand_deathheavy_front_torso" { 
 	"new_anims/deaths/stand_deathheavy_front_torso.smd"
 	activity "act_stand_deathheavy_front_torso" 1
+	walkframe 5 LX LY
+	walkframe 10 LX LY
 }
+/*
 $Sequence "stand_deathmech_back_torso_01" { 
 	"new_anims/deaths/stand_deathmech_back_torso_01.smd"
 	activity "act_stand_deathmech_back_torso_01" 1
@@ -38,6 +54,7 @@ $Sequence "stand_deathmech_back_torso_02" {
 	"new_anims/deaths/stand_deathmech_back_torso_02.smd"
 	activity "act_stand_deathmech_back_torso_02" 1
 }
+*/
 $Sequence "stand_deathmech_front_torso_01" { 
 	"new_anims/deaths/stand_deathmech_front_torso_01.smd"
 	activity "act_stand_deathmech_front_torso_01" 1
@@ -53,16 +70,40 @@ $Sequence "stand_deathmech_front_torso_03" {
 $Sequence "stand_deathrun_bwd_front" { 
 	"new_anims/deaths/stand_deathrun_bwd_front.smd"
 	activity "act_stand_deathrun_bwd_front" 1
+	walkframe 6 LX LY
+	walkframe 15 LX LY
+	walkframe 25 LX LY
+	walkframe 34 LX LY
+	walkframe 41 LX LY
 }
 $Sequence "stand_deathrun_fwd_front" { 
 	"new_anims/deaths/stand_deathrun_fwd_front.smd"
 	activity "act_stand_deathrun_fwd_front" 1
+	walkframe 5 LX LY
+	walkframe 15 LX LY
+	walkframe 25 LX LY
+	walkframe 35 LX LY
+	walkframe 40 LX LY
+	walkframe 47 LX LY
+	walkframe 53 LX LY
 }
 $Sequence "stand_deathrun_strafe_left" { 
 	"new_anims/deaths/stand_deathrun_strafe_left.smd"
 	activity "act_stand_deathrun_strafe_left" 1
+	walkframe 4 LX LY
+	walkframe 14 LX LY
+	walkframe 24 LX LY
+	walkframe 30 LX LY
+	walkframe 37 LX LY
+	walkframe 43 LX LY
 }
 $Sequence "stand_deathrun_strafe_right" { 
 	"new_anims/deaths/stand_deathrun_strafe_right.smd"
 	activity "act_stand_deathrun_strafe_right" 1
+	walkframe 4 LX LY
+	walkframe 14 LX LY
+	walkframe 24 LX LY
+	walkframe 30 LX LY
+	walkframe 38 LX LY
+	walkframe 44 LX LY
 }
