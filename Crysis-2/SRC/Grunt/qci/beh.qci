@@ -1,11 +1,11 @@
 $Sequence "stand_fireflare_com" { 
-	"new_anims/behavior/stand_fireflare_com.smd"
+	"anims/behavior/stand_fireflare_com.smd"
 	activity "act_stand_fireflare_com" 1
 //	cmdlist lockfeet
 }
 
 $Sequence "stand_idle_com_attack" { 
-	"new_anims/behavior/stand_idle_com_attack.smd"
+	"anims/behavior/stand_idle_com_attack.smd"
 	activity "act_stand_idle_com_attack" 1
 	addlayer "aimidle_hi_params"
 //	ikrule l_foot footstep range .. 54 18 .. usesequence
@@ -14,20 +14,20 @@ $Sequence "stand_idle_com_attack" {
 }
 
 $Sequence "stand_idle_com_retreat" { 
-	"new_anims/behavior/stand_idle_com_retreat.smd"
+	"anims/behavior/stand_idle_com_retreat.smd"
 	activity "act_stand_idle_com_retreat" 1
 //	cmdlist lockfeet
 }
 
 $Sequence "stand_idle_com_taunt" { 
-	"new_anims/behavior/stand_idle_com_taunt.smd"
+	"anims/behavior/stand_idle_com_taunt.smd"
 	activity "act_stand_idle_com_taunt" 1
 	addlayer "aimidle_hi_params"
 //	cmdlist lockfeet
 }
 
 $Sequence "stand_idle_com_taunt_leader" { 
-	"new_anims/behavior/stand_idle_com_taunt_leader.smd"
+	"anims/behavior/stand_idle_com_taunt_leader.smd"
 	activity "act_stand_idle_com_taunt_leader" 1
 	addlayer "aimidle_hi_params"
 //	ikrule l_foot footstep range .. 16 2 .. usesequence
@@ -35,7 +35,7 @@ $Sequence "stand_idle_com_taunt_leader" {
 }
 
 $Sequence "stand_idle_sightedsurprise_01" { 
-	"new_anims/behavior/stand_idle_sightedsurprise_01.smd"
+	"anims/behavior/stand_idle_sightedsurprise_01.smd"
 	activity "act_stand_idle_sightedsurprise_01" 1
 	addlayer "aimidle_lo_params"
 //	ikrule l_foot footstep usesequence
@@ -44,7 +44,7 @@ $Sequence "stand_idle_sightedsurprise_01" {
 }
 
 $Sequence "stand_idle_sightedsurprise_02" { 
-	"new_anims/behavior/stand_idle_sightedsurprise_02.smd"
+	"anims/behavior/stand_idle_sightedsurprise_02.smd"
 	activity "act_stand_idle_sightedsurprise_02" 1
 	addlayer "aimidle_lo_params"
 //	ikrule l_foot footstep range .. 19 3 .. usesequence
@@ -53,14 +53,14 @@ $Sequence "stand_idle_sightedsurprise_02" {
 }
 
 $Sequence "stand_idle_sightedsuspect" { 
-	"new_anims/behavior/stand_idle_sightedsuspect.smd"
+	"anims/behavior/stand_idle_sightedsuspect.smd"
 	activity "act_stand_idle_sightedsuspect" 1
 	addlayer "aimidle_hi_params"
 //	cmdlist lockfeet
 }
 
 $Sequence "stand_ping_com" { 
-	"new_anims/behavior/stand_ping_com.smd"
+	"anims/behavior/stand_ping_com.smd"
 	activity "act_stand_ping_com" 1
 	addlayer "aimidle_lo_params"
 //	ikrule l_foot footstep range .. 12 66 .. usesequence

@@ -1,17 +1,17 @@
 $Sequence "stand_death_chestshot_01" { 
-	"new_anims/deaths/stand_death_chestshot_01.smd"
+	"anims/deaths/stand_death_chestshot_01.smd"
 	activity "act_stand_death_chestshot_01" 1
 }
 $Sequence "stand_death_chestshot_02" { 
-	"new_anims/deaths/stand_death_chestshot_02.smd"
+	"anims/deaths/stand_death_chestshot_02.smd"
 	activity "act_stand_death_chestshot_02" 1
 }
 $Sequence "stand_death_headshot" { 
-	"new_anims/deaths/stand_death_headshot.smd"
+	"anims/deaths/stand_death_headshot.smd"
 	activity "act_stand_death_headshot" 1
 }
 $Sequence "stand_death_microwave" { 
-	"new_anims/deaths/stand_death_microwave.smd"
+	"anims/deaths/stand_death_microwave.smd"
 	activity "act_stand_death_microwave" 1
 	walkframe 18 LX LY
 	walkframe 28 LX LY
@@ -23,52 +23,52 @@ $Sequence "stand_death_microwave" {
 }
 /*
 $Sequence "stand_deathexplode_back_torso" { 
-	"new_anims/deaths/stand_deathexplode_back_torso.smd"
+	"anims/deaths/stand_deathexplode_back_torso.smd"
 	activity "act_stand_deathexplode_back_torso" 1
 }
 */
 $Sequence "stand_deathexplode_front_torso" { 
-	"new_anims/deaths/stand_deathexplode_front_torso.smd"
+	"anims/deaths/stand_deathexplode_front_torso.smd"
 	activity "act_stand_deathexplode_front_torso" 1
 	walkframe 5 LX LY
 	walkframe 10 LX LY
 }
 /*
 $Sequence "stand_deathheavy_back_torso" { 
-	"new_anims/deaths/stand_deathheavy_back_torso.smd"
+	"anims/deaths/stand_deathheavy_back_torso.smd"
 	activity "act_stand_deathheavy_back_torso" 1
 }
 */
 $Sequence "stand_deathheavy_front_torso" { 
-	"new_anims/deaths/stand_deathheavy_front_torso.smd"
+	"anims/deaths/stand_deathheavy_front_torso.smd"
 	activity "act_stand_deathheavy_front_torso" 1
 	walkframe 5 LX LY
 	walkframe 10 LX LY
 }
 /*
 $Sequence "stand_deathmech_back_torso_01" { 
-	"new_anims/deaths/stand_deathmech_back_torso_01.smd"
+	"anims/deaths/stand_deathmech_back_torso_01.smd"
 	activity "act_stand_deathmech_back_torso_01" 1
 }
 $Sequence "stand_deathmech_back_torso_02" { 
-	"new_anims/deaths/stand_deathmech_back_torso_02.smd"
+	"anims/deaths/stand_deathmech_back_torso_02.smd"
 	activity "act_stand_deathmech_back_torso_02" 1
 }
 */
 $Sequence "stand_deathmech_front_torso_01" { 
-	"new_anims/deaths/stand_deathmech_front_torso_01.smd"
+	"anims/deaths/stand_deathmech_front_torso_01.smd"
 	activity "act_stand_deathmech_front_torso_01" 1
 }
 $Sequence "stand_deathmech_front_torso_02" { 
-	"new_anims/deaths/stand_deathmech_front_torso_02.smd"
+	"anims/deaths/stand_deathmech_front_torso_02.smd"
 	activity "act_stand_deathmech_front_torso_02" 1
 }
 $Sequence "stand_deathmech_front_torso_03" { 
-	"new_anims/deaths/stand_deathmech_front_torso_03.smd"
+	"anims/deaths/stand_deathmech_front_torso_03.smd"
 	activity "act_stand_deathmech_front_torso_03" 1
 }
 $Sequence "stand_deathrun_bwd_front" { 
-	"new_anims/deaths/stand_deathrun_bwd_front.smd"
+	"anims/deaths/stand_deathrun_bwd_front.smd"
 	activity "act_stand_deathrun_bwd_front" 1
 	walkframe 6 LX LY
 	walkframe 15 LX LY
@@ -77,7 +77,7 @@ $Sequence "stand_deathrun_bwd_front" {
 	walkframe 41 LX LY
 }
 $Sequence "stand_deathrun_fwd_front" { 
-	"new_anims/deaths/stand_deathrun_fwd_front.smd"
+	"anims/deaths/stand_deathrun_fwd_front.smd"
 	activity "act_stand_deathrun_fwd_front" 1
 	walkframe 5 LX LY
 	walkframe 15 LX LY
@@ -88,7 +88,7 @@ $Sequence "stand_deathrun_fwd_front" {
 	walkframe 53 LX LY
 }
 $Sequence "stand_deathrun_strafe_left" { 
-	"new_anims/deaths/stand_deathrun_strafe_left.smd"
+	"anims/deaths/stand_deathrun_strafe_left.smd"
 	activity "act_stand_deathrun_strafe_left" 1
 	walkframe 4 LX LY
 	walkframe 14 LX LY
@@ -98,7 +98,7 @@ $Sequence "stand_deathrun_strafe_left" {
 	walkframe 43 LX LY
 }
 $Sequence "stand_deathrun_strafe_right" { 
-	"new_anims/deaths/stand_deathrun_strafe_right.smd"
+	"anims/deaths/stand_deathrun_strafe_right.smd"
 	activity "act_stand_deathrun_strafe_right" 1
 	walkframe 4 LX LY
 	walkframe 14 LX LY

@@ -1,48 +1,48 @@
 $Sequence "stand_step_com_180_fast_lfoot" { 
-	"new_anims/locomotion/step/stand/stand_step_com_180_fast_lfoot.smd"
+	"anims/locomotion/step/stand/stand_step_com_180_fast_lfoot.smd"
 	activity "act_stand_step_com_180_fast_lfoot" 1
 	addlayer "aim_move_com"
 	addlayer "aimidle_hi_params"
 	ZR
 }
 $Sequence "stand_step_com_180_fast_rfoot" { 
-	"new_anims/locomotion/step/stand/stand_step_com_180_fast_rfoot.smd"
+	"anims/locomotion/step/stand/stand_step_com_180_fast_rfoot.smd"
 	activity "act_stand_step_com_180_fast_rfoot" 1
 	addlayer "aim_move_com"
 	addlayer "aimidle_hi_params"
 	ZR
 }
 $Sequence "stand_step_rlx_180_fast_lfoot" { 
-	"new_anims/locomotion/step/stand/stand_step_rlx_180_fast_lfoot.smd"
+	"anims/locomotion/step/stand/stand_step_rlx_180_fast_lfoot.smd"
 	activity "act_stand_step_rlx_180_fast_lfoot" 1
 	addlayer "aimidle_lo_params"
 	ZR
 }
 $Sequence "stand_step_rlx_180_fast_rfoot" { 
-	"new_anims/locomotion/step/stand/stand_step_rlx_180_fast_rfoot.smd"
+	"anims/locomotion/step/stand/stand_step_rlx_180_fast_rfoot.smd"
 	activity "act_stand_step_rlx_180_fast_rfoot" 1
 	addlayer "aimidle_lo_params"
 	ZR
 }
 /*
 $Sequence "stand_steprotate_com_idle_90" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_com_idle_90.smd"
+	"anims/locomotion/step/stand/stand_steprotate_com_idle_90.smd"
 	activity "act_stand_steprotate_com_idle_90" 1
 }
 $Sequence "stand_steprotate_com_idle_180" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_com_idle_180.smd"
+	"anims/locomotion/step/stand/stand_steprotate_com_idle_180.smd"
 	activity "act_stand_steprotate_com_idle_180" 1
 }
 */
 $Sequence "stand_steprotate_com_lft" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_com_lft.smd"
+	"anims/locomotion/step/stand/stand_steprotate_com_lft.smd"
 	activity "act_stand_steprotate_com_lft" 1
 	addlayer "aim_move_com"
 	addlayer "aimidle_hi_params"
 	ZR
 }
 $Sequence "stand_steprotate_com_rgt" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_com_rgt.smd"
+	"anims/locomotion/step/stand/stand_steprotate_com_rgt.smd"
 	activity "act_stand_steprotate_com_rgt" 1
 	addlayer "aim_move_com"
 	addlayer "aimidle_hi_params"
@@ -50,22 +50,22 @@ $Sequence "stand_steprotate_com_rgt" {
 }
 /*
 $Sequence "stand_steprotate_rlx_idle_90" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_rlx_idle_90.smd"
+	"anims/locomotion/step/stand/stand_steprotate_rlx_idle_90.smd"
 	activity "act_stand_steprotate_rlx_idle_90" 1
 }
 $Sequence "stand_steprotate_rlx_idle_180" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_rlx_idle_180.smd"
+	"anims/locomotion/step/stand/stand_steprotate_rlx_idle_180.smd"
 	activity "act_stand_steprotate_rlx_idle_180" 1
 }
 */
 $Sequence "stand_steprotate_rlx_lft" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_rlx_lft.smd"
+	"anims/locomotion/step/stand/stand_steprotate_rlx_lft.smd"
 	activity "act_stand_steprotate_rlx_lft" 1
 	addlayer "aimidle_lo_params"
 	ZR
 }
 $Sequence "stand_steprotate_rlx_rgt" { 
-	"new_anims/locomotion/step/stand/stand_steprotate_rlx_rgt.smd"
+	"anims/locomotion/step/stand/stand_steprotate_rlx_rgt.smd"
 	activity "act_stand_steprotate_rlx_rgt" 1
 	addlayer "aimidle_lo_params"
 	ZR

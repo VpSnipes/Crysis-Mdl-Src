@@ -1,0 +1,435 @@
+
+// --- Movement ---
+$Animation "trans_Walk_com_Front" 		"anims/locomotion/walk/stand/transitions/stand_idle_com_to_walkfwd.smd" {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    rotateto 	0
+}
+$Animation "trans_Walk_com_Back" 		"anims/locomotion/walk/stand/transitions/stand_idle_com_to_walkbwd.smd" {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    rotateto  -180
+}
+$Animation "trans_Walk_com_Right" 		"anims/locomotion/walk/stand/transitions/stand_idle_com_to_walkrgt.smd" {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    rotateto  -90
+}
+$Animation "trans_Walk_com_Left" "anims/locomotion/walk/stand/transitions/stand_idle_com_to_walklft.smd" {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    rotateto 	90
+}
+
+$Sequence "stand_idle_walk_com_transitions" { 
+    "trans_Walk_com_Back"
+	"trans_Walk_com_Right"
+	"trans_Walk_com_Front"
+	"trans_Walk_com_Left"
+	"trans_Walk_com_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nComIdle" "nComWlk"
+}
+
+$Animation "trans_Walk_Front" 		"anims/locomotion/walk/stand/transitions/stand_idle_rlx_to_walkfwd.smd" { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    rotateto 	0
+}
+$Animation "trans_Walk_Back" 		"anims/locomotion/walk/stand/transitions/stand_idle_rlx_to_walkbwd.smd" { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    rotateto  -180
+}
+$Animation "trans_Walk_Right" 		"anims/locomotion/walk/stand/transitions/stand_idle_rlx_to_walkrgt.smd" { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    rotateto  -90
+}
+$Animation "trans_Walk_Left" 		"anims/locomotion/walk/stand/transitions/stand_idle_rlx_to_walklft.smd" { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    rotateto 	90
+}
+
+$Sequence "stand_idle_walk_transitions" { 
+    "trans_Walk_Back"
+	"trans_Walk_Right"
+	"trans_Walk_Front"
+	"trans_Walk_Left"
+	"trans_Walk_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nIdle" "nWlk"
+}
+
+$Animation "trans_to_idle_Walk_com_Front" 		"anims/locomotion/walk/stand/transitions/stand_walk_com_fwd_lfoot_toidle.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    walkframe 36 LX LY
+    walkframe 38 LX LY
+    walkframe 40 LX LY
+    walkframe 42 LX LY
+    walkframe 44 LX LY
+    walkframe 46 LX LY
+    rotateto 	0
+}
+$Animation "trans_to_idle_Walk_com_Back" 		"anims/locomotion/walk/stand/transitions/stand_walk_com_bwd_lfoot_toidle.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    walkframe 36 LX LY
+    walkframe 38 LX LY
+    walkframe 40 LX LY
+    walkframe 42 LX LY
+    walkframe 44 LX LY
+    walkframe 46 LX LY
+    walkframe 48 LX LY
+    walkframe 51 LX LY
+    rotateto  -180
+}
+$Animation "trans_to_idle_Walk_com_Right" 		"anims/locomotion/walk/stand/transitions/stand_walk_com_rgt_lfoot_toidle.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    walkframe 36 LX LY
+    walkframe 38 LX LY
+    walkframe 40 LX LY
+    walkframe 42 LX LY
+    walkframe 44 LX LY
+    walkframe 46 LX LY
+    rotateto  -90
+}
+$Animation "trans_to_idle_Walk_com_Left" 		"anims/locomotion/walk/stand/transitions/stand_walk_com_lft_lfoot_toidle.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    rotateto 	90
+}
+
+$Sequence "stand_walk_com_transitions" { 
+    "trans_to_idle_Walk_com_Back"
+	"trans_to_idle_Walk_com_Right"
+	"trans_to_idle_Walk_com_Front"
+	"trans_to_idle_Walk_com_Left"
+	"trans_to_idle_Walk_com_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nComWlk" "nComIdle"
+}
+
+$Sequence "stand_walk_transitions" { 
+    "trans_to_idle_Walk_com_Back"
+	"trans_to_idle_Walk_com_Right"
+	"trans_to_idle_Walk_com_Front"
+	"trans_to_idle_Walk_com_Left"
+	"trans_to_idle_Walk_com_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nWlk" "nIdle"
+}
+
+$Animation "trans_Run_com_Front" 		"anims/locomotion/run/stand/transitions/stand_idle_com_to_runfwd.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    rotateto 	0
+}
+$Animation "trans_Run_com_Back" 		"anims/locomotion/run/stand/transitions/stand_idle_com_to_runbwd.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    rotateto  -180
+}
+$Animation "trans_Run_com_Right" 		"anims/locomotion/run/stand/transitions/stand_idle_com_to_runrgt.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    rotateto  -90
+}
+$Animation "trans_Run_com_Left" 		"anims/locomotion/run/stand/transitions/stand_idle_com_to_runlft.smd"  { 
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    rotateto 	90
+}
+
+$Sequence "stand_idle_run_com_transitions" { 
+    "trans_Run_com_Back"
+	"trans_Run_com_Right"
+	"trans_Run_com_Front"
+	"trans_Run_com_Left"
+	"trans_Run_com_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nComIdle" "nComRun"
+}
+
+$Animation "trans_to_idle_Run_com_Front" 		"anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_toidle.smd"  {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    rotateto 	0
+}
+$Animation "trans_to_idle_Run_com_Back" 		"anims/locomotion/run/stand/transitions/stand_run_com_bwd_lfoot_juke_toidle.smd"  {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    rotateto  -180
+}
+$Animation "trans_to_idle_Run_com_Right" 		"anims/locomotion/run/stand/transitions/stand_run_com_rgt_lfoot_juke_toidle.smd"  {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    walkframe 36 LX LY
+    walkframe 38 LX LY
+    walkframe 40 LX LY
+    walkframe 42 LX LY
+    walkframe 44 LX LY
+    walkframe 46 LX LY
+    walkframe 48 LX LY
+    walkframe 50 LX LY
+    rotateto  -90
+}
+$Animation "trans_to_idle_Run_com_Left" 		"anims/locomotion/run/stand/transitions/stand_run_com_lft_lfoot_juke_toidle.smd"  {
+    walkframe 2 LX LY
+    walkframe 4 LX LY
+    walkframe 6 LX LY
+    walkframe 8 LX LY
+    walkframe 10 LX LY
+    walkframe 12 LX LY
+    walkframe 14 LX LY
+    walkframe 16 LX LY
+    walkframe 18 LX LY
+    walkframe 20 LX LY
+    walkframe 22 LX LY
+    walkframe 24 LX LY
+    walkframe 26 LX LY
+    walkframe 28 LX LY
+    walkframe 30 LX LY
+    walkframe 32 LX LY
+    walkframe 34 LX LY
+    walkframe 36 LX LY
+    walkframe 38 LX LY
+    walkframe 40 LX LY
+    walkframe 43 LX LY
+    rotateto 	90
+}
+
+$Sequence "stand_run_com_transitions" { 
+    "trans_to_idle_Run_com_Back"
+	"trans_to_idle_Run_com_Right"
+	"trans_to_idle_Run_com_Front"
+	"trans_to_idle_Run_com_Left"
+	"trans_to_idle_Run_com_Back"
+    activity "ACT_TRANSITION" 1
+    blendwidth 5 blend move_yaw -180 180
+	transition "nComRun" "nComIdle"
+}

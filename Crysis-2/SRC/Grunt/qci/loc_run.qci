@@ -1,11 +1,11 @@
-$Animation "Run_com_Front" 			"new_anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	0
-$Animation "Run_com_Front_left" 	"new_anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	45
-$Animation "Run_com_Front_right" 	"new_anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -45
-$Animation "Run_com_Back" 			"new_anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -180
-$Animation "Run_com_Back_left" 		"new_anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	135
-$Animation "Run_com_Back_right" 	"new_anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -135
-$Animation "Run_com_Right" 			"new_anims/locomotion/run/stand/stand_runstrafefwd_com_rgt_fast.smd" 	fps 45	loop LX LY	 rotateto  -90
-$Animation "Run_com_Left" 			"new_anims/locomotion/run/stand/stand_runstrafefwd_com_lft_fast.smd" 	fps 45	loop LX LY	 rotateto 	90
+$Animation "Run_com_Front" 			"anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	0
+$Animation "Run_com_Front_left" 	"anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	45
+$Animation "Run_com_Front_right" 	"anims/locomotion/run/stand/stand_run_com_fwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -45
+$Animation "Run_com_Back" 			"anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -180
+$Animation "Run_com_Back_left" 		"anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto 	135
+$Animation "Run_com_Back_right" 	"anims/locomotion/run/stand/stand_run_com_bwd_fast.smd" 			fps 45	loop LX LY	 rotateto  -135
+$Animation "Run_com_Right" 			"anims/locomotion/run/stand/stand_runstrafefwd_com_rgt_fast.smd" 	fps 45	loop LX LY	 rotateto  -90
+$Animation "Run_com_Left" 			"anims/locomotion/run/stand/stand_runstrafefwd_com_lft_fast.smd" 	fps 45	loop LX LY	 rotateto 	90
 
 $sequence "stand_run_com" {
 	"Run_com_Back"
@@ -21,101 +21,3 @@ $sequence "stand_run_com" {
 	activity "ACT_RUN" 1
 	addlayer "aimrun_lo_params"
 }
-/*
-$Sequence "stand_idle_com_to_run90lft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_run90lft.smd"
-	activity "act_stand_idle_com_to_run90lft" 1
-}
-$Sequence "stand_idle_com_to_run90rgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_run90rgt.smd"
-	activity "act_stand_idle_com_to_run90rgt" 1
-}
-$Sequence "stand_idle_com_to_run180lft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_run180lft.smd"
-	activity "act_stand_idle_com_to_run180lft" 1
-}
-$Sequence "stand_idle_com_to_run180rgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_run180rgt.smd"
-	activity "act_stand_idle_com_to_run180rgt" 1
-}
-$Sequence "stand_idle_com_to_runbwd" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_runbwd.smd"
-	activity "act_stand_idle_com_to_runbwd" 1
-}
-$Sequence "stand_idle_com_to_runfwd" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_runfwd.smd"
-	activity "act_stand_idle_com_to_runfwd" 1
-}
-$Sequence "stand_idle_com_to_runlft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_runlft.smd"
-	activity "act_stand_idle_com_to_runlft" 1
-}
-$Sequence "stand_idle_com_to_runrgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_idle_com_to_runrgt.smd"
-	activity "act_stand_idle_com_to_runrgt" 1
-}
-$Sequence "stand_run_com_bwd_lfoot_juke_toidle" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_bwd_lfoot_juke_toidle.smd"
-	activity "act_stand_run_com_bwd_lfoot_juke_toidle" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_to90lft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_to90lft.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_to90lft" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_to90rgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_to90rgt.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_to90rgt" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_to180lft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_to180lft.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_to180lft" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_to180rgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_to180rgt.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_to180rgt" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_tobwd" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_tobwd.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_tobwd" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_tobwdr" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_tobwdr.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_tobwdr" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_tofwd" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_tofwd.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_tofwd" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_tofwdr" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_tofwdr.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_tofwdr" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_toidle" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_toidle.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_toidle" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_tolft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_tolft.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_tolft" 1
-}
-$Sequence "stand_run_com_fwd_lfoot_juke_torgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_fwd_lfoot_juke_torgt.smd"
-	activity "act_stand_run_com_fwd_lfoot_juke_torgt" 1
-}
-$Sequence "stand_run_com_lft_lfoot_juke_toidle" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_lft_lfoot_juke_toidle.smd"
-	activity "act_stand_run_com_lft_lfoot_juke_toidle" 1
-}
-$Sequence "stand_run_com_lft_lfoot_juke_torgt" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_lft_lfoot_juke_torgt.smd"
-	activity "act_stand_run_com_lft_lfoot_juke_torgt" 1
-}
-$Sequence "stand_run_com_rgt_lfoot_juke_toidle" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_rgt_lfoot_juke_toidle.smd"
-	activity "act_stand_run_com_rgt_lfoot_juke_toidle" 1
-}
-$Sequence "stand_run_com_rgt_lfoot_juke_tolft" { 
-	"new_anims/locomotion/run/stand/transitions/stand_run_com_rgt_lfoot_juke_tolft.smd"
-	activity "act_stand_run_com_rgt_lfoot_juke_tolft" 1
-}
-*/
