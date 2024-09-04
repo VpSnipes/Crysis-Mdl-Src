@@ -1,13 +1,12 @@
 $origin 0 0 0 180
 $modelname "crysis2\aStalker.mdl"
 $model "Body" "aStalker_Suit.smd"
-$model "Body" "aStalker_Jelly_Eyes.smd"
-$model "Body" "aStalker_Jelly_Guts.smd"
 $model "Body" "aStalker_Weapons.smd"
 $model "Body" "aStalker_Head_Tentacles.smd"
 $model "Body" "aStalker_Jelly.smd"
 $model "Body" "aStalker_Jelly_sss.smd"
 $model "Body" "aStalker_Jelly_refract.smd"
+$model "Body" "aStalker_Jelly_metal.smd"
 $poseparameter "move_yaw" -180 180 wrap
 $contents "solid"
 $cdmaterials "models\crysis2\astalker\"
@@ -215,16 +214,16 @@ $Animation "aimidle_hi_up" 				"anims/aimparams/aim_pose_hi_idle_alr.smd" 	frame
 $Animation "aimidle_hi_up_left" 		"anims/aimparams/aim_pose_hi_idle_alr.smd" 	frame 10 10	subtract	"aimidle_hi_ref" 0	weightlist aim_parameters
 $Animation "aimidle_hi_up_right" 		"anims/aimparams/aim_pose_hi_idle_alr.smd" 	frame 14 14	subtract	"aimidle_hi_ref" 0	weightlist aim_parameters
 
-$Animation "aimrun_hi_com_ref" 			"anims/aimparams/aim_pose_hi_run_com.smd"	frame 2 2 //weightlist aim_parameters
-$Animation "aimrun_hi_com" 				"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 2 2 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_down_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 7 7 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_down_left_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 5 5 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_down_right_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 9 9 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_left_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 0 0 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_right_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 4 4 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_up_com" 			"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 12 12 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_up_left_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 10 10 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
-$Animation "aimrun_hi_up_right_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 14 14 subtract "aimrun_hi_com_ref" 0	//weightlist aim_parameters
+$Animation "aimrun_hi_com_ref" 			"anims/aimparams/aim_pose_hi_run_com.smd"	frame 2 2 weightlist aim_parameters
+$Animation "aimrun_hi_com" 				"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 2 2 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_down_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 7 7 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_down_left_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 5 5 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_down_right_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 9 9 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_left_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 0 0 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_right_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 4 4 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_up_com" 			"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 12 12 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_up_left_com" 		"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 10 10 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
+$Animation "aimrun_hi_up_right_com" 	"anims/aimparams/aim_pose_hi_run_com.smd" 	frame 14 14 subtract "aimrun_hi_com_ref" 0	weightlist aim_parameters
 
 $Animation "aimwalk_hi_ref" 			"anims/aimparams/aim_pose_hi_walk_alr.smd"	frame 2 2	weightlist aim_parameters
 $Animation "aimwalk_hi" 				"anims/aimparams/aim_pose_hi_walk_alr.smd" 	frame 2 2	subtract "aimwalk_hi_ref" 0	weightlist aim_parameters
@@ -317,17 +316,6 @@ $sequence "aimwalk_hi_params" {
 	hidden
 }
 
-$Animation "aim_neutral" 		"anims/aimparams/aim_pose_lo_idle_com.smd"	frame 2 2 weightlist "worldblend_params"
-$Animation "aim_up" 			"anims/aimparams/aim_pose_hi_idle_com.smd"	frame 2 2 subtract "aim_neutral" 0 weightlist "worldblend_params"
-$Animation "aim_down" 			"anims/aimparams/aim_pose_lo_idle_com.smd"	frame 2 2 subtract "aim_neutral" 0 weightlist "worldblend_params"
-$Sequence "aim_com" {
-	"aim_down"
-	"aim_up"
-	blendwidth 2 blend "ads" 0 1
-	delta
-	hidden
-}
-
 // --- Behaviors ------------------------------------------------------------------------
 $Sequence "stand_idle_com_taunt" { 
 	"anims/behavior/stand_idle_com_taunt.smd"
@@ -384,8 +372,10 @@ $Sequence "stand_idle_com_aim" {
 	"anims/behavior/idle/stand_idle_com_aim.smd"
 	activity "act_stand_idle_com_aim" 1
 	addlayer aimidle_hi_com_params
-	addlayer "aim_com"
 	loop
+	weightlist worldblend_params	
+	worldspaceblend "aimidle_hi_com_ref"
+	weightlist all
 }
 
 $Sequence "stand_idle_com_toalr" { 
@@ -509,20 +499,6 @@ $Sequence "stand_step_rlx_180_fast_rfoot" {
 	addlayer aimidle_lo_params
 	ZR
 }
-$Sequence "stand_stepaim_com_180_fast_lfoot" { 
-	"anims/locomotion/step/stand/stand_stepaim_com_180_fast_lfoot.smd"
-	activity "act_stand_stepaim_com_180_fast_lfoot" 1
-	addlayer aimidle_hi_com_params
-	addlayer "aim_com"
-	ZR
-}
-$Sequence "stand_stepaim_com_180_fast_rfoot" { 
-	"anims/locomotion/step/stand/stand_stepaim_com_180_fast_rfoot.smd"
-	activity "act_stand_stepaim_com_180_fast_rfoot" 1
-	addlayer aimidle_hi_com_params
-	addlayer "aim_com"
-	ZR
-}
 $Sequence "stand_steprotate_alr_lft" { 
 	"anims/locomotion/step/stand/stand_steprotate_alr_lft.smd"
 	activity "act_stand_steprotate_alr_lft" 1
@@ -545,20 +521,6 @@ $Sequence "stand_steprotate_com_rgt" {
 	"anims/locomotion/step/stand/stand_steprotate_com_rgt.smd"
 	activity "act_stand_steprotate_com_rgt" 1
 	addlayer aimidle_lo_com_params
-	ZR
-}
-$Sequence "stand_steprotateaim_com_lft" { 
-	"anims/locomotion/step/stand/stand_steprotateaim_com_lft.smd"
-	activity "act_stand_steprotateaim_com_lft" 1
-	addlayer aimidle_hi_com_params
-	addlayer "aim_com"
-	ZR
-}
-$Sequence "stand_steprotateaim_com_rgt" { 
-	"anims/locomotion/step/stand/stand_steprotateaim_com_rgt.smd"
-	activity "act_stand_steprotateaim_com_rgt" 1
-	addlayer aimidle_hi_com_params
-	addlayer "aim_com"
 	ZR
 }
 

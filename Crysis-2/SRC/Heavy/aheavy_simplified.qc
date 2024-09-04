@@ -749,8 +749,8 @@ $collisionjoints "physmesh.smd"
 	$jointconstrain "r_arm02_joint03" z limit -60.00 60.00 0.00
 
 	$jointconstrain "r_leg03" x limit 0.00 0.00 0.00
-	$jointconstrain "r_leg03" y limit 0.00 0.00 0.00
-	$jointconstrain "r_leg03" z limit -70.00 70.00 0.00
+	$jointconstrain "r_leg03" y limit -70.00 70.00 0.00
+	$jointconstrain "r_leg03" z limit 0.00 0.00 0.00
 
 	$jointconstrain "l_leg01" x limit -70.00 70.00 0.00
 	$jointconstrain "l_leg01" y limit -90.00 90.00 0.00
@@ -761,8 +761,8 @@ $collisionjoints "physmesh.smd"
 	$jointconstrain "l_leg02" z limit 0.00 0.00 0.00
 
 	$jointconstrain "l_leg03" x limit 0.00 0.00 0.00
-	$jointconstrain "l_leg03" y limit 0.00 0.00 0.00
-	$jointconstrain "l_leg03" z limit -70.00 70.00 0.00
+	$jointconstrain "l_leg03" y limit -70.00 70.00 0.00
+	$jointconstrain "l_leg03" z limit 0.00 0.00 0.00
 
 	$jointconstrain "l_foot" x limit -40.00 40.00 0.00
 	$jointconstrain "l_foot" y limit -50.00 50.00 0.00

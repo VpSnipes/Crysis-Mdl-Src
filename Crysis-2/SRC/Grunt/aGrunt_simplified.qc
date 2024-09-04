@@ -5,6 +5,8 @@ $model "Grunt"	"Grunt-Jelly-New"
 $model "Grunt"	"Grunt-SSS"
 $model "Grunt"	"Grunt-Refract"
 $attachment "fx_point_ping" "Spine04" 0 0 0 rotate 0 0 0
+$attachment "rfoot" "R_Foot" 0 0 0 rotate 0 0 0
+$attachment "lfoot" "L_Foot" 0 0 0 rotate 0 0 0
 $poseparameter "move_yaw" -180 180 wrap
 $contents "solid"
 $cdmaterials "models\crysis2\agrunt\"
@@ -66,7 +68,7 @@ $Sequence "Ragdoll" {
 }
 
 $include "qci/srcmdl_simplified.qci"
-//$include "qci/transitions.qci" //-- Weird issues with NPC, doesn't work outside controller DNI
+$include "qci/transitions.qci" //-- Weird issues with NPC, doesn't work outside controller DNI
 
 $surfaceprop "metal"
 $jointsurfaceprop "jellyBone"	 "default_silent" //-- Use this for no noise on impact or shot, this will give us things without decals as well as no noise
